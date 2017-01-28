@@ -1,0 +1,97 @@
+/*new layout css*/
+  .demo {
+		width:100%;
+		border:1px solid #C0C0C0;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.demo th {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		background-color: #717a84;
+		color:  #ffffff;
+        font-size: 14px;
+        font-weight: normal;
+	}
+	.demo td {
+		border:1px solid #C0C0C0;
+		padding:5px;
+        font-size: 14px;
+	}
+            
+    .flipswitch {
+  position: relative;
+  width: 36px;
+        margin: 0 auto;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select: none;
+}
+.flipswitch input[type=checkbox] {
+  display: none;
+}
+.flipswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #8C8C8C;
+  border-radius: 41px;
+}
+.flipswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -ms-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+.flipswitch-inner:before, .flipswitch-inner:after {
+  float: left;
+  width: 50%;
+  height: 12px;
+  padding: 0;
+  line-height: 12px;
+  font-size: 14px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.flipswitch-inner:before {
+  content: "";
+  padding-left: 12px;
+  background-color: #22992A;
+  color: #FFFFFF;
+}
+.flipswitch-inner:after {
+  content: "";
+  padding-right: 12px;
+  background-color: #EBEBEB;
+  color: #888888;
+  text-align: right;
+}
+.flipswitch-switch {
+  width: 19px;
+  margin: -3.5px;
+  background: #FFFFFF;
+  border: 1px solid #8C8C8C;
+  border-radius: 41px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 21px;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -moz-transition: all 0.3s ease-in 0s;
+  -ms-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+.flipswitch-cb:checked + .flipswitch-label .flipswitch-inner {
+  margin-left: 0;
+}
+.flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {
+  right: 0;
+}

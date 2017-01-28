@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="Compass">
+	<description>Build file for the Compass project</description>
+	<property name="build.dir" value="../build" />
+	<property name="zip.dir" value="${build.dir}" />
+	<property name="cmsappdirname" value="cms" />
+	<property name="svappdirname" value="sv" />
+	<property name="ngappdirname" value="ng" />
+	<property name="cmsapptarget.dir" value="${build.dir}/${cmsappdirname}" />
+	<property name="svapptarget.dir" value="${build.dir}/${svappdirname}" />
+	<property name="ngapptarget.dir" value="${build.dir}/${ngappdirname}" />
+	<property name="ebdirname" value=".ebextensions" />
+	<property name="ebtarget.dir" value="${build.dir}/${ebdirname}" />
+
+	<!-- Main code management -->
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp/>
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${cmsapptarget.dir}" />
+		<mkdir dir="${svapptarget.dir}" />
+		<mkdir dir="${ngapptarget.dir}" />
+		<mkdir dir="${ebtarget.dir}" />
+	</target>
+
+	<target name="copy-files" depends="clean, init" description="Copy files to build directory for packaging">
+		<copy todir="${cmsapptarget.dir}">
+			<fileset dir="../cms"
+                     includes="*.php .htaccess robots.txt web.config includes/ misc/ modules/ profiles/ scripts/ sites/ sql/ themes/">
+			</fileset>
+		</copy>
+		<copy todir="${svapptarget.dir}">
+			<fileset dir="../sv"
+		                     includes="*.php .htaccess application/ assets/ system/ bootstrap-multiselect.css bootstrap.css bootstrap1.css chosen.css">
+			</fileset>
+		</copy>
+		<copy todir="${ngapptarget.dir}">
+			<fileset dir="."
+		                     includes="*.php .htaccess application/ assets/ system/ ">
+			</fileset>
+		</copy>
+		<copy todir="${ebtarget.dir}.test">
+			<fileset dir="${ebdirname}.test" />
+		</copy>
+		<copy todir="${ebtarget.dir}.production">
+			<fileset dir="${ebdirname}.production" />
+		</copy>
+		<copy todir="${ebtarget.dir}.admin">
+			<fileset dir="${ebdirname}.admin" />
+		</copy>
+		<copy todir="${ebtarget.dir}.dev">
+			<fileset dir="${ebdirname}.dev" />
+		</copy>
+		<copy todir="${ebtarget.dir}.beta">
+			<fileset dir="${ebdirname}.beta" />
+		</copy>
+		<copy todir="${ebtarget.dir}.uat">
+			<fileset dir="${ebdirname}.uat" />
+		</copy>
+		<copy todir="${ebtarget.dir}.staging">
+			<fileset dir="${ebdirname}.staging" />
+		</copy>
+		<copy todir="${ebtarget.dir}.rc2">
+			<fileset dir="${ebdirname}.rc2" />
+		</copy>
+		<copy todir="${ebtarget.dir}.qa">
+			<fileset dir="${ebdirname}.qa" />
+		</copy>
+  </target>
+
+	<target name="install-aws-prod" depends="copy-files" description="Create the AWS zip for production">
+		<delete file="${cmsapptarget.dir}/sites/default/settings.php" />
+		<copy file="${cmsapptarget.dir}/sites/default/settings.php.production"
+		              tofile="${cmsapptarget.dir}/sites/default/settings.php" />
+		<delete file="${svapptarget.dir}/application/config/config.php" />
+		<copy file="${svapptarget.dir}/application/config/config.php.production"
+				              tofile="${svapptarget.dir}/application/config/config.php" />
+		<delete file="${svapptarget.dir}/application/config/database.php" />
+		<copy file="${svapptarget.dir}/application/config/database.php.production"
+						              tofile="${svapptarget.dir}/application/config/database.php" />
+		<delete file="${ngapptarget.dir}/application/config/config.php" />
+		<copy file="${ngapptarget.dir}/application/config/config.php.production"
+						              tofile="${ngapptarget.dir}/application/config/config.php" />
+		<zip destfile="${build.dir}/cms-aws-prod.zip">
+			<zipfileset dir="${cmsapptarget.dir}" prefix="${cmsappdirname}"/>
+			<zipfileset dir="${svapptarget.dir}" prefix="${svappdirname}"/>
+			<zipfileset dir="${ngapptarget.dir}" prefix="${ngappdirname}"/>
+			<zipfileset dir="${ebtarget.dir}.production" prefix="${ebdirname}" />
+		</zip>
+	</target>
+
+	<target name="install-aws-test" depends="copy-files" description="Create the AWS test instance zip for production">
+		<delete file="${cmsapptarget.dir}/sites/default/settings.php" />
+		<copy file="${cmsapptarget.dir}/sites/default/settings.php.test"
+              tofile="${cmsapptarget.dir}/sites/default/settings.php" />
+		<delete file="${svapptarget.dir}/application/config/config.php" />
+		<copy file="${svapptarget.dir}/application/config/config.php.test"
+		              tofile="${svapptarget.dir}/application/config/config.php" />
+		<delete file="${svapptarget.dir}/application/config/database.php" />
+		<copy file="${svapptarget.dir}/application/config/database.php.test"
+				              tofile="${svapptarget.dir}/application/config/database.php" />
+		<delete file="${ngapptarget.dir}/application/config/config.php" />
+		<copy file="${ngapptarget.dir}/application/config/config.php.test"
+				              tofile="${ngapptarget.dir}/application/config/config.php" />
+		<zip destfile="${build.dir}/cms-aws-test.zip">
+			<zipfileset dir="${cmsapptarget.dir}" prefix="${cmsappdirname}"/>
+			<zipfileset dir="${svapptarget.dir}" prefix="${svappdirname}"/>
+			<zipfileset dir="${ngapptarget.dir}" prefix="${ngappdirname}"/>
+			<zipfileset dir="${ebtarget.dir}.test" prefix="${ebdirname}" />
+		</zip>
+	</target>
+
+	<target name="install-aws-admin" depends="copy-files" description="Create the AWS admin instance zip for production">
+		<delete file="${cmsapptarget.dir}/sites/default/settings.php" />
+		<copy file="${cmsapptarget.dir}/sites/default/settings.php.admin"
+				              tofile="${cmsapptarget.dir}/sites/default/settings.php" />
+		<delete file="${svapptarget.dir}/application/config/config.php" />
+		<copy file="${svapptarget.dir}/application/config/config.php.admin"
+						              tofile="${svapptarget.dir}/application/config/config.php" />
+		<delete file="${svapptarget.dir}/application/config/database.php" />
+		<copy file="${svapptarget.dir}/application/config/database.php.admin"
+								              tofile="${svapptarget.dir}/application/config/database.php" />
+		<delete file="${ngapptarget.dir}/application/config/config.php" />
+		<copy file="${ngapptarget.dir}/application/config/config.php.admin"
+								              tofile="${ngapptarget.dir}/application/config/config.php" />
+		<zip destfile="${build.dir}/cms-aws-admin.zip">
+			<zipfileset dir="${cmsapptarget.dir}" prefix="${cmsappdirname}"/>
+			<zipfileset dir="${svapptarget.dir}" prefix="${svappdirname}"/>
+			<zipfileset dir="${ngapptarget.dir}" prefix="${ngappdirname}"/>
+			<zipfileset dir="${ebtarget.dir}.admin" prefix="${ebdirname}" />
+		</zip>
+	</target>
+
+	<target name="install-aws-dev" depends="copy-files" description="Create the AWS zip for the dev environment">
+		<delete file="${cmsapptarget.dir}/sites/default/settings.php" />
+		<copy file="${cmsapptarget.dir}/sites/default/settings.php.dev"
+			  tofile="${cmsapptarget.dir}/sites/default/settings.php" />
+		<delete file="${svapptarget.dir}/application/config/config.php" />
+		<copy file="${svapptarget.dir}/application/config/config.php.dev"
+			  tofile="${svapptarget.dir}/application/config/config.php" />
+		<delete file="${svapptarget.dir}/application/config/database.php" />
+		<copy file="${svapptarget.dir}/application/config/database.php.dev"
+			  tofile="${svapptarget.dir}/application/config/database.php" />
+		<delete file="${ngapptarget.dir}/application/config/config.php" />
+		<copy file="${ngapptarget.dir}/application/config/config.php.dev"
+			  tofile="${ngapptarget.dir}/application/config/config.php" />
+		<zip destfile="${build.dir}/cms-aws-dev.zip">
+			<zipfileset dir="${cmsapptarget.dir}" prefix="${cmsappdirname}"/>
+			<zipfileset dir="${svapptarget.dir}" prefix="${svappdirname}"/>
+			<zipfileset dir="${ngapptarget.dir}" prefix="${ngappdirname}"/>
+			<zipfileset dir="${ebtarget.dir}.dev" prefix="${ebdirname}" />
+		</zip>
+	</target>
+
+	<target name="install-aws-beta" depends="copy-files" description="Create the AWS zip for the beta environment">
+		<delete file="${cmsapptarget.dir}/sites/default/settings.php" />
+		<copy file="${cmsapptarget.dir}/sites/default/settings.php.beta"
+			  tofile="${cmsapptarget.dir}/sites/default/settings.php" />
+		<delete file="${svapptarget.dir}/application/config/config.php" />
+		<copy file="${svapptarget.dir}/application/config/config.php.beta"
+			  tofile="${svapptarget.dir}/application/config/config.php" />
+		<delete file="${svapptarget.dir}/application/config/database.php" />
+		<copy file="${svapptarget.dir}/application/config/database.php.beta"
+			  tofile="${svapptarget.dir}/application/config/database.php" />
+		<delete file="${ngapptarget.dir}/application/config/config.php" />
+		<copy file="${ngapptarget.dir}/application/config/config.php.beta"
+			  tofile="${ngapptarget.dir}/application/config/config.php" />
+		<zip destfile="${build.dir}/cms-aws-beta.zip">
+			<zipfileset dir="${cmsapptarget.dir}" prefix="${cmsappdirname}"/>
+			<zipfileset dir="${svapptarget.dir}" prefix="${svappdirname}"/>
+			<zipfileset dir="${ngapptarget.dir}" prefix="${ngappdirname}"/>
+			<zipfileset dir="${ebtarget.dir}.beta" prefix="${ebdirname}" />
+		</zip>
+	</target>
+	
+	<target name="install-aws-qa" depends="copy-files" description="qa">
+		<delete file="${cmsapptarget.dir}/sites/default/settings.php" />
+		<copy file="${cmsapptarget.dir}/sites/default/settings.php.qa"
+			  tofile="${cmsapptarget.dir}/sites/default/settings.php" />
+		<delete file="${svapptarget.dir}/application/config/config.php" />
+		<copy file="${svapptarget.dir}/application/config/config.php.qa"
+			  tofile="${svapptarget.dir}/application/config/config.php" />
+		<delete file="${svapptarget.dir}/application/config/database.php" />
+		<copy file="${svapptarget.dir}/application/config/database.php.qa"
+			  tofile="${svapptarget.dir}/application/config/database.php" />
+		<delete file="${ngapptarget.dir}/application/config/config.php" />
+		<copy file="${ngapptarget.dir}/application/config/config.php.qa"
+			  tofile="${ngapptarget.dir}/application/config/config.php" />
+		<zip destfile="${build.dir}/cms-aws-qa.zip">
+			<zipfileset dir="${cmsapptarget.dir}" prefix="${cmsappdirname}"/>
+			<zipfileset dir="${svapptarget.dir}" prefix="${svappdirname}"/>
+			<zipfileset dir="${ngapptarget.dir}" prefix="${ngappdirname}"/>
+			<zipfileset dir="${ebtarget.dir}.qa" prefix="${ebdirname}" />
+		</zip>
+	</target>
+
+	<target name="install-aws-uat" depends="copy-files" description="Create the AWS uat instance zip">
+		<delete file="${cmsapptarget.dir}/sites/default/settings.php" />
+		<copy file="${cmsapptarget.dir}/sites/default/settings.php.uat"
+			  tofile="${cmsapptarget.dir}/sites/default/settings.php" />
+		<delete file="${svapptarget.dir}/application/config/config.php" />
+		<copy file="${svapptarget.dir}/application/config/config.php.uat"
+			  tofile="${svapptarget.dir}/application/config/config.php" />
+		<delete file="${svapptarget.dir}/application/config/database.php" />
+		<copy file="${svapptarget.dir}/application/config/database.php.uat"
+			  tofile="${svapptarget.dir}/application/config/database.php" />
+		<delete file="${ngapptarget.dir}/application/config/config.php" />
+		<copy file="${ngapptarget.dir}/application/config/config.php.uat"
+			  tofile="${ngapptarget.dir}/application/config/config.php" />
+		<zip destfile="${build.dir}/cms-aws-uat.zip">
+			<zipfileset dir="${cmsapptarget.dir}" prefix="${cmsappdirname}"/>
+			<zipfileset dir="${svapptarget.dir}" prefix="${svappdirname}"/>
+			<zipfileset dir="${ngapptarget.dir}" prefix="${ngappdirname}"/>
+			<zipfileset dir="${ebtarget.dir}.uat" prefix="${ebdirname}" />
+		</zip>
+	</target>
+
+	<target name="install-aws-staging" depends="copy-files" description="Create the AWS staging instance zip">
+		<delete file="${ngapptarget.dir}/application/config/config.php" />
+		<copy file="${ngapptarget.dir}/application/config/config.php.staging"
+			  tofile="${ngapptarget.dir}/application/config/config.php" />
+		<zip destfile="${build.dir}/cms-aws-staging.zip">
+			<zipfileset dir="${ngapptarget.dir}" prefix="${ngappdirname}"/>
+			<zipfileset dir="${ebtarget.dir}.staging" prefix="${ebdirname}" />
+		</zip>
+	</target>
+
+	<target name="install-aws-rc2" depends="copy-files" description="Create the AWS instance zip for temporary rc.binaryfountain.com server">
+		<zip destfile="${build.dir}/cms-aws-rc2.zip">
+			<zipfileset dir="${ebtarget.dir}.rc2" prefix="${ebdirname}" />
+		</zip>
+	</target>
+
+	<target name="clean" description="clean up">
+		<delete dir="${cmsapptarget.dir}/" failonerror="false" quiet="true" includeEmptyDirs="true" />
+		<delete dir="${svapptarget.dir}/" failonerror="false" quiet="true" includeEmptyDirs="true" />
+		<delete dir="${ngapptarget.dir}/" failonerror="false" quiet="true" includeEmptyDirs="true" />
+		<delete dir="${ebtarget.dir}.test/" failonerror="false" quiet="true" includeEmptyDirs="true" />
+		<delete dir="${ebtarget.dir}.production/" failonerror="false" quiet="true" includeEmptyDirs="true" />
+		<delete dir="${ebtarget.dir}.admin/" failonerror="false" quiet="true" includeEmptyDirs="true" />
+		<delete dir="${ebtarget.dir}.dev/" failonerror="false" quiet="true" includeEmptyDirs="true" />
+		<delete dir="${ebtarget.dir}.beta/" failonerror="false" quiet="true" includeEmptyDirs="true" />
+		<delete dir="${ebtarget.dir}.uat/" failonerror="false" quiet="true" includeEmptyDirs="true" />
+		<delete dir="${ebtarget.dir}.staging/" failonerror="false" quiet="true" includeEmptyDirs="true" />
+	</target>
+</project>
