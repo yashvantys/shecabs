@@ -140,6 +140,19 @@ public function get_date() {
 				)
 		);
 	}
+        
+        public function get_promocode() {
+		$path = "custom/promocode";
+		return array (
+				'title' => 'Promocode Assets',
+				'js' => array (
+						$path . '/js/promocode.js'
+				),
+				'css' => array (
+						$path . '/css/promocode.css'
+				)
+		);
+	}
 	
 	public function get_acknowledge() {
 		$path = "custom/survey";

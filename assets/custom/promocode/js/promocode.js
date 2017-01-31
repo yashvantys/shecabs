@@ -1,5 +1,5 @@
 var pathVariable = Shecabs.base_url + "drivers";
-var Drivers = function() {
+var Promocode = function() {
 	return {
 		home : function() {
 			
@@ -29,7 +29,7 @@ var Drivers = function() {
 						function displayDataTable()
 						{
                                                     							
-							$('.drivers-list').dataTable(
+							$('.promocode-list').dataTable(
 							
 							{
 								serverSide : false,
@@ -45,7 +45,7 @@ var Drivers = function() {
 								
 									ajax : {
 										url : Shecabs.base_url
-												+ "Drivers/list-ajax",
+												+ "promocode/list-ajax",
 										type : 'POST',
 										dataType : 'json',
 										
@@ -67,31 +67,43 @@ var Drivers = function() {
 									
 									aoColumns : [
                                                                         {
-                                                                                "mData" : "email",
-                                                                                "sWidth": "25%",
+                                                                                "mData" : "code",
+                                                                                "sWidth": "15%",
                                                                                 "orderable": true
 
                                                                         },
                                                                         {
-                                                                                "mData" : "name",
-                                                                                "sWidth": "25%",
+                                                                                "mData" : "calculation",
+                                                                                "sWidth": "15%",
                                                                                 "orderable": true
 
                                                                         },
                                                                         {
-                                                                                "mData" : "dob",
+                                                                                "mData" : "discount",
                                                                                 "sWidth": "10%",
                                                                                 "orderable": true
 
                                                                         },
                                                                         {
-                                                                                "mData" : "mobileNo",
-                                                                                "sWidth": "20%",
+                                                                                "mData" : "count",
+                                                                                "sWidth": "10%",
                                                                                 "orderable": true
 
                                                                         },
                                                                          {
-                                                                                "mData" : "vehicleNo",
+                                                                                "mData" : "minCostValue",
+                                                                                "sWidth": "10%",
+                                                                                "orderable": true
+
+                                                                        },
+                                                                        {
+                                                                                "mData" : "startTimeVal",
+                                                                                "sWidth": "10%",
+                                                                                "orderable": true
+
+                                                                        },
+                                                                        {
+                                                                                "mData" : "endTimeVal",
                                                                                 "sWidth": "10%",
                                                                                 "orderable": true
 
