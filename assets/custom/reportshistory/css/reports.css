@@ -1,0 +1,32 @@
+
+/*
+	CSS for Report History table starts.
+*/
+ .chart-table {
+		width:100%;
+		border:1px solid #C0C0C0;
+		border-collapse:collapse;
+		padding:5px;
+		color:#fff;
+	}
+	.chart-table th {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		color:  #fff;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+	}
+	.chart-table td {
+		border:1px solid #C0C0C0;
+		padding:5px;
+        font-size: 14px;
+        color:black;
+	}
+	
+
+/* CSS for Report History datatabl ends*/
+input[readonly].tboxcusotmized{
+	background-color: white;
+	cursor: auto;
+}

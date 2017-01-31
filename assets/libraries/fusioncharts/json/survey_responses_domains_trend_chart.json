@@ -1,0 +1,20 @@
+{
+    "chart": {
+        "caption": "Domain trends by TTM",
+        "showlabels": "1",
+        "showvalues": "0",
+        "decimals": "1",
+    	"forcedecimals":"1",
+        "showborder": "1",
+        "borderColor": "4F81BD",
+        "borderThickness":"2",
+        "borderAlpha":"60",
+        "yAxisMaxValue": 5
+    },
+    "categories": [
+        {
+            "category": []
+        }
+    ],
+    "dataset": []
+}

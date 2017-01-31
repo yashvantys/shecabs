@@ -1,0 +1,6 @@
+body.iframe #footer-inner {
+	background: #fff;
+}
+body.iframe .header-client-info {
+	display: none !important;
+}

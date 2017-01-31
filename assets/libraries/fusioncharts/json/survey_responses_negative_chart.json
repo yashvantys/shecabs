@@ -1,0 +1,17 @@
+{
+    "chart": {
+        "caption": "Negative Sentiment Analysis",
+        "showpercentageinlabel": "1",
+        "showvalues": "0",
+        "showlabels": "0",
+        "showlegend": "1",
+        "showborder": "1",
+        "borderColor": "4F81BD",
+        "borderThickness":"2",
+        "borderAlpha":"60",
+        "bgcolor": "FFFFFF,FFFFFF",
+        "pieRadius": "150",
+        "legendposition": "RIGHT"
+    },
+    "data": []
+}

@@ -1,0 +1,501 @@
+ {
+       "status":
+       {
+           "message": "Success",
+           "code": 200
+       },
+       "data":
+       {
+           "Access":
+           [
+               {
+                   "name": "Oct",
+                   "data":
+                   {
+                       "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                       "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Nov",
+                   "data":
+                   {
+                       "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                       "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Dec",
+                   "data":
+                   {
+                       "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                       "tagColor": "0X59dc00"
+                   }},
+               {
+                   "name": "Jan",
+                   "data":
+                   {
+                       "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                       "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Feb",
+                   "data":
+                   {
+                       "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                      "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Mar",
+                   "data":
+                   {
+                    "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                       "tagColor": "0X59dc00"
+                   }
+    },
+               {
+                   "name": "Apl",
+                   "data":
+                   {
+                       "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                       "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "May" ,
+                   "data":
+                   {
+                       "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                   "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Jun",
+                   "data":
+                   {
+                     "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                       "tagColor": "0X59dc00"
+                   }
+            },
+               {
+                   "name": "Jul",
+                   "data":
+                   {
+                       "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                       "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Aug",
+                   "data":
+                   {
+                       "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                    "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Sep",
+                   "data":
+                   {
+                     "color": "#59dc00",
+                       "insights": "325",
+                       "score": "4.1",
+                       "tagColor": "0X59dc00"
+                   }
+               }
+           ],
+       "Communication":
+       [
+           {
+               "name": "Oct",
+               "data":
+               {
+                   "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+         "name": "Nov",
+               "data":
+               {
+                   "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Dec",
+               "data":
+               {
+                 "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jan",
+               "data":
+               {
+                   "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Feb",
+               "data":
+               {
+           "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Mar",
+               "data":
+               {
+                   "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Apl",
+               "data":
+               {
+                   "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "May",
+               "data":
+               {
+                   "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jun",
+               "data":
+               {
+                   "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jul",
+               "data":
+               {
+                   "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Aug",
+               "data":
+               {
+                   "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Sep",
+               "data":
+               {
+                   "color": "#954862",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           }
+       ],
+       "Office":
+       [
+           {
+               "name": "Oct",
+               "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Nov",
+               "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Dec",
+               "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jan",
+               "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Feb",
+               "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Mar",
+               "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+     },
+           {
+               "name": "Apl",
+               "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+"score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "May",
+               "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jun",
+               "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jul",
+               "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Aug",
+               "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Sep",
+              "data":
+               {
+                   "color": "#ACACAC",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           }
+       ],
+       "Outcome":
+       [
+           {
+               "name": "Oct",
+               "data":
+               {
+       "color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Nov",
+               "data":
+               {
+                   "color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Dec",
+               "data":
+               {
+"color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jan",
+               "data":
+               {
+                   "color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Feb",
+               "data":
+               {
+                   "color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+          },
+           {
+               "name": "Mar",
+               "data":
+               {
+                   "color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Apl",
+               "data":
+               {
+                   "color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "May",
+               "data":
+               {
+                   "color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jun",
+               "data":
+               {
+                   "color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jul",
+               "data":
+               {
+                   "color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Aug",
+          "data":
+               {
+                   "color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Sep",
+               "data":
+               {
+                   "color": "#223366",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           }
+       ]
+    }
+}

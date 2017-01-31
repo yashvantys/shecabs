@@ -1,0 +1,81 @@
+{
+    "StatusCode": "200",
+    "StatusText": "Success.",
+    "entities": [
+        {
+            "id": 3660,
+            "name": "Birns, Gloger & Witten-Ijamsville",
+            "type": "Location"
+        },
+        {
+            "id": 3652,
+            "name": "Birns, Gloger & Witten-Rockville",
+            "type": "Location"
+        },
+        {
+            "id": 3663,
+            "name": "Capital Gastroenterology Consultants-Germantown",
+            "type": "Location"
+        },
+        {
+            "id": 3664,
+            "name": "Capital Gastroenterology Consultants-Olney",
+            "type": "Location"
+        },
+        {
+            "id": 3662,
+            "name": "Capital Gastroenterology Consultants-Rockville",
+            "type": "Location"
+        },
+        {
+            "id": 3661,
+            "name": "Capital Gastroenterology Consultants-Silver Spring",
+            "type": "Location"
+        },
+        {
+            "id": 3665,
+            "name": "Digestive Disease Consultants-Rockville",
+            "type": "Location"
+        },
+        {
+            "id": 3667,
+            "name": "Maryland Digestive Disease Center-Ellicott City",
+            "type": "Location"
+        },
+        {
+            "id": 3666,
+            "name": "Maryland Digestive Disease Center-Laurel",
+            "type": "Location"
+        },
+        {
+            "id": 3668,
+            "name": "Maryland Digestive Disease Center-Takoma Park",
+            "type": "Location"
+        },
+        {
+            "id": 1106,
+            "name": "Metropolitan Gastro Group - Chevy Chase",
+            "type": "Location"
+        },
+        {
+            "id": 1107,
+            "name": "Metropolitan Gastro Group - K Street",
+            "type": "Location"
+        },
+        {
+            "id": 3669,
+            "name": "Metropolitan Gastroenterology Group-Bethesda",
+            "type": "Location"
+        },
+        {
+            "id": 3671,
+            "name": "Washington Gastroenterology-Chevy Chase",
+            "type": "Location"
+        },
+        {
+            "id": 3670,
+            "name": "Washington Gastroenterology-Washington",
+            "type": "Location"
+        }
+    ]
+}

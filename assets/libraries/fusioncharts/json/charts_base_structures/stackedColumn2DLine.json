@@ -1,0 +1,26 @@
+{
+    "chart": {
+        "caption": "Trailing Twelve Month Trend Chart",
+        "yaxisname": "Number of Reviews",
+        "bgcolor": "FFFFFF,FFFFFF",
+        "showShadow": "0",
+        "showvalues": "0",
+        "showAlternateGridColor": "0",
+        "showborder": "0",
+        "legendBorderColor": "FFFFFF",
+        "legendShadow": "0",
+        "showPlotBorder": "0",
+        "plotGradientColor": " ",
+        "showAlternateHGridColor": "0",
+        "plotSpacePercent": "50",
+        "labelDisplay": "Rotate",
+        "slantLabels": "1",
+        "canvasBorderColor": "CCCCCC",
+        "canvasBorderThickness": "1",
+        "canvasBorderAlpha": "80",
+        "lineThickness": "3",
+        "animation": "0",
+        "baseFontColor":"#000",
+        "baseFontSize":"15"
+    }
+}

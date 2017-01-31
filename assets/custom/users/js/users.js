@@ -28,7 +28,7 @@ var Users = function() {
 									
 						function displayDataTable()
 						{
-							
+                                                    							
 							$('.users-list').dataTable(
 							
 							{
@@ -37,16 +37,15 @@ var Users = function() {
 								bProcessing : false,
 								searching: false,
 								destroy: true,
-								//responsive: true,
+								responsive: true,
 								iDisplayLength : 50,
-								//aaSorting : [[6, 'desc']],
-								"language": {
+															"language": {
 								      "emptyTable": "No data available in Users"
 								    },
 								
 									ajax : {
 										url : Shecabs.base_url
-												+ "user/list-ajax",
+												+ "users/list-ajax",
 										type : 'POST',
 										dataType : 'json',
 										
@@ -69,13 +68,13 @@ var Users = function() {
 									aoColumns : [
 {
 	"mData" : "email",
-	"sWidth": "5%",
+	"sWidth": "25%",
 	"orderable": true
 	
 },
 {
 	"mData" : "name",
-	"sWidth": "15%",
+	"sWidth": "25%",
 	"orderable": true
 	
 },
@@ -87,10 +86,24 @@ var Users = function() {
 },
 {
 	"mData" : "mobileNo",
-	"sWidth": "10%",
-	"orderable": false
+	"sWidth": "20%",
+	"orderable": true
 	
-}
+},
+{
+									//"mData" : "id",
+									"mRender" : function(data, type, full) {
+										var html='';
+										
+												html = '<a title="Edit"  datamodel-id="'+ full.id +'" class="edit-datamodel" data-backdrop="static" data-keyboard="false"><i class="glyphicon glyphicon-sort gl-2x active-users"></i> Active</a>';
+												//html += '<a title="Delete" datamodel-id="'+ full.id +'"  class="delete-datamodel" data-backdrop="static" data-keyboard="false"><i class="glyphicon glyphicon-trash"></i> Delete</a>';
+												
+										
+										return html;
+										},
+										 "orderable": false,
+										 "sWidth": "10%"
+									}	
 
 									],
 									

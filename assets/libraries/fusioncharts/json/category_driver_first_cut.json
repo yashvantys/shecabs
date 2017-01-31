@@ -1,0 +1,91 @@
+{
+    "chart": {
+        "caption": "Adwords Snapshot",
+        "bgcolor": "FFFFFF",
+        "pieborderthickness": "2",
+        "piebordercolor": "FFFFFF",
+        "basefontsize": "9",
+        "usehovercolor": "1",
+        "hover": "CCCCCC",
+        "showlabels": "1",
+        "showvalue": "1",
+        "showvalueintooltip": "1",
+        "hoverfillcolor": "CCCCCC",
+        "showborder": "0"
+    },
+    "category": [
+        {
+            "label": "Adwords Clicks",
+            "color": "FFFFFF",
+            "alpha": "20",
+            "category": [
+                {
+                    "label": "Development",
+                    "value": "41",
+                    "color": "33bdda",
+                    "category": [
+                        {
+                            "label": "PHP",
+                            "value": "15",
+                            "color": "33bdda"
+                        },
+                        {
+                            "label": "ASP.NET",
+                            "value": "12",
+                            "color": "33bdda"
+                        },
+                        {
+                            "label": "RoR",
+                            "value": "8",
+                            "color": "33bdda"
+                        },
+                        {
+                            "label": "JSP",
+                            "value": "6",
+                            "color": "33bdda"
+                        }
+                    ]
+                },
+                {
+                    "label": "Design",
+                    "value": "54",
+                    "color": "6baa01",
+                    "category": [
+                        {
+                            "label": "Templates",
+                            "value": "18",
+                            "color": "6baa01"
+                        },
+                        {
+                            "label": "Banners",
+                            "value": "27",
+                            "color": "6baa01"
+                        },
+                        {
+                            "label": "Brochures",
+                            "value": "9",
+                            "color": "6baa01"
+                        }
+                    ]
+                },
+                {
+                    "label": "Marketing",
+                    "value": "25",
+                    "color": "f8bd19",
+                    "category": [
+                        {
+                            "label": "SEO",
+                            "value": "18",
+                            "color": "f8bd19"
+                        },
+                        {
+                            "label": "PRs",
+                            "value": "7",
+                            "color": "f8bd19"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+.upload-portlet {
+    margin-bottom: 10px;
+    padding-right: 0;
+}
+
+.upload-physicians th {
+	width: 24px;
+}
+
+.phy-popup {
+	padding-bottom: 10px;
+}
+
+.upload-physician-form .alert {
+	margin-bottom: 0px;
+}
+
+.upload-physician-form .white-background {
+	padding-top: 0px;
+	box-shadow: none;
+}
+
+.cost-per-physician {
+	border-bottom-style: dotted;
+	border-bottom-width: thin;
+}
+
+.total-cost {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.upload-physician-form {
+	padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.price-detail {
+	display: none;
+	/* margin-top: 15px; */
+	border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.price-detail .total-number-of-physicians, .price-detail .cost-per-physician,
+	.price-detail .total-cost {
+	padding: 5px 0;
+}
+
+.price-detail, .price-detail .inner {
+	/* margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0; */
+}
+
+.upload-table-portlet.properties {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 15px;
+    margin-left: 0;
+    /* margin-right: 0; */
+}
+
+.continue {
+	margin: 10px 0;
+}
+
+.checkout {
+	margin-left: 15px;
+    padding-right: 0;
+}
+
+.continue {
+	display: none;
+}
+
+.table.upload-table>tfoot>tr>td, .table.upload-table>tfoot>tr>th {
+	border-top: 1px solid #ddd !important;
+	border-left: 0px !important;
+}
+
+.value {
+	text-align: right;
+	padding-right: 0;
+}
+
+.text {
+	padding-left: 0;
+}
+
+.vertical-align-middle {
+	vertical-align: middle !important;
+}
+
+.phy-validation {
+	margin-left: 8px !important;
+}
+
+.btn.btn-file {
+	padding: 0 !important;
+	border: 0 none;
+}
+
+.add-physician-row {
+	margin-right: 5px;
+}
+
+.fileinput {
+	margin-bottom: 0 !important;
+}
+
+.fileinput-exists {
+	margin-left: 0 !important;
+}
+
+.close.fileinput-exists {
+	margin-left: 5px !important;
+	vertical-align: middle !important;
+}
+
+.upload-button {
+	display: none;
+	margin-left: 5px;
+}
+
+.alert.error-alert {
+	color: #980828;
+	display: none;
+}
+
+.upload-container{
+	display: none;
+}
+
+.line {
+    margin: 5px 0;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.red {
+	color: red;
+}
+.upload-table tfoot th {
+    border-top: 1px solid #ddd;
+}
+.shows {
+    margin-right: 5px;
+}
+
+.search {
+    margin-left: 5px;
+}
+
+.caption {
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    line-height: 0;
+    padding: 10px 0;
+}
+
+.table-title {
+    border-bottom: 1px solid #eee;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 10px;
+    min-height: 41px;
+    padding: 0;
+}
+
+.phy-add {
+    margin-right: 5px;
+}
+.password-strength .progress-bar {
+    padding: 2px;
+}
+.progress > .progress-bar-success {
+    background-color: #45b6af;
+}
+.progress-bar-success {
+    background-color: #5cb85c;
+}
+.progress-bar {
+    background-color: #337ab7;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    transition: width 0.6s ease 0s;
+    width: 0;
+}

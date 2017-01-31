@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+.col-md-8.chk_new {
+    margin-bottom: -5px;
+    margin-top: -10px;
+}
+
+.clear.col-md-7.col-sm-7.new_sub {
+    margin-top: 10px;
+}
+
+.form-control.input-sm.select2.alert-type.alert_text {
+    width: 80px;
+}
+
+.col-md-6.dt_cal {
+    margin-left: -12px;
+}

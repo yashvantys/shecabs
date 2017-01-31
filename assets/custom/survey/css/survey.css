@@ -1,0 +1,711 @@
+@CHARSET "ISO-8859-1";
+
+.surveyColWidth {
+	width: 150px;
+}
+
+.surveyColExtWidth {
+	width: 200px;
+}
+
+.buttonrow {
+	height: 30px;
+}
+
+
+
+.score {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	position: relative;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	width:72px;
+}
+
+.ie .score {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	position: relative;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border: 0px solid green;
+	width:72px;
+}
+
+.ie13 .score {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	position: relative;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border: 0px solid green;
+	width:72px;
+}
+
+.score::before {
+	content: "\f006\f006\f006\f006\f006";
+	color: #ff9900;
+	display: block;
+	width:72px;
+}
+
+.ie .score::before {
+	content: "\f006\f006\f006\f006\f006";
+	color: #ff9900;
+	display: block;
+	width:69px;
+	border: 0px solid red;
+	width:72px;
+}
+
+.ie13 .score::before {
+	content: "\f006\f006\f006\f006\f006";
+	color: #ff9900;
+	display: block;
+	width:69px;
+	border: 0px solid red;
+	width:72px;
+}
+
+.score span#subscore::after {
+	content: "\f005\f005\f005\f005\f005";
+	display: block;
+	width:72px;
+}
+
+.ie .score span#subscore::after {
+	content: "\f005\f005\f005\f005\f005";
+	display: block;
+	width: 100px;
+	border: 0px solid blue;
+	width:72px;
+}
+
+.ie13 .score span#subscore::after {
+	content: "\f005\f005\f005\f005\f005";
+	display: block;
+	width: 100px;
+	border: 0px solid blue;
+	width:72px;
+}
+
+.score span#subscore {
+	color: #ff9900;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width:72px;
+}
+
+/* Survey Form row height */
+.formrowheight {
+	height: 60px;
+}
+
+/*==========================Below Custon css is used for Second Level Grid/Individual Physician=============================================*/
+#reasondivdisplay{
+	display:none;
+}
+#reasondivblock{
+	display:block;
+}
+
+table.dataTable tbody tr.myeven{
+    background-color:#ffffff;
+}
+table.dataTable tbody tr.myodd{
+    background-color:#eff3f8;
+}
+
+[class^="fa-"],
+[class^="glyphicon-"],
+[class^="icon-"],
+[class*=" fa-"],
+[class*=" glyphicon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  margin-top: 1px;
+  font-size: 37px;
+  *margin-right: .3em;
+  line-height: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+.flag-top {
+	text-align: center;
+}
+.flag-color{
+	color: #999999;
+}
+.flag-color-red{
+	color: red;
+}
+.flag-color-tick{
+	color: #999999;
+}
+
+.glyphicon {
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+    top: 11px;
+}
+
+.content-top-new {
+	vertical-align: top;
+}
+
+.status_approved {
+	background: url("../img/approved.png") no-repeat;
+	width: 110px;
+	height: 30px;
+	border: 0px solid red;
+}
+
+.status_open {
+	background: url("../img/open.png") no-repeat;
+	width: 110px;
+	height: 30px;
+	border: 0px solid red;
+}
+
+.status_rejected {
+	background: url("../img/rejected.png") no-repeat;
+	width: 110px;
+	height: 30px;
+	border: 0px solid red;
+}
+
+.edit_testinomail {
+	padding-top: 10px !important;
+	margin-top: 5px;
+}
+
+.edit_icon_padding {
+	margin-top: 7px !important;
+}
+
+.phyname_pop {
+	padding: 0px !important;
+}
+
+.org_responce {
+	padding-bottom: 10px !important;
+	padding-top: 15px !important;
+}
+
+.surveydate_padding {
+	text-align: right;
+	padding: 5px;
+	padding-right: 15px;
+}
+
+.phi_padding {
+	text-align: right;
+	padding-bottom: 5px;
+}
+
+.profanity_padding {
+	text-align: right;
+	margin-top: -3px;
+}
+
+.span-red {
+	color: #ff0000;
+}
+
+.physician-name {
+	position: relative;
+	margin-top: -10px;
+	border: 0px solid red;
+	width: 100%;
+}
+
+.my_class {
+	border: 1px solid red;
+}
+
+.phy_name {
+	float: left;
+	font-size: 20px;
+	margin-left: 0px;
+	padding-bottom: 10px;
+	border: 0px solid red;
+	width: 100%;
+}
+
+.blue_button {
+	float: right;
+	margin-right: 40px;
+	background-color: #217ebd;
+	border-color: #217ebd;
+	margin-bottom: -16px;
+}
+
+.blue_button_popup {
+	margin-right: 0px;
+	background-color: #217ebd;
+	border-color: #217ebd;
+}
+
+.filter_button {
+	float: right;
+	margin-right: 0px;
+	margin-top: 24px;
+}
+
+.heading_normal {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.edit_button {
+	margin-top: 5px
+}
+
+.back_button {
+	/*background:  url("../img/back_button.png") no-repeat;*/
+	float: right;
+	width: 38px;
+	position: relative;
+	margin-top: -30px;
+	margin-right: 26px;
+	cursor: pointer;
+}
+
+.approve_lable {
+	background-color: #28a428;
+	color: #fff;
+	cursor: default;
+}
+
+.approve_lable:hover {
+	background-color: #28a428;
+	color: #fff;
+	cursor: default;
+}
+
+.reject_lable {
+	background-color: #ff4c4c;
+	color: #fff;
+	cursor: default;
+}
+
+.reject_lable:hover {
+	background-color: #ff4c4c;
+	color: #fff;
+	cursor: default;
+}
+
+.orange_lable {
+	background-color: #ff9900;
+	color: #fff;
+	cursor: default;
+}
+
+.orange_lable:hover {
+	background-color: #ff9900;
+	color: #fff;
+	cursor: default;
+}
+
+.bluecolor_button {
+	background: url("../img/approve.png") no-repeat;
+	background-color: #428bca;
+	color: #fff;
+	height: 30px;
+}
+
+.bluecolor_button:clicked {
+	background-color: #428bca;
+	color: #fff;
+	height: 30px;
+}
+
+.bluecolor_button:hover {
+	background-color: #428bca;
+	color: #fff;
+	height: 30px;
+}
+
+.phy-label {
+	text-align: left;
+	margin-bottom: 0;
+	padding-top: 7px;
+	padding-right: 10px;
+}
+
+}
+.edited_color {
+	color: orange;
+}
+
+#reason_error {
+	margin-top: 10px;
+}
+
+.labels_rejected {
+	color: #ff4c4c !important;
+	height: 3px;
+	background: none !important;
+	font-weight: bold !important;
+	margin-left: -6px;
+}
+
+.labels_approve {
+	color: #5cb85c !important;
+	font-weight: bold !important;
+	height: 3px;
+	background: none !important;
+	margin-left: -6px;
+}
+
+.labels_info {
+	color: #fff !important;
+	height: 3px;
+}
+
+.edit_content_text {
+	color: #808080 !important;
+	height: 3px;
+	font-size: 11px;
+}
+
+.No_phi {
+	color: #5cb85c !important;
+	font-weight: bold !important;
+}
+
+.yes_phi {
+	color: #ff4c4c !important;
+	font-weight: bold !important;
+}
+
+.blue_button_right {
+	margin: 10px 0 10px 10px;
+	float: right !important;
+}
+
+.blue_button_right_reject {
+	margin: 10px 0 10px 10px;
+	float: right !important;
+}
+
+.chkbox_agree {
+	margin-top: 28px !important;
+}
+
+.popup_text {
+	text-align: justify;
+}
+
+.hr-divider {
+	margin-top: -1px;
+	border: 0px solid yellow;
+	border: none;
+}
+
+.pGroup {
+	border: 1px solid yellow;
+	height: 65px;
+	display: none;
+}
+
+
+/*
+	Select2 dropdown css modificaitons.
+	To make Select2 dropdown responsive, the width has been set to 50%
+*/
+.select2 {
+		width: 50%;
+	}
+/*
+	To make Ratings dropdowns responsive, the min-width is set to 10%.
+*/	
+div.rcontrol .select2-container {
+	min-width: 40% !important;
+}
+
+
+@media only screen and (min-device-width: 320px) {
+	/*Below class is used modify the row height of CommentReview/First Grid rows.*/
+	.modifiedrowheight {
+		height: auto;
+		width: 100%;
+	}
+}
+
+/* Small devices (tablets, 480px and up) */
+@media only screen and (max-device-width: 480px) {
+	/*Below class is used modify the row height of CommentReview/First Grid rows.*/
+	.modifiedrowheight {
+		height: auto;
+		width: 100%;
+	}
+	.phy_name {
+		float: left;
+		font-size: 20px;
+		margin-left: 10px;
+		padding-bottom: 10px;
+		border: 0px solid red;
+		width: 90%;
+	}
+	.blue_button {
+		float: right;
+		margin-right: 0px;
+		background-color: #217ebd;
+		border-color: #217ebd;
+		border: 0px solid red;
+	}
+	.filter_button {
+		float: right;
+		margin-top: 30px;
+		border: 0px solid red;
+	}
+	.back_button {
+		/*background:  url("../img/back_button.png") no-repeat;*/
+		float: right;
+		width: 38px;
+		position: relative;
+		margin-top: -36px;
+		margin-right: 31px;
+		display: none;
+	}
+	.dataTables_filter label {
+		border: 0px solid red;
+		color: #333;
+		position: relative;
+		float: right;
+		width: 300px;
+		padding-top: 0px;
+		margin: 0px 0px -10px 0px;
+	}
+	.div.checker input, input[type="search"] {
+		border: 1px solid #333;
+		height: 25px;
+	}
+	.hr-divider {
+		margin-top: -1px;
+		border: 0px solid green;
+		border: none;
+	}
+	.pGroup {
+		border: 0px solid green;
+		height: 65px;
+	}
+}
+/* Small devices (tablets, 768px and up) */
+@media ( min-width : 768px) {
+	/*Below class is used modify the row height of CommentReview/First Grid rows.*/
+	.modifiedrowheight {
+		height: auto;
+		width: 100%;
+	}
+	.physician-name {
+		position: absoulte;
+		margin-bottom: -45px;
+		border: 0px solid green;
+	}
+	.filter_button {
+		float: right;
+		margin-right: 15px;
+		margin-top: 15px;
+	}
+	.select2 {
+		border: 0px solid green;
+	}
+	.hr-divider {
+		margin-top: -1px;
+		border: 0px solid green;
+		border: none;
+	}
+	.pGroup {
+		border: 0px solid green;
+		height: 65px;
+	}
+}
+/* Medium devices (desktops, 992px and up) */
+@media ( min-width : 992px) {
+	/*Below class is used modify the row height of CommentReview/First Grid rows.*/
+	.modifiedrowheight {
+		height: 35px;
+		width: 100%;
+	}
+	.filter_button {
+		float: right;
+		margin-right: -25px;
+		/* margin-right:15px;
+	margin-top:45px; */
+	}
+	
+	.input-daterange {
+		width: 300px;
+		border: 0px solid black;
+	}
+	.phy-label {
+		border: 0px solid black;
+		width: 110px;
+	}
+	.hr-divider {
+		margin-top: -1px;
+		border: 0px solid black;
+		border: none;
+	}
+	.pGroup {
+		border: 0px solid black;
+		height: 65px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media ( min-width : 1200px) {
+	/*Below class is used modify the row height of CommentReview/First Grid rows.*/
+	.modifiedrowheight {
+		height: 35px;
+		width: 100%;
+	}
+	.filter_button {
+		background: url("../img/approve.png") no-repeat;
+		float: right;
+		margin-top: -35px;
+		margin-right: -120px;
+	}
+	.select2 {
+		border: 0px solid blue;
+	}
+	.phy-label {
+		border: 0px solid blue;
+		width: 135px;
+	}
+	.input-group {
+		border: 0px solid blue;
+	}
+	.hr-divider {
+		margin-top: -1px;
+		border: 0px solid blue;
+		border: none;
+	}
+	.pGroup {
+		border: 0px solid blue;
+		height: 65px;
+	}
+}
+
+.survyetestimonial-modal-dialog {
+	width: auto;
+	max-width: 1100px;
+	min-width: 700px;
+}
+
+.edit_reason {
+	margin-top: 10px;
+}
+
+.new_sub {
+	margin-top: 10px;
+}
+
+.red-text {
+	color: #ff4c4c !important;
+}
+
+.reason-text {
+	color: #000000 !important;
+}
+
+.dataTables_filter label {
+	border: 0px solid red;
+	position: absolute;
+	float: right;
+	padding-top: 18px;
+	margin-left: 400px;
+	color: #fff;
+}
+
+.div.checker input, input[type="search"] {
+	border: 0px solid blue;
+	height: 23px;
+	padding: 0px 0px 0px 3px;
+}
+
+
+
+.review_rating {
+	margin-left: -5px;
+}
+
+
+
+.content-top {
+	vertical-align: text-top;
+}
+
+#reason_error .alert {
+	border: 1px solid transparent;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+#reason_error .alert, .thumbnail {
+	margin-bottom: 0px;
+}
+
+/*=====================CSS for Question Icons in Survey Response link===================*/
+
+i.color_quest_star {
+	color: #ff9900;
+}
+i.color_phi{
+	color: red;
+}
+i.color_nonphi{
+	color: green;
+}
+
+/*=======================================================================================*/
+
+/*
+The radio-inline was overwritten to make radio buttons in Comment Review/first grid
+allign left.
+The radio-inline class is from Form Builder library.
+padding-left attribute was modified from 20px to 0px.
+*/
+.radio-inline {
+	padding-left: 0px !important;
+}
+
+/*===============CSS for PhysicianGroup Tree View Dropdown================================*/
+
+/*To make body part of Physician Group Tree View modal scroll.*/
+.phyTreeView {
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+/*Setting height of Physician Group Tree View popup auto.*/
+#pgtreeviewdropdown{
+	height: auto!important;
+}
+
+/*
+	The modal-backdrop minimum height has been set to 1000px,  as when small modal(For Physician Tree View dropdown) used,  the modal backdrop was not occupied completely
+	so the min height is set to 1000px. 
+*/
+/*.modal-backdrop {
+	min-height: 1000px;
+}*/
+
+/*==========================================================================================*/
+
+
+

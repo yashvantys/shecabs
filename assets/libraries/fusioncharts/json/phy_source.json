@@ -1,0 +1,20 @@
+{
+    "status": {
+        "message": "Success",
+        "code": 200
+    },
+    "period": {
+        "to": "2013-03-31 14:54:13",
+        "from": "2013-01-01 14:54:13"
+    },
+    "overall": {
+        "color": "#a9dc00",
+        "documents": 2,
+        "score": "3.3",
+        "insights": 6,
+        "negative": 2,
+        "neutral": 0,
+        "positive": 4,
+        "tagColor": "0Xa9dc00"
+    }
+}

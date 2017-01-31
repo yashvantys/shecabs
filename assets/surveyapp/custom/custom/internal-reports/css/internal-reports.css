@@ -1,0 +1,16 @@
+/*
+ * Internal Reports css
+ */
+.hierarchy-setup .avatar-toggle-btn {
+	cursor: pointer;
+	width: 12px;
+}
+.hierarchy-setup tbody tr {
+	background-color: #f9f9f9 !important;
+}
+.hierarchy-setup tbody tr:hover {
+	background-color: #f7f7f7 !important;
+}
+.hierarchy-setup tbody td {
+	vertical-align: middle !important;
+}

@@ -139,52 +139,7 @@ class User extends SV_Controller {
 	}
 	
 	
-	public function userlist(){
-		$this->data = array();
-		//$this->add_library ( "datatables" );
-		//$this->add_library ( "users" );
-		//$this->add_js_functions ( array ('Users.home' => array ()) );
-		$this->data['userlist'] = $response = $this->user_model->getUsersList ();
-		
-		
-		$this->template->write_view ( 'content', 'user/list', $this->data );
-		$this->template->render ();
-	}
 	
-	
-	public function list_ajax(){
-		$result = array ();
-		$data = array ();
-		$response = $this->user_model->getUsersList ();
-		
-		if (! empty ( $response )) {
-			$i=1;
-			foreach ( $response->result as $userlist ) {
-			
-							
-						$data [] = array (
-								"DT_RowId" => 'row_'.$i,
-								"email" => $userlist->email,
-								"id" => $userlist->id,
-								"name" => $userlist->firstName.''.$userlist->lastName,
-								"dob" => $userlist->dob,
-								"mobileNo" => $userlist->mobileNo
-						
-	
-	
-						);
-						$i++;
-			}
-				
-			//print_r($data);
-			$result ['data'] = $data;
-		} else {
-			$result ['error'] = "There is an unexpected error";
-		}
-	
-		print json_output ( $result );
-	
-	}
 	
 	/*
 	 |--------------------------------------------------------------------------

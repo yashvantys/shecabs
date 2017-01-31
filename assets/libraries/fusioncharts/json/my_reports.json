@@ -1,0 +1,78 @@
+{
+  "status": {
+    "message": "Success",
+    "code": "200" 
+  },
+  "data": [
+    {
+      "id": "provider-performance-report",
+      "scheduledReports": [
+        {
+          "title": "My report for doctor Ajith",
+          "client": "bwmc",
+          "filterConfiguration": {},
+          "mailFrequency": "2 week",
+          "lastRunDate": "15-05-2014 12:00:00",
+          "dataPeriod": 14,
+          "reportId": "provider-performance-report",
+          "nextRunDate": "15-05-2014 12:00:00" 
+        },
+        {
+          "title": "My report for doctor Ajith",
+          "client": "bwmc",
+          "filterConfiguration": {},
+          "mailFrequency": "2 week",
+          "lastRunDate": "",
+          "dataPeriod": 14,
+          "reportId": "provider-performance-report",
+          "nextRunDate": "" 
+        }
+      ],
+      "title": "Provider Performance Report",
+      "config": {
+        "test": "test" 
+      },
+      "filterConfig": {}
+    },
+    {
+      "id": "review-testimonial-report",
+      "scheduledReports": [
+        {
+          "title": "My report for doctor Blah Blah",
+          "client": "bwmc",
+          "filterConfiguration": {},
+          "mailFrequency": "1 week",
+          "lastRunDate": "15-05-2014 12:00:00",
+          "dataPeriod": 7,
+          "reportId": "review-testimonial-report",
+          "nextRunDate": "15-05-2014 12:00:00" 
+        },
+        {
+          "title": "My report for doctor Ajith",
+          "client": "bwmc",
+          "filterConfiguration": {},
+          "mailFrequency": "1 month",
+          "lastRunDate": "",
+          "dataPeriod": 30,
+          "reportId": "review-testimonial-report",
+          "nextRunDate": "16-05-2014 12:00:00" 
+        },
+        {
+          "title": "My report for doctor Ajith",
+          "client": "bwmc",
+          "filterConfiguration": {},
+          "mailFrequency": "1 month",
+          "lastRunDate": "",
+          "dataPeriod": 30,
+          "reportId": "review-testimonial-report",
+          "nextRunDate": "16-05-2014 12:00:00" 
+        }
+      ],
+      "title": "Review Testimonial Report",
+      "config": {
+        "test": "tester" 
+      },
+      "filterConfig": {}
+    }
+  ]
+}

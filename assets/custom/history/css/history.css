@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+
+.size_class{text-align: right;}
+/*.col-md-offset-2{margin-left: 16.6667%;}*/
+
+.history_date {
+    background-color: #fff !important;
+    cursor: inherit !important;
+  }
+  
+/* Small devices (tablets, 480px and up) */
+@media only screen and (max-device-width: 480px) {
+	.col-md-offset-2{margin-left: 0%;}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.col-md-offset-2{margin-left: 0%;}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.col-md-offset-2{margin-left: 13.6667%;}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.col-md-offset-2{margin-left: 16.6667%;}
+	
+}
+
+/* Large devices (large desktops, 1900px and up) */
+@media (min-width: 1900px) { 
+	.col-md-offset-2{margin-left: 16.6667%;}
+	
+}

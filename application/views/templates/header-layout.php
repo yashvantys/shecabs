@@ -174,7 +174,7 @@
 					</li>
 
 					<li class="">
-					<a href="<?php echo base_url('user/list');?>">
+					<a href="<?php echo base_url('users/list');?>">
 					<i class="menu-icon fa fa-list-alt"></i>
 					<span class="menu-text"> Users </span></a>
 					<b class="arrow"></b>

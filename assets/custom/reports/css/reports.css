@@ -1,0 +1,276 @@
+/*.input-daterange input{width:100px !important;}
+
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #eeeeee;
+    cursor: pointer !important;
+}
+
+.datePickertextbox{ background-color: #eeeeee;
+    cursor: pointer !important;}*/
+    
+/*
+The radio-inline was overwritten to make radio buttons in Comment Review/first grid
+allign left.
+The radio-inline class is from Form Builder library.
+padding-left attribute was modified from 20px to 0px.
+*/
+.radio-inline {
+	padding-left: 0px !important;
+}
+
+/*
+	Select2 dropdown css modificaitons.
+	To make Select2 dropdown responsive, the width has been set to 50%
+*/
+.select2 {
+		width: 50%;
+	}
+/*
+	To make Ratings dropdowns responsive, the min-width is set to 10%.
+*/	
+div.rcontrol .select2-container {
+	min-width: 40% !important;
+}
+
+	
+/*
+	CSS for the Ratings Report table.
+*/
+ .chart-table {
+		width:100%;
+		border:1px solid #C0C0C0;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.chart-table th {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		color:  black;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+	}
+	.chart-table td {
+		border:1px solid #C0C0C0;
+		padding:5px;
+        font-size: 14px;
+	}
+	
+	.headerContentLeft{
+		text-align: left !important;
+	}
+		
+	.borderless{
+		border: none !important;
+	}
+	
+	.preventrightborderless{
+		border-right:1px solid #717a84;
+		border-top: none !important;
+		border-bottom:none !important;
+		border-left: none !important;
+	}
+	
+	.preventleftborderless{
+		border-left:1px solid #717a84;
+		border-top: none !important;
+		border-bottom:none !important;
+		border-right: none !important;
+	}
+	
+	.surveythwidth{
+		min-width: 70px;
+	}
+	
+	.commentsthwidth{
+		min-width: 50px;
+	}
+	
+	.appcommentsthwidth{
+		min-width: 75px;
+	}
+	
+	.physicianWidth{
+		min-width: 150px;
+	}
+	
+	.surveybgcolor1{
+	background-color: #FF6C0C;
+	}
+	
+	.surveybgcolor2{
+	background-color: #FB9553;
+	}
+	
+	.commentsbgcolor1{
+	background-color: #10881F;
+	}
+	
+	.commentsbgcolor2{
+	background-color: #329F40;
+	}
+	
+	.commentsbgcolor3{
+	background-color: #58BD64;
+	}
+	
+	.appcommentsbgcolor1{
+	background-color: #32669D;
+	}
+	
+	.appcommentsbgcolor2{
+	background-color: #6090C3;
+	}
+	
+	.applcommentsbgcolor1{
+	background-color:  #D4AC0D;
+	}
+	
+	.applcommentsbgcolor2{
+	background-color:   #F1C40F;
+	}
+	
+	.applcommentsbgcolor3{
+	background-color:   #F9E79F;
+	}
+	
+	.displayChartInRow{
+		white-space: nowrap;
+		
+	}
+	
+	/*  Start of DataTable CSS for Ratings Report table row background color.*/
+	
+	/*  
+		Overwriting the CSS for Datatable for Ratings Report table.
+		To display WhiteSmoke color for alternative rows in table.
+	*/	
+   	table.dataTable.display tbody tr.odd {
+  		background-color: whitesmoke !important;
+	}
+	
+	table.dataTable thead .sorting_disabled { background-color: white !important;}
+	
+	.sorting_asc {
+    	background: #fff url("../../media/images/sort_asc.png") no-repeat scroll right center;
+	}
+	
+	/*End of Datatable CSS. */
+	
+/* End of CSS for Ratings Report Table.*/
+
+		
+/* Start of CSS for Start Rating.*/	
+	
+	.score_new {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	position: relative;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border:0px solid red;
+	width:72px;
+}
+
+.ie .score_new {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	position: relative;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border: 0px solid green;
+	width:72px;
+}
+
+.ie13 .score_new {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	position: relative;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border: 0px solid brown;
+	width:72px;
+}
+	
+
+.score_new::before {
+	content: "\f006\f006\f006\f006\f006";
+	color: #ff9900;
+	display: block;
+	width:72px;
+}
+
+.ie .score_new::before {
+	content: "\f006\f006\f006\f006\f006";
+	color: #ff9900;
+	display: block;
+	width:72px;
+	border: 0px solid red;
+}
+
+.ie13 .score_new::before {
+	content: "\f006\f006\f006\f006\f006";
+	color: #ff9900;
+	display: block;
+	width:72px;
+	border: 0px solid red;
+}
+
+.score_new span#subscore_new::after {
+	content: "\f005\f005\f005\f005\f005";
+	display: block;
+	width:72px;
+}
+
+.ie .score_new span#subscore_new::after {
+	content: "\f005\f005\f005\f005\f005";
+	display: block;
+	width: 72px;
+	border: 0px solid blue;
+}
+
+.ie13 .score_new span#subscore_new::after {
+	content: "\f005\f005\f005\f005\f005";
+	display: block;
+	width: 72px;
+	border: 0px solid blue;
+}
+
+.score_new span#subscore_new {
+	color: #ff9900;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width:72px;
+}
+
+/*End of CSS Star Rating*/
+
+input[readonly].tboxcusotmized{
+	background-color: white;
+	cursor: auto;
+}
+
+
+	
+
+
+/*
+	Problem with Width: auto; for input-daterange css class,  the calendar icon splitting when screen is reduced.
+	to overcome that issue,  the width of input-daterange has been set to 300px for screens with min-width: 992px.
+*/
+@media ( min-width : 992px) {
+	
+	.input-daterange {
+		width: 300px;
+	}
+	
+}

@@ -1,0 +1,62 @@
+{
+    "chart": {
+        "caption": "PSI Trends by TTM",
+        "subcaption": "",
+        "linethickness": "1",
+        "labelDisplay" : "wrap",
+        "showvalues": "1",
+        "decimals": "1",
+        "forcedecimals":"1",
+        "anchorradius": "2",
+        "divlinealpha": "20",
+        "divlinecolor": "000000",
+        "divlineisdashed": "1",
+        "showalternatehgridcolor": "0",
+        "alternatehgridcolor": "FFFFFF",
+        "shadowalpha": "40",
+        "showborder": "1",
+        "borderColor": "4F81BD",
+        "borderThickness":"2",
+        "borderAlpha":"60",
+        "numvdivlines": "5",
+        "chartrightmargin": "35",
+        "bgcolor": "FFFFFF,FFFFFF",
+        "bgangle": "270",
+        "bgalpha": "10,10",
+        "alternatehgridalpha": "5",
+        "legendposition": "RIGHT ",
+        "yAxisMaxValue": 5
+    },
+    "categories": [
+        {
+            "category": []
+        }
+    ],
+    "dataset": [
+        {
+            "color": "1D8BD1",
+            "anchorbordercolor": "1D8BD1",
+            "anchorbgcolor": "1D8BD1",
+            "data": []
+        }
+    ],
+    "styles": {
+        "definition": [
+            {
+                "name": "CaptionFont",
+                "type": "font",
+                "size": "12"
+            }
+        ],
+        "application": [
+            {
+                "toobject": "CAPTION",
+                "styles": "CaptionFont"
+            },
+            {
+                "toobject": "SUBCAPTION",
+                "styles": "CaptionFont"
+            }
+        ]
+    }
+}

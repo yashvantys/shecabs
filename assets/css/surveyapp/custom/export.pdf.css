@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+/*override bootstrap print color*/
+@media print{ 
+*, :after, :before {
+  color: inherit !important;
+}
+}
+.source_rating_block { page-break-inside:avoid; page-break-after:auto }
+/*report specific */
+.operational-category-table tr{ page-break-inside:avoid; page-break-after:auto }
+.operational_category_filter_block tr{page-break-inside:avoid; page-break-after:auto}
+.positive_neutral_negative_hospitals_reviews_block .pdf-block-break{page-break-inside:avoid; page-break-after:auto}
+.positive_review_block {page-break-inside:avoid; page-break-after:auto}
+.positive_review_block tr{page-break-inside:avoid; page-break-after:always}
+.negative_review_block {page-break-inside:avoid;page-break-after:always;}
+.negative_review_block tr{page-break-inside:avoid; page-break-after:always}
+.neutral_review_block {page-break-inside:avoid;page-break-after:always;}
+.neutral_review_block tr{page-break-inside:avoid; page-break-after:always}
+.psi_by_source {page-break-inside:avoid;page-break-after:always;}
+.psi_by_source tr{page-break-inside:avoid; page-break-after:always;}
+.survey_responses_block .white-background{box-shadow: none !important;padding: unset !important;}
+.survey_responses_block{page-break-inside:avoid;page-break-after:always;}
+.survey_responses_block tr{page-break-inside:avoid; page-break-after:always;}
+.sentiment_task_details_block tr{page-break-inside:avoid; page-break-after:always;}
+.sentiment_keyword_task_details_block tr{page-break-inside:avoid; page-break-after:always;}
+.manual_task_details_block tr{page-break-inside:avoid; page-break-after:always;}
+.scores_comparison_hospital_block{page-break-inside:avoid;page-break-after:always;}
+.scores_comparison_hospital_block tr{page-break-inside:avoid; page-break-after:always;}
+
+.physician_statistics_block{page-break-inside:avoid;page-break-after:always;}
+.physician_statistics_block tr{page-break-inside:avoid; page-break-after:always;}
+/*.export-pdf-page-break{page-break-inside:avoid;page-break-after:always;}
+.export-pdf-page-break tr{page-break-inside:avoid; page-break-after:always;}*/
+.location_ranking_block{page-break-before:always;page-break-after:always;}
+.location_ranking_block tr{page-break-before:always;page-break-after:always;}
+.location_ranking_block .pdf-block-break{page-break-inside:avoid;page-break-after:always;}
+.location_ranking_block .pdf-block-break tr{page-break-inside:avoid; page-break-after:always;}
+.all_statistics_block {page-break-inside:avoid;page-break-after:always;}
+.all_statistics_block tr{page-break-inside:avoid;page-break-after:always;}
+.positive_comment_block {page-break-inside:avoid; page-break-after:auto}
+.positive_comment_block tr{page-break-inside:avoid; page-break-after:always}
+.negative_comment_block {page-break-inside:avoid;page-break-after:always;}
+.negative_comment_block tr{page-break-inside:avoid; page-break-after:always}
+.neutral_comment_block {page-break-before:always;page-break-after:always;}
+.sentiment_task_details_block{page-break-inside:avoid;page-break-after:always;}
+.sentiment_keyword_task_details_block{page-break-inside:avoid;page-break-after:always;}
+.psi_average_by_source_block {page-break-after:always !important;}
+.psi_average_by_source_block tr{page-break-inside:avoid !important;}
+.row .pos_neu_neg_review_insights_block .portlet{page-break-after:always !important}
+.row .pos_neu_neg_review_insights_block .portlet tr{page-break-inside:avoid !important;}
+.page-break-block{page-break-after:always; }
+
+
+.psi_average_by_source_block {page-break-inside:avoid;page-break-after:always;}
+.psi_average_by_source_block tr{page-break-inside:avoid; page-break-after:always;}
+* {
+  overflow: visible !important;
+}
+.pb_before { page-break-before:always !important; }
+.pb_after  { page-break-after:always !important; }
+.pbi_avoid { page-break-inside:avoid !important; }
+
+.load-more-loader {
+	display: none !important;
+}

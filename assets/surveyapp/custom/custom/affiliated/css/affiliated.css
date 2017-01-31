@@ -1,0 +1,300 @@
+.upload-portlet {
+    margin-bottom: 10px;
+    padding-right: 0;
+}
+
+.upload-physicians th {
+	width: 24px;
+}
+
+.phy-popup {
+	padding-bottom: 10px;
+}
+
+.upload-physician-form .alert {
+	margin-bottom: 0px;
+}
+
+.upload-physician-form .white-background {
+	padding-top: 0px;
+	box-shadow: none;
+}
+
+.cost-per-physician {
+	border-bottom-style: dotted;
+	border-bottom-width: thin;
+}
+
+.total-cost {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.upload-physician-form {
+	padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.price-detail {
+	display: none;
+	/* margin-top: 15px; */
+	border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.price-detail .total-number-of-physicians, .price-detail .cost-per-physician,
+	.price-detail .total-cost {
+	padding: 5px 0;
+}
+
+.price-detail, .price-detail .inner {
+	/* margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0; */
+}
+
+.upload-table-portlet.properties {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 15px;
+    margin-left: 0;
+    /* margin-right: 0; */
+}
+
+.continue {
+	margin: 10px 0;
+}
+
+.continue {
+	display: none;
+}
+
+.table.upload-table>tfoot>tr>td, .table.upload-table>tfoot>tr>th {
+	border-top: 1px solid #ddd !important;
+	border-left: 0px !important;
+}
+
+.value {
+	text-align: right;
+	padding-right: 0;
+}
+
+.text {
+	padding-left: 0;
+}
+
+.vertical-align-middle {
+	vertical-align: middle !important;
+}
+
+.phy-validation {
+	margin-left: 8px !important;
+}
+
+.btn.btn-file {
+	padding: 0 !important;
+	/* border: 0 none; */
+}
+
+.add-physician-row {
+	margin-right: 5px;
+}
+
+.fileinput {
+	margin-bottom: 0 !important;
+}
+
+.fileinput-exists {
+	margin-left: 0 !important;
+}
+
+.close.fileinput-exists {
+	margin-left: 5px !important;
+	vertical-align: middle !important;
+}
+
+.upload-button {
+	display: none;
+	margin-left: 5px;
+}
+
+.alert.error-alert {
+	color: #980828;
+	display: none;
+}
+
+.upload-container{
+	display: none;
+}
+
+.line {
+    margin: 5px 0;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.red {
+	color: red;
+}
+.upload-table tfoot th {
+    border-top: 1px solid #ddd;
+}
+.shows {
+    margin-right: 5px;
+}
+
+.search {
+    margin-left: 5px;
+}
+
+/* .caption {
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    line-height: 0;
+    padding: 10px 0;
+} */
+
+.table-title {
+    border-bottom: 1px solid #eee;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 10px;
+    min-height: 41px;
+    padding: 0;
+}
+
+.phy-add {
+/*     margin-right: 5px; */
+}
+.password-match-label {
+    margin-top: 28px;
+ }
+
+
+.person-info-block {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.current-orders-title {
+ 	font-weight: 600;
+ 	/* padding-left: 20px !important; */
+ }
+.edit-physician-portlet .line {
+    margin-bottom: 10px;
+}
+
+.person-info-block .line{
+	margin : 10px 0;
+}
+
+/* .btn-primary {
+    background-color: #FB7C0D !important;
+} */
+
+/* .btn-primary:hover {
+    color: #333 !important;
+    text-decoration: none;
+} */
+
+.btn-default {
+    background-color: #E5E5E5 !important;
+}
+#signupForm label.error {
+    color: #fb3a3a;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 350px;
+}
+#upload-physician-form label.error {
+    color: #fb3a3a;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 400px;
+}
+#npi-error{
+	width: 250px !important;
+	display: block !important;
+}
+#changePasswordForm label.error {
+    color: #fb3a3a;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 350px;
+}
+#updatePersonalForm label.error {
+    color: #fb3a3a;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 350px;
+}
+#login-form label.error {
+    color: #fb3a3a;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 350px;
+}
+
+@media (max-width: 992px) {
+	.upload-portlet{
+		margin-top: 5px;
+	    padding-right: 10px;
+	}
+	.price-detail, .price-detail .inner {
+   		margin-top: 10px;
+	}
+	
+	.continue{
+		margin-right: 10px;
+	}
+	
+	.upload-table-portlet .dataTables_wrapper .dataTables_filter .form-control {
+		width: 90px !important;
+	}
+	
+	.affiliated-menu-list{
+		margin-bottom: 10px;
+	}
+	
+	.dataTables_wrapper .dataTables_info {
+	    padding-top: 0px;
+	}
+}
+
+@media (max-width: 760px) {
+	.dataTables_wrapper .dataTables_info {
+		    padding-top: 28px;
+		}
+}
+
+.reset-password-form label.error {
+    color: #fb3a3a;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 350px;
+}
+
+.upload-pagination{
+	margin-right: 15px;
+}
+
+#signupForm #first_name, #signupForm #last_name, #signupForm #email, #signupForm #confirm_email{
+    background-color: #eee;
+}
+
+.edit-physician-portlet, .person-info-block {
+    word-wrap: break-word;
+}
+
+.step {
+	color: #004d80;
+}

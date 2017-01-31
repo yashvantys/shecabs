@@ -1,0 +1,40 @@
+{
+   "ranking_list":[
+      {
+         "rank":1,
+         "location":"ARA - Chevy Chase",
+         "regional_total":"1",
+         "regional_rank":"1",
+         "low_ranking_categories":"[\"Comfort\",\"Facilities\\\/Environment\"]"
+      },
+      {
+         "rank":2,
+         "location":"ARA - Wheaton",
+         "regional_total":"1",
+         "regional_rank":"1",
+         "low_ranking_categories":"[\"Helps Patients Understand\",\"Getting Timely Care\"]"
+      },
+      {
+         "rank":3,
+         "location":"ARA - Rockville",
+         "regional_total":"1",
+         "regional_rank":"1",
+         "low_ranking_categories":"[\"Office Staff\",\"Getting Timely Care\"]"
+      },
+      {
+         "rank":4,
+         "location":"ARA - Washington, DC",
+         "regional_total":"1",
+         "regional_rank":"1",
+         "low_ranking_categories":"[\"Likely to Come Back\",\"Materials (Brochures, Information, Reports, etc.)\"]"
+      }
+   ],
+   "status":{
+      "message":"success",
+      "code":200
+   },
+   "period":{
+      "to":"2013-08-01 00:00:00",
+      "from":"2012-07-01 00:00:00"
+   }
+}

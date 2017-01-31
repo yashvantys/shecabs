@@ -1,0 +1,68 @@
+{
+  "status": {
+    "message": "success",
+    "code": 200
+  },
+  "data": [
+    {
+      "tick": "2012",
+      "data": [
+        {
+          "name": "Completely satisfied",
+          "color": "#913746",
+          "percentage": "25"
+        },
+        {
+          "name": "Very satisfied",
+          "color": "#568745",
+          "percentage": "32"
+        },
+        {
+          "name": "Moderately satisfied",
+          "color": "#985645",
+          "percentage": "27"
+        },
+        {
+          "name": "Slightly satisfied",
+          "color": "#483518",
+          "percentage": "10"
+        },
+        {
+          "name": "Not at all satisfied",
+          "color": "#483579",
+          "percentage": "6"
+        }
+      ]
+    },
+    {
+      "tick": "2013",
+      "data": [
+        {
+          "name": "Completely satisfied",
+          "color": "#913746",
+          "percentage": "30"
+        },
+        {
+          "name": "Very satisfied",
+          "color": "#568745",
+          "percentage": "35"
+        },
+        {
+          "name": "Moderately satisfied",
+          "color": "#985645",
+          "percentage": "15"
+        },
+        {
+          "name": "Slightly satisfied",
+          "color": "#483518",
+          "percentage": "15"
+        },
+        {
+          "name": "Not at all satisfied",
+          "color": "#483579",
+          "percentage": "5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+   "ranking_list":[
+      {
+         "rank":1,
+         "social_insights":46,
+         "social":"3.3",
+         "name":"Holy Cross Let's Talk Babies",
+         "insights":46,
+         "score":"3.3",
+         "survey":"0.0"
+      }
+   ],
+   "status":{
+      "message":"success",
+      "code":200
+   },
+   "period":{
+      "to":"2013-11-15 23:59:59",
+      "from":"2011-12-13 00:00:00"
+   }
+}

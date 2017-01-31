@@ -1,0 +1,20 @@
+{
+    "chart": {
+        "showvalues": "0",
+        "yaxisname": "Number of Reviews",
+        "plotgradientcolor": "",
+        "formatnumberscale": "0",
+        "showplotborder": "0",
+        "palettecolors": "#C64832,#E9C42E,#7BA734",
+        "canvaspadding": "0",
+        "bgcolor": "FFFFFF",
+        "showalternatehgridcolor": "0",
+        "divlinecolor": "CCCCCC",
+        "showcanvasborder": "0",
+        "legendborderalpha": "0",
+        "legendshadow": "0",
+        "canvasborderalpha": "0",
+        "showborder": "0"
+    },
+    "categories": []
+}

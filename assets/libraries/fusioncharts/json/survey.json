@@ -1,0 +1,52 @@
+{
+    "status": {
+        "message": "success",
+        "code": 200
+    },
+    "response": [
+        {
+            "score": 4.71398305,
+            "year": 2013,
+            "month": "jan"
+        },
+        {
+            "score": 1.60355286,
+            "year": 2013,
+            "month": "feb"
+        },
+        {
+            "score": 4.43717796,
+            "year": 2012,
+            "month": "mar"
+        },
+        {
+            "score": 4.55789249,
+            "year": 2012,
+            "month": "april"
+        },
+        {
+            "score": 4.62476272,
+            "year": 2012,
+            "month": "may"
+        },
+        {
+            "score": 5,
+            "year": 2011,
+            "month": "jun"
+        },
+        {
+            "score": 5,
+            "year": 2011,
+            "month": "july"
+        },
+        {
+            "score": 5,
+            "year": 2011,
+            "month": "aug"
+        }
+    ],
+    "period": {
+        "to": "2013-07-30 23:59:59",
+        "from": "2011-01-01 00:00:00"
+    }
+}

@@ -54,8 +54,8 @@ $route ['404_override'] = '';
 $route ['translate_uri_dashes'] = true;
 
 
-$route ['user/list'] = "user/userlist";
-$route ['user/list-ajax'] = "user/list_ajax";
+$route ['users/list'] = "users/userlist";
+$route ['users/list-ajax'] = "users/list_ajax";
 
 $route ['drivers/list'] = "drivers/driverslist";
 

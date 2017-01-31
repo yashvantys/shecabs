@@ -1,0 +1,75 @@
+/* here you can put your own css to customize and override the theme */
+.progress-bar.scoregrad {
+background: transparent;
+    /* Old browsers */
+
+}
+
+.progress-bar-success {
+background: transparent; /* Old browsers */
+}
+
+
+.scorecardBackground {
+background: -moz-linear-gradient(left, #fc3932 0%, #f4d72e 50%, #25bc41 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #fc3932 0%,#f4d72e 50%,#25bc41 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #fc3932 0%,#f4d72e 50%,#25bc41 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc3932', endColorstr='#25bc41',GradientType=1 ); /* IE6-9 */
+
+}
+
+.boxLiner {
+      border: 1px solid #cdcdcd;
+}
+
+.boxLinerSoft {
+      border: 1px solid #e7e7e7;
+}
+
+.label-gradient-middle {
+    background-color: darkorange;
+}
+
+.label-gradient-top {
+    background-color: green;
+}
+
+.label-gradient-bottom {
+    background-color: red;
+}
+
+.col2spacer {
+    width: 300px;
+}
+
+/* 320px to 420px */
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px)  {
+    .entAlertBox { border-bottom:1px solid #e7e7e7; margin-bottom: 5px; padding-bottom: 5px;}
+}
+
+
+/* below 600px */
+
+@media screen and (max-width: 600px) {
+    .entAlertBox {border-bottom:1px solid #e7e7e7; margin-bottom: 5px; padding-bottom: 5px;}
+}
+
+
+/* 600px to 799px */
+
+@media screen and (max-width: 800px) and (min-width: 601px) { 
+    .entAlertBox {border-right:1px solid #e7e7e7; height:95px;border-bottom:0px solid #e7e7e7;}
+}
+
+/* 800px to 1024px */
+
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+    .entAlertBox {border-right:1px solid #e7e7e7; height:95px;border-bottom:0px solid #e7e7e7;}
+}
+
+
+@media screen and (min-width: 1025px) {
+    .entAlertBox {border-right:1px solid #e7e7e7; height:95px;border-bottom:0px solid #e7e7e7;}
+}
+

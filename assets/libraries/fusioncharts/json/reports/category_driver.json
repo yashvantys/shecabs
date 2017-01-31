@@ -1,0 +1,26 @@
+{
+    "chart": {
+    	"animation": "0",
+        "bgcolor": "FFFFFF",
+        "pieBorderThickness": "0.8",
+        "usehovercolor": "1",
+        "hover": "CCCCCC",
+        "showLabels": "1",
+        "labelDisplay": "wrap",
+        "showValuesInTooltip": "1",
+        "hoverfillcolor": "E07C7C",
+        "showBorder": "0",
+        "enableSmartLabels": "1",
+        "baseFontSize": "9",
+        "showLegend": "1",
+        "legendPosition": "BOTTOM",
+        "legendNumColumns": "4",
+        "showTooltipforWrappedLabels": "1",
+        "animation": "0",
+        "baseFontColor":"#fff",
+        "baseFontSize":"13",
+        "legendItemFontSize": "12",
+        "toolTipBgColor": "#000"
+    },
+    "category": []
+}

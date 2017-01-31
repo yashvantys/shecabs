@@ -1,0 +1,96 @@
+ .validation
+    {
+      	color: red !important;
+      	margin-top: 0px;
+      	clear:both;
+        float: left;
+    	margin-left: 182px;
+    }
+    
+    
+.form-control, output {
+    color: #444;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.search_client_form{ height:20px;}
+
+.search_client_form .form-group{ margin:0px;}
+.search_client_form .form-horizontal .control-label {text-align: left; width:5%;  margin-left:-15px; margin-right:5px;}
+.client_select {
+	 margin-top:5px;
+    width: 50%;
+    font-weight:bold !important;
+}
+.seach_client_drop{width:50%;}
+.control-label{font-weight:bold !important;font-size: 13px;}
+
+.select2-choice{ font-weight:normal;}
+.searchdropdown{margin-bottom:5px;}
+#ftpaccess-form .col-sm-2.control-label {
+    margin-left: 10px;
+}
+.new_sub{ margin-left:221px;}
+.form-control .select2-choice {
+   
+    height: 29px !important;
+    padding: 1px 0 0 12px;
+    
+}
+
+
+
+@media(max-width:767px){
+	
+		
+	.search_client_form .form-horizontal .control-label {text-align: left; width:10%; margin-left:-15px; margin-right:5px;}
+.client_select {
+	 margin-top:5px;
+    width: 100%;
+    font-weight:bold !important;
+    margin-left:0px;
+}
+.seach_client_drop{width:100%;}
+.add-ftpaccess{margin-top:5px}
+.new_sub{ margin-left:0px;}
+}
+@media(min-width:768px){
+			
+	.search_client_form .form-horizontal .control-label {text-align: left; width:10%;  margin-left:-15px; margin-right:5px;}
+.client_select {
+	 margin-top:5px;
+    width: 80%;
+    font-weight:bold !important;
+    margin-left:0px;
+}
+.seach_client_drop{width:80%;}
+
+.new_sub{ margin-left:0px;}	
+}
+@media(min-width:992px){
+	client_select {
+	 margin-top:5px;
+    width: 50%;
+    font-weight:bold !important;
+    margin-left:0px;
+}
+.seach_client_drop{width:50%;}
+	
+	.new_sub{ margin-left:221px;}
+	.search_client_form .form-horizontal .control-label {text-align: left; width:10%;  margin-left:-15px; margin-right:5px;}
+}
+@media(min-width:1200px){
+	client_select {
+	 margin-top:5px;
+    width: 50%;
+    font-weight:bold !important;
+    margin-left:0px;
+}
+.seach_client_drop{width:50%;}
+	.new_sub{ margin-left:221px;}
+	
+	.search_client_form .form-horizontal .control-label {text-align: left; width:10%;  margin-left:-15px; margin-right:5px;}
+}
+.demo td { font-size: 12px;}

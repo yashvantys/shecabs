@@ -1,0 +1,52 @@
+{
+    "status": {
+        "message": "Success",
+        "code": "200" 
+    },
+    "data": [
+        {
+            "name": "Gwinnett Gynecology 1",
+            "parent": [
+                {
+                    "type": "Division",
+                    "name": "TriStar" 
+                }
+            ],
+            "documents": 18,
+            "sources": [
+                {
+                    "id": 100177,
+                    "name": "Google",
+                    "documents": 10
+                },
+                {
+                    "id": 100135,
+                    "name": "Vitals",
+                    "documents": 8
+                }
+            ]
+        },
+        {
+            "name": "Gwinnett Gynecology 2",
+            "parent": [
+                {
+                    "type": "Division",
+                    "name": "TriStar" 
+                }
+            ],
+            "documents": 9,
+            "sources": [
+                {
+                    "id": 100177,
+                    "name": "Google",
+                    "documents": 10
+                },
+                {
+                    "id": 100135,
+                    "name": "Vitals",
+                    "documents": 8
+                }
+            ]
+        }
+    ]
+}

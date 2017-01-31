@@ -1,0 +1,216 @@
+.credit-card-div {
+	width: 450px;
+}
+
+.credit-card-but {
+	width: 450px;
+}
+
+.credit-card-but .col-md-6, .credit-card-but .col-sm-6, .credit-card-but .col-xs-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.credit-card-div  span {
+	padding-top: 10px;
+}
+
+.credit-card-div img {
+	padding-top: 30px;
+}
+
+.credit-card-div .small-font {
+	font-size: 9px;
+}
+
+.credit-card-div .pad-adjust {
+	padding-top: 10px;
+}
+
+.cvv-logo {
+	width: 61px;
+	height: 36px;
+	margin-left: 5px;
+	background: #ededed url(img/all.png) no-repeat -199px 0;
+}
+
+@media (max-width: 992px) {
+	.cvv-logo {
+	    margin: 10px 15px;
+	}
+}
+
+.credit-card-panel .form-control {
+	height: 38px;
+}
+
+.form-control.credit-card, .form-control.credit-card-confirm{
+    padding-left: 50px;
+}
+
+.crd-num-wrp {
+	background: #fff url("img/all.png") no-repeat scroll -128px -171px;
+    display: block;
+    height: 30px;
+    transition: background-position 1s ease 0s;
+    width: 46px;
+    position: absolute;
+    top: 5px;
+    left: 16px;
+}
+
+.card-number-label {
+    padding-top: 10px;
+}
+
+.crd-num-wrp.visa, .crd-num-wrp.visa_electron {
+	background-position: -128px -32px;
+}
+
+.crd-num-wrp.mastercard {
+	background-position: -128px -67px;
+}
+
+.crd-num-wrp.maestro, .crd-num-wrp.maestro16, .crd-num-wrp.maestro16opt
+	{
+	background-position: -127px -96px;
+}
+
+.crd-num-wrp.amex {
+	background-position: -128px -138px;
+}
+
+.crd-num-wrp.diners, .crd-num-wrp.diners_club_international {
+	background-position: -128px -203px;
+}
+
+.crd-num-wrp.discover {
+	background-position: -128px -238px;
+}
+
+.crd-num-wrp.jcb {
+	background-position: -128px -272px;
+}
+
+.crd-num-wrp.misc {
+	background-position: -128px -171px;
+}
+
+.crd-num-wrp.rupay {
+	background-position: -128px -304px;
+}
+
+.credit-card-panel label.error {
+	position: relative;
+	color: #ff7274;
+	bottom: 0px;
+	padding: 0px;
+	left: 5px;
+	font-size: 12px;
+}
+
+.credit-card-panel input.error {
+	border-color: red;
+}
+
+.order.col-md-12 {
+	background-color: #fff;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 4px #d3cbb8;
+	color: #565656;
+}
+
+.order-item {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+
+.line, .lastunit {
+	overflow: hidden;
+}
+
+.unit {
+	float: left;
+}
+
+.order-total {
+	margin: 10px 15px;
+}
+
+.order-total strong {
+	font-size: 16px;
+}
+
+.small-text {
+	color: #848484;
+	font-size: 11px;
+}
+
+.auto-renewal, .payment-status, .expiry-date {
+	margin-right: 20px;
+}
+
+.order-details {
+	margin: 10px auto;
+}
+
+.billing-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.billing-total {
+	margin-top: 10px;
+}
+.payment-img{
+	margin-top:15px;
+}
+.payment-img .amex{
+	background: url("img/all.png") no-repeat scroll -129px 0px #fff;
+    display: block;
+    height: 34px;
+    width: 42px;
+}
+.payment-img .discover{
+	background: url("img/all.png") no-repeat scroll -129px -239px #fff;
+    display: block;
+    height: 34px;
+    width: 42px;
+}
+.payment-img .mastercard{
+	background: url("img/all.png") no-repeat scroll -129px -68px #fff;
+    display: block;
+    height: 34px;
+    width: 42px;
+}
+.payment-img .visa{
+	background: url("img/all.png") no-repeat scroll -129px -33px #fff;
+    display: block;
+    height: 34px;
+    width: 42px;
+}
+
+.order-payment .line {
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0 15px 0;
+}
+
+.order-payment .line.last {
+	border-bottom: none;
+}
+
+.order-payment .title{
+	font-size: 18px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+}
+
+.portlet.order-payment {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}

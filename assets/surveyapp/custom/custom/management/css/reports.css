@@ -1,0 +1,47 @@
+.rpt-list-item-wrapper {
+    clear: both;
+    color: #2b4a5c;
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.rpt-list-item-wrapper .custom-messages {
+    margin-top: 10px;
+}
+
+.rpt-list-item {
+    font-size: 14px;
+}
+
+.rpt-list-item span {
+    cursor: pointer;
+}
+
+.rpt-list-item .report-link{
+	font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.rpt-list-item .before {
+    background-image: url("img/report-icons.png?v=1.1");
+    background-position: 4px -193px;
+    margin-top: -12px;
+    float: left;
+    height: 37px;
+    width: 40px;
+}
+
+.report-fields {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.line{
+	margin: 5px 0;
+}
+
+.report-fields{
+	display: none;
+}

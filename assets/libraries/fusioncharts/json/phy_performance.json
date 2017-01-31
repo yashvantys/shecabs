@@ -1,0 +1,242 @@
+{
+    "status": {
+        "message": "success",
+        "code": 200
+    },
+    "data": [
+        {
+            "id": "750",
+            "color": "#ffc600",
+            "name": "Herbert S. B. Baraf, MD, FACP, FACR",
+            "insights": "9",
+            "score": "2.2",
+            "year": {
+                "2013": {
+                    "color": "#ffc600",
+                    "insights": "9",
+                    "score": "2.2",
+                    "quarter": {
+                        "1": {
+                            "color": "#ffc300",
+                            "insights": 9,
+                            "score": "2.2",
+                            "tagColor": "0Xffc300"
+                        }
+                    },
+                    "tagColor": "0Xffc600"
+                }
+            },
+            "tagColor": "0Xffc600"
+        },
+        {
+            "id": "751",
+            "color": "#66dc00",
+            "name": "Robert L. Rosenberg, MD, FACR, CCD",
+            "insights": "16",
+            "score": "4.0",
+            "year": {
+                "2013": {
+                    "color": "#19dc00",
+                    "insights": "9",
+                    "score": "4.8",
+                    "quarter": {
+                        "1": {
+                            "color": "#1cdc00",
+                            "insights": 9,
+                            "score": "4.7",
+                            "tagColor": "0X1cdc00"
+                        }
+                    },
+                    "tagColor": "0X19dc00"
+                },
+                "2012": {
+                    "color": "#e5dc00",
+                    "insights": "7",
+                    "score": "2.8",
+                    "quarter": {
+                        "1": {
+                            "color": "#ffb000",
+                            "insights": 5,
+                            "score": "2.0",
+                            "tagColor": "0Xffb000"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "insights": 2,
+                            "score": "5.0",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0Xe5dc00"
+                }
+            },
+            "tagColor": "0X66dc00"
+        },
+        {
+            "id": "754",
+            "color": "#4cdc00",
+            "name": "Alan K. Matsumoto, MD, FACR",
+            "insights": "251",
+            "score": "4.2",
+            "year": {
+                "2013": {
+                    "color": "#33dc00",
+                    "insights": "9",
+                    "score": "4.5",
+                    "quarter": {
+                        "1": {
+                            "color": "#38dc00",
+                            "insights": 9,
+                            "score": "4.4",
+                            "tagColor": "0X38dc00"
+                        }
+                    },
+                    "tagColor": "0X33dc00"
+                },
+                "2012": {
+                    "color": "#66dc00",
+                    "insights": "242",
+                    "score": "4.0",
+                    "quarter": {
+                        "2": {
+                            "color": "#5adc00",
+                            "insights": 242,
+                            "score": "4.1",
+                            "tagColor": "0X5adc00"
+                        }
+                    },
+                    "tagColor": "0X66dc00"
+                }
+            },
+            "tagColor": "0X4cdc00"
+        },
+        {
+            "id": "758",
+            "color": "#4cdc00",
+            "name": "Paul J. DeMarco, MD, FACP, FACR",
+            "insights": "27",
+            "score": "4.2",
+            "year": {
+                "2013": {
+                    "color": "#33dc00",
+                    "insights": "9",
+                    "score": "4.5",
+                    "quarter": {
+                        "1": {
+                            "color": "#38dc00",
+                            "insights": 9,
+                            "score": "4.4",
+                            "tagColor": "0X38dc00"
+                        }
+                    },
+                    "tagColor": "0X33dc00"
+                },
+                "2012": {
+                    "color": "#4cdc00",
+                    "insights": "18",
+                    "score": "4.2",
+                    "quarter": {
+                        "1": {
+                            "color": "#00dc00",
+                            "insights": 8,
+                            "score": "5.0",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "color": "#00dc00",
+                            "insights": 6,
+                            "score": "5.0",
+                            "tagColor": "0X00dc00"
+                        },
+                        "4": {
+                            "color": "#ff6e00",
+                            "insights": 4,
+                            "score": "1.2",
+                            "tagColor": "0Xff6e00"
+                        }
+                    },
+                    "tagColor": "0X4cdc00"
+                }
+            },
+            "tagColor": "0X4cdc00"
+        },
+        {
+            "id": "762",
+            "color": "#19dc00",
+            "name": "Guada R. Respicio, MD, MS, FACR",
+            "insights": "166",
+            "score": "4.8",
+            "year": {
+                "2013": {
+                    "color": "#33dc00",
+                    "insights": "27",
+                    "score": "4.5",
+                    "quarter": {
+                        "1": {
+                            "color": "#2fdc00",
+                            "insights": 27,
+                            "score": "4.5",
+                            "tagColor": "0X2fdc00"
+                        }
+                    },
+                    "tagColor": "0X33dc00"
+                },
+                "2012": {
+                    "color": "#19dc00",
+                    "insights": "139",
+                    "score": "4.8",
+                    "quarter": {
+                        "1": {
+                            "color": "#00dc00",
+                            "insights": 8,
+                            "score": "5.0",
+                            "tagColor": "0X00dc00"
+                        },
+                        "2": {
+                            "color": "#22dc00",
+                            "insights": 103,
+                            "score": "4.7",
+                            "tagColor": "0X22dc00"
+                        },
+                        "3": {
+                            "color": "#1bdc00",
+                            "insights": 28,
+                            "score": "4.7",
+                            "tagColor": "0X1bdc00"
+                        }
+                    },
+                    "tagColor": "0X19dc00"
+                }
+            },
+            "tagColor": "0X19dc00"
+        },
+        {
+            "id": "761",
+            "color": "#00dc00",
+            "name": "Ashley D. Beall, MD, FACR",
+            "insights": "6",
+            "score": "5.0",
+            "year": {
+                "2012": {
+                    "color": "#00dc00",
+                    "insights": "6",
+                    "score": "5.0",
+                    "quarter": {
+                        "2": {
+                            "color": "#00dc00",
+                            "insights": 6,
+                            "score": "5.0",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "tagColor": "0X00dc00"
+        }
+    ],
+    "period": {
+        "to": "2012-01-01 00:00:00",
+        "from": "2013-03-01 00:00:00"
+    }
+}

@@ -1,0 +1,634 @@
+
+ .rpt-list-item .before {
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+.rpt-list-item  {
+	border-bottom:  1px solid #f9f9f9;
+}
+.rpt-list-item:LAST-CHILD {
+	border-bottom: 0;
+}
+.rpt-list-item  a {
+	display: block;
+	text-align: left;
+	padding: 10px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.rpt-list-item span{
+	font-size: 15px;
+	color: #2b4a5c;
+	font-weight: 600;
+	margin-bottom: -4px;
+	display: block;
+	text-align: left;
+}
+
+
+
+.provider-performance-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -26px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+.rpt-list-item .before{
+	margin-top:-3px;
+}
+
+ul.list-report li:hover.provider-performance-report .before {
+	background-position: -32px -26px;
+}
+
+.physician-feedback-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: -1px -1493px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.physician-feedback-report .before {
+	background-position: -36px -1492px;
+}
+
+.response-trends-by-question .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -275px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.response-trends-by-question .before {
+	background-position: -32px -275px;
+}
+
+/*
+.physician-performance-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 5px -26px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.physician-performance-report .before {
+	background-position: -31px -26px;
+}
+
+.hospital-performance-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -1312px;
+	height: 37px;
+	width: 40px;
+	float: left;
+	position: relative;
+	top: 5px;
+}
+
+ul.list-report li:hover.hospital-performance-report .before {
+	background-position: -36px -1312px;
+}
+
+.group-monthly-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 3px -1382px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.group-monthly-report .before {
+	background-position: -33px -1382px;
+}
+
+.hospital-division-monthly-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -1245px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.hospital-division-monthly-report .before {
+	background-position: -33px -1245px;
+}
+
+.division-monthly-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -1245px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.division-monthly-report .before {
+	background-position: -33px -1245px;
+}
+
+.hcaps-overall-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -1421px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.hcaps-overall-report .before {
+	background-position: -33px -1421px;
+}
+
+.performance-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 3px -1282px;
+	height: 37px;
+	width: 40px;
+	float: left;
+	position: relative;
+	top: 7px;
+}
+
+ul.list-report li:hover.performance-report .before {
+	background-position: -35px -1282px;
+}
+*/
+.physician-source-category-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -26px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.physician-source-category-report .before {
+	background-position: -32px -26px;
+}
+
+.physician-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -1108px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.physician-report .before {
+	background-position: -33px -1108px;
+}
+
+.physician-ranking-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -1069px;
+	height: 42px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.physician-ranking-report .before {
+	background-position: -33px -1069px;
+}
+
+.location-performance-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -68px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.location-performance-report .before {
+	background-position: -32px -68px;
+}
+
+.monthly-trends-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -107px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.monthly-trends-report .before {
+	background-position: -32px -107px;
+}
+
+ul.list-report li .after {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 0 13px;
+	height: 37px;
+	width: 35px;
+	float: right;
+}
+
+ul.list-report li:hover .after {
+	background-position: -34px 13px;
+}
+
+.monthly-survey-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -444px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.monthly-survey-report .before {
+	background-position: -33px -444px;
+}
+
+.review-testimonial-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -193px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.review-testimonial-report .before {
+	background-position: -33px -193px;
+}
+
+.survey-response-count-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -984px;
+	height: 37px;
+	width: 39px;
+	float: left;
+}
+
+ul.list-report li:hover.survey-response-count-report .before {
+	background-position: -32px -984px;
+}
+
+.employee-satisfaction-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -521px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.employee-satisfaction-report .before {
+	background-position: 41px -521px;
+}
+
+.employee-satisfaction-review-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -556px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.employee-satisfaction-review-report .before {
+	background-position: 40px -556px;
+}
+
+.demographic-class .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -276px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.demographic-class .before {
+	background-position: -32px -276px;
+}
+
+.survey-response-class .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -149px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.survey-response-class .before {
+	background-position: -33px -149px;
+}
+
+.social-media-class .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -234px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.social-media-class .before {
+	background-position: -34px -234px;
+}
+
+.emp-review-class .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -556px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.emp-review-class .before {
+	background-position: -33px -556px;
+}
+
+.emp-report-class .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -522px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.emp-report-class .before {
+	background-position: -33px -522px;
+}
+
+.response-rate-class .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -483px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.response-rate-class .before {
+	background-position: -33px -483px;
+}
+
+.login-report-class .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -405px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.login-report-class .before {
+	background-position: -33px -405px;
+}
+
+.audit-log-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -405px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.audit-log-report .before {
+	background-position: -33px -405px;
+}
+
+.weekly-class-1 .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -192px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.weekly-class-1 .before {
+	background-position: -33px -192px;
+}
+
+.weekly-class-2 .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 4px -318px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.weekly-class-2 .before {
+	background-position: -33px -318px;
+}
+
+.weekly-class-3 .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -359px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.weekly-class-3 .before {
+	background-position: -33px -359px;
+}
+
+.demographic-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -635px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.demographic-report .before {
+	background-position: -32px -635px;
+}
+
+.social-media-trends .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -674px;
+	height: 37px;
+	width: 39px;
+	float: left;
+}
+
+ul.list-report li:hover.social-media-trends .before {
+	background-position: -31px -674px;
+}
+
+.survey-response-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -598px;
+	height: 37px;
+	width: 40px;
+	float: left;
+}
+
+ul.list-report li:hover.survey-response-report .before {
+	background-position: -33px -598px;
+}
+
+.patient-experience-report .before {
+    background-image: url("../img/report-icons.png?v=1.1");
+    background-position: 2px -524px;
+    height: 32px;
+    width: 40px;
+    float: left;
+    margin-top: -4px;
+}
+
+.driver-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -1143px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+
+ul.list-report li:hover.driver-report .before {
+	background-position: -35px -1143px;
+}
+
+.performance-report .before, .mdu-performance-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -1210px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+
+ul.list-report li:hover.performance-report .before, ul.list-report li:hover.mdu-performance-report .before {
+	background-position: -35px -1210px;
+}
+
+.positive-driver-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -1146px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+
+ul.list-report li:hover.positive-driver-report .before {
+	background-position: -35px -1146px;
+}
+
+.negative-driver-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -1180px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+
+ul.list-report li:hover.negative-driver-report .before {
+	background-position: -35px -1180px;
+}
+
+.daily-review-digest .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -196px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+
+ul.list-report li:hover.daily-review-digest .before {
+	background-position: -35px -196px;
+}
+
+.weekly-review-digest .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -321px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+
+ul.list-report li:hover.weekly-review-digest .before {
+	background-position: -35px -321px;
+}
+
+.community-managers-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -362px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+
+ul.list-report li:hover.community-managers-report .before {
+	background-position: -34px -362px;
+}
+
+.response-rate-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 1px -486px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+
+ul.list-report li:hover.response-rate-report .before {
+	background-position: -34px -486px;
+}
+
+.login-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -408px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+.user-activity-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -408px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+.category-review-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 2px -1564px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+
+ul.list-report li:hover.login-report .before {
+	background-position: -34px -408px;
+}
+
+.rating-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 0px -1460px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+.healthcare-rating-report .before {
+	background-image: url("../img/report-icons.png?v=1.1");
+	background-position: 0px -1460px;
+	height: 32px;
+	width: 40px;
+	float: left;
+	margin-top: -4px;
+}
+
+.survey-performance-report .before {
+    background-image: url("../img/report-icons.png?v=1.1");
+    background-position: 1px -444px;
+    float: left;
+    height: 37px;
+    width: 40px;
+}
+.ctl-report .before {
+    background-image: url("../img/report-icons.png?v=1.1");
+    background-position: 0 -1594px;
+    float: left;
+    height: 34px;
+    width: 40px;
+}

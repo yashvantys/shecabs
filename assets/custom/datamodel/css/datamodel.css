@@ -1,0 +1,29 @@
+.new_sub{
+	padding-top:20px;
+}
+
+.span-red {
+    color: #ff0000;
+}
+
+.spacing{
+	padding:5px;
+}
+
+.radio-inline + .radio-inline {
+    margin-top: 0;
+    margin-left: 0px;
+}
+
+#tableftp_filter{
+	margin-right:-12px !important;
+}
+#table-scrollable{margin-top:-10px !important;}
+.delete-datamodel{margin-left:5px;}
+
+.search_datamodel_form{ height:30px;}
+.search_datamodel_form .form-horizontal .control-label {text-align: left; width:8%; margin-left:60px;margin-bottom:10px;}
+
+.col-md-4.control-label {
+    margin-right: 5px;
+}

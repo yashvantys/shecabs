@@ -1,0 +1,11 @@
+ .dataTables_processing{
+  display: none !important;
+ }
+ 
+ .nav-tabs {
+  margin-bottom: 0;
+}
+
+.note.note-info {
+  border: none;
+}

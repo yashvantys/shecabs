@@ -14,44 +14,12 @@
 			</a>
 		</div><!-- /.main-container -->
 
-		<!-- basic scripts -->
-
-		<!--[if !IE]> -->
-		<script src="<?php  echo  asset_url()?>js/jquery-2.1.4.min.js"></script>
-
-		<!-- <![endif]-->
-
-		<!--[if IE]>
-<script src="<?php  echo  asset_url()?>js/jquery-1.11.3.min.js"></script>
-<![endif]-->
-		<script type="text/javascript">
-			if('ontouchstart' in document.documentElement) document.write("<script src='<?php  echo  asset_url()?>js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
-		</script>
-		<script src="<?php  echo  asset_url()?>js/bootstrap.min.js"></script>
-
-		<!-- page specific plugin scripts -->
-
-		<!--[if lte IE 8]>
-		  <script src="assets/js/excanvas.min.js"></script>
-		<![endif]-->
-		<script src="<?php  echo  asset_url()?>js/jquery-ui.custom.min.js"></script>
-		<script src="<?php  echo  asset_url()?>js/jquery.ui.touch-punch.min.js"></script>
-		<script src="<?php  echo  asset_url()?>js/jquery.easypiechart.min.js"></script>
-		<script src="<?php  echo  asset_url()?>js/jquery.sparkline.index.min.js"></script>
-		<script src="<?php  echo  asset_url()?>js/jquery.flot.min.js"></script>
-		<script src="<?php  echo  asset_url()?>js/jquery.flot.pie.min.js"></script>
-		<script src="<?php  echo  asset_url()?>js/jquery.flot.resize.min.js"></script>
-
-		<!-- ace scripts -->
-		<script src="<?php  echo  asset_url()?>js/ace-elements.min.js"></script>
-		<script src="<?php  echo  asset_url()?>js/ace.min.js"></script>
-
-		<!-- inline scripts related to this page -->
-		
+		<!-- END FOOTER -->
+			<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 				<?php 
 					//push global variables
-					
-					$settings = array("base_url" => base_url(), "asset_url" => asset_url() );
+					$userdata = $this->session->userdata('uinfo');
+					$settings = array("base_url" => base_url(), "asset_url" => asset_url(),"user"=>$userdata['userid'] );
 					
 					if(isset($js_settings_vars) && !empty($js_settings_vars)){
 						$settings = array_merge($settings, $js_settings_vars);
@@ -60,10 +28,48 @@
 				<script type="text/javascript">
 				var Shecabs = <?php print json_encode(  $settings);?>;			
 				</script>
-		<script type="text/javascript">
-			if('ontouchstart' in document.documentElement) document.write("<script src='<?php  echo  asset_url()?>js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
-		</script>
-        <?php 
+
+			<!-- BEGIN CORE PLUGINS -->
+			<!--[if lt IE 9]>
+				<script src="<?php  echo  asset_url()?>global/plugins/respond.min.js"></script>
+				<script src="<?php  echo  asset_url()?>global/plugins/excanvas.min.js"></script> 
+				<![endif]-->
+			
+			<?php ?> 
+			<script src="<?php  echo  asset_url()?>custom/survey/slide/js/jquery-1.11.3.min.js"	type="text/javascript"></script>
+			<!-- <script src="<?php  //echo  asset_url()?>global/plugins/jquery.min.js"	type="text/javascript"></script> -->
+			<script
+				src="<?php  echo  asset_url()?>global/plugins/jquery-migrate.min.js" type="text/javascript"></script> 
+			<!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+			<script
+				src="<?php  echo  asset_url()?>global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+			<script
+				src="<?php  echo  asset_url()?>global/plugins/bootstrap/js/bootstrap.min.js"	type="text/javascript"></script>
+			<script
+				src="<?php  echo  asset_url()?>global/plugins/bootstrap/js/bootstrap-hover-dropdown.min.js"	type="text/javascript"></script>
+			<script
+				src="<?php  echo  asset_url()?>global/plugins/bootbox/bootbox.min.js" type="text/javascript"></script>
+			<script
+				src="<?php  echo  asset_url()?>global/plugins/jquery/jquery.slimscroll.min.js"	type="text/javascript"></script>
+			<script
+				src="<?php  echo  asset_url()?>global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+			<script
+				src="<?php  echo  asset_url()?>global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+			<script
+				src="<?php  echo  asset_url()?>global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+			<script
+				src="<?php  echo  asset_url()?>global/plugins/bootstrap/js/bootstrap-switch.min.js"	type="text/javascript"></script> 
+					
+			
+			<!-- END CORE PLUGINS -->
+			<script src="<?php  echo  asset_url()?>global/scripts/metronic.js"	type="text/javascript"></script>
+			<script src="<?php  echo  asset_url()?>admin/layout3/scripts/layout.js" type="text/javascript"></script>
+			<!-- <script
+				src="<?php  echo  asset_url()?>admin1/layout/scripts/layout.js"	type="text/javascript"></script> -->
+				<?php ?> 
+		
+				
+				<?php 
 					if(isset($javascript_files)):  
 						foreach ($javascript_files as $file):?>
 				<script type="text/javascript"
@@ -72,6 +78,8 @@
 						endforeach; 
 					endif;
 				?>
+				
+				 
 				<script type="text/javascript">
 				jQuery(document).ready(function() {   
 				   	Metronic.init(); // init metronic core components
@@ -91,6 +99,33 @@
 					?>
 				});
 				</script>
+			<!-- END JAVASCRIPTS -->
+			
+			 <script>
+   				 $('.toggle').click(function (event) {
+				event.preventDefault();
+				var target = $(this).attr('href');
+				$(target).toggleClass('hidden show');
+			}); 
+////////////////////////////////slide////////////////////////////////////////////////////////
+    			
+///////////////////////////////////////toggle//////////////////////////////////////////////////////
+   				$(document).on('click', '.panel-heading span.clickable', function(e){
+   			        $(this).parents('.panel').find('.panel-collapse').collapse('toggle');
+   			    })
+   			    .on('show.bs.collapse', '.panel-collapse', function () {
+   			        var $span = $(this).parents('.panel').find('.panel-heading span.clickable');
+   			        $span.find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+   			    })
+   			    .on('hide.bs.collapse', '.panel-collapse', function () {
+   			        var $span = $(this).parents('.panel').find('.panel-heading span.clickable');
+   			        $span.find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+   			    })
+   			    
+   			 				
+    		</script>
 		
-	</body>
+	<!-- END CONTAINER -->
+</body>
+<!-- END BODY -->
 </html>

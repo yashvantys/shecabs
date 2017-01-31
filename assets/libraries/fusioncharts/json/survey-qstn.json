@@ -1,0 +1,1061 @@
+{
+    "status": {
+        "message": "Success",
+        "code": 200
+    },
+    "Total responses": 3,
+    "questions": [
+        {
+            "questionId": 4035000,
+            "question": "Are you a new or returning patient?",
+            "options": [
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "New Patient"
+                },
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Returning Patient"
+                }
+            ]
+        },
+        {
+            "questionId": 1,
+            "question": "Ease to reach our staff with your phone call?",
+            "options": [
+                {
+                    "percent": "23.20",
+                    "count": 0,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "12.33",
+                    "count": 1,
+                    "option": "Average"
+                },
+                {
+                    "percent": "10.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "70.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "question": "Convenient locations?",
+            "options": [
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "question": "Hours of office being open?",
+            "options": [
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "question": "Ease of finding office with building signage?",
+            "options": [
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 5,
+            "question": "Office environment clean and pleasing?",
+            "options": [
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 6,
+            "question": "Patient lobby providing comfort and safety?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 7,
+            "question": "Maintaining privacy and confidentiality?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 8,
+            "question": "Amenities of the reception lobby?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 9,
+            "question": "Keeping you informed during your wait?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 10,
+            "question": "Treating you with courtesy and respect?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 11,
+            "question": "Providing you with the information you needed?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 12,
+            "question": "Treating you with courtesy and respect?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 13,
+            "question": "Accommodating your needs in making appointments?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 14,
+            "question": "Answering your questions and concerns?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 15,
+            "question": "Assisting you with completing registration and forms?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 16,
+            "question": "Providing you with explanations of billing?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 17,
+            "question": "Treating you with courtesy and respect?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 18,
+            "question": "Providing you with information needed to understand your condition and treatment options?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 19,
+            "question": "Providing any educational brochures?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 22,
+            "question": "Listening to your concerns?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 20,
+            "question": "Showing empathy?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 21,
+            "question": "Providing enough time for the visit?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 23,
+            "question": "Providing the quality of care you were seeking?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 24,
+            "question": "Providing confidence in their <b><u>clinical knowledge</u></b>?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 25,
+            "question": "Providing confidence in their <b><u>clinical skills</u></b> during your treatment?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 26,
+            "question": "Time from initial call to appointment date?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 27,
+            "question": "Front reception lobby?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Excellent"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Very Good"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Average"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Fair"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Poor"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Not Applicable"
+                }
+            ]
+        },
+        {
+            "questionId": 28,
+            "question": "Would you recommend the therapy center to others?",
+            "options": [
+                {
+                    "percent": "33.33",
+                    "count": 1,
+                    "option": "Yes"
+                },
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "No"
+                }
+            ]
+        },
+        {
+            "questionId": 4045000,
+            "question": "Who is your referring physician?",
+            "options": [
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Free Form Text"
+                }
+            ]
+        },
+        {
+            "questionId": 4042000,
+            "question": "What is your name?",
+            "options": [
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Free Form Text"
+                }
+            ]
+        },
+        {
+            "questionId": 4039000,
+            "question": "Your comments:",
+            "options": [
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Free Form Text"
+                }
+            ]
+        },
+        {
+            "questionId": 4040000,
+            "question": "Please give us your email address so we can keep you informed:",
+            "options": [
+                {
+                    "percent": "0.00",
+                    "count": 0,
+                    "option": "Free Form Text"
+                }
+            ]
+        }
+    ],
+    "period": {
+        "to": "2013-08-01 23:59:59",
+        "from": "2012-08-02 00:00:00"
+    }
+}

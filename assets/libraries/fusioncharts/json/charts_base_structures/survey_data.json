@@ -1,0 +1,25 @@
+{
+    "chart": {
+    	"animation": "0",
+        "bgcolor": "FFFFFF",
+        "pieBorderThickness": "0.8",
+        "usehovercolor": "1",
+        "hover": "F660AB",
+        "hoverfillcolor": "F660AB",
+        "showLabels": "1",
+        "labelDisplay": "wrap",
+        "showValuesInTooltip": "0",
+        "showBorder": "0",
+        "enableSmartLabels": "1",
+        "baseFontSize": "14",
+        "baseFontColor" : "#333333",
+        "showLegend": "0",
+        "legendPosition": "BOTTOM",
+        "legendNumColumns": "4",
+        "showTooltipforWrappedLabels": "1",
+        "animation": "0",
+        "valueFontBold": "1",
+        "valueFontSize": "14"
+    },
+    "category": []
+}

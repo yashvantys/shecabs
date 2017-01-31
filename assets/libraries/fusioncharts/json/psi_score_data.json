@@ -1,0 +1,144 @@
+{
+   "status":{
+      "message":"Success",
+      "code":200
+   },
+   "data":[
+      {
+         "tick":"May 26",
+         "color":"#0ddc00",
+         "documents":36,
+         "insights":1003,
+         "score":"4.9",
+         "negative":1,
+         "neutral":13,
+         "positive":989,
+         "tagColor":"0X0ddc00"
+      },
+      {
+         "tick":"Jun 02",
+         "color":"#20dc00",
+         "documents":22,
+         "insights":590,
+         "score":"4.7",
+         "negative":6,
+         "neutral":29,
+         "positive":555,
+         "tagColor":"0X20dc00"
+      },
+      {
+         "tick":"Jun 09",
+         "color":"#1adc00",
+         "documents":21,
+         "insights":531,
+         "score":"4.7",
+         "negative":4,
+         "neutral":24,
+         "positive":503,
+         "tagColor":"0X1adc00"
+      },
+      {
+         "tick":"Jun 16",
+         "color":"#ffc300",
+         "documents":36,
+         "insights":600,
+         "score":"2.2",
+         "negative":297,
+         "neutral":110,
+         "positive":193,
+         "tagColor":"0Xffc300"
+      },
+      {
+         "tick":"Jun 23",
+         "color":"#aaaaaa",
+         "documents":0,
+         "insights":0,
+         "score":0,
+         "negative":0,
+         "neutral":0,
+         "positive":0,
+         "tagColor":"0xaaaaaa"
+      },
+      {
+         "tick":"Jun 30",
+         "color":"#aaaaaa",
+         "documents":0,
+         "insights":0,
+         "score":0,
+         "negative":0,
+         "neutral":0,
+         "positive":0,
+         "tagColor":"0xaaaaaa"
+      },
+      {
+         "tick":"Jul 07",
+         "color":"#aaaaaa",
+         "documents":0,
+         "insights":0,
+         "score":0,
+         "negative":0,
+         "neutral":0,
+         "positive":0,
+         "tagColor":"0xaaaaaa"
+      },
+      {
+         "tick":"Jul 14",
+         "color":"#aaaaaa",
+         "documents":0,
+         "insights":0,
+         "score":0,
+         "negative":0,
+         "neutral":0,
+         "positive":0,
+         "tagColor":"0xaaaaaa"
+      },
+      {
+         "tick":"Jul 21",
+         "color":"#aaaaaa",
+         "documents":0,
+         "insights":0,
+         "score":0,
+         "negative":0,
+         "neutral":0,
+         "positive":0,
+         "tagColor":"0xaaaaaa"
+      },
+      {
+         "tick":"Jul 28",
+         "color":"#ffcc00",
+         "documents":2,
+         "insights":7,
+         "score":"2.3",
+         "negative":2,
+         "neutral":3,
+         "positive":2,
+         "tagColor":"0Xffcc00"
+      },
+      {
+         "tick":"Aug 04",
+         "color":"#96dc00",
+         "documents":9,
+         "insights":17,
+         "score":"3.5",
+         "negative":5,
+         "neutral":0,
+         "positive":12,
+         "tagColor":"0X96dc00"
+      },
+      {
+         "tick":"Aug 11",
+         "color":"#aaaaaa",
+         "documents":0,
+         "insights":0,
+         "score":0,
+         "negative":0,
+         "neutral":0,
+         "positive":0,
+         "tagColor":"0xaaaaaa"
+      }
+   ],
+   "period":{
+      "to":"2013-08-12 23:59:59",
+      "from":"2013-05-21 00:00:00"
+   }
+}

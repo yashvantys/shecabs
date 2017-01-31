@@ -1,0 +1,28 @@
+{
+    "status": {
+        "message": "success",
+        "code": 200
+    },
+    "period": {
+        "to": "2012-06-25 23:59:59",
+        "from": "2012-01-01 00:00:00"
+    },
+    "reviews": "positive",
+    "reviews_list": [
+        {
+            "source": "RateMDs",
+            "Date": "2012-01-14",
+            "comment": "Dr. Diamond is truly compassionate and caring. She listens closely and asks pertinent questions, while encouraging and empowering her patient. Amazing and wonderful!! I&apos;m grateful to have found her. \n Blue Cross / Blue Shield"
+        },
+        {
+            "source": "RateMDs",
+            "Date": "2012-06-22",
+            "comment": "Dr. Diamond gave me my life back! I’ve seen her for lupus the past 1.5 years. She is extremely well-educated on the subject, educates me on the treatment options, and is always encouraging when I need it most. She&apos;s a conservative doctor in terms of making a diagnosis in a complicated case like mine, but I appreciate her thoroughness. I refer all of my lupus support group friends to her and they have the same rave reviews. Diamond caught one of my friend’s kidney failure that another rheum missed for years. Diamond also found another friend was in remission and didn’t need the intense drugs another rheum had her on. I can&apos;t speak highly enough of her. The office staff are also wonderful. Very helpful, efficient, and the nurses can even make an IV infusion seem not so bad. They&apos;re usually quick to get me copies of labs & records too. I’ve had some recent challenges, as is common with lupus, and Dr. Diamond said “I’m never giving up.” So thankful to have an advocate like her in my court! \n Blue Cross / Blue Shield"
+        },
+        {
+            "source": "Angie's List",
+            "Date": "2012-06-15",
+            "comment": "Dr. Diamond is a wonderful doctor. She listens and she truly wants to find the best way to manage the disease and the pain."
+        }
+    ]
+}

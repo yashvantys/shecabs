@@ -1,0 +1,516 @@
+ {
+       "status":
+       {
+           "message": "Success",
+           "code": 200
+       },
+       "data":
+       {
+           "Facebook":
+           [
+               {
+                   "name": "Oct",
+                   "data":
+                   {
+                       "color": "#00007A",
+                       "insights": "325",
+                       "score": "3.6",
+                       "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Nov",
+                   "data":
+                   {
+                       "color": "#00007A",
+                       "insights": "325",
+                       "score": "3.5",
+                       "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Dec",
+                   "data":
+                   {
+                       "color": "#00007A",
+                       "insights": "325",
+                       "score": "3.3",
+                       "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Jan",
+                   "data":
+                   {
+                       "color": "#00007A",
+                       "insights": "325",
+                       "score": "3.8",
+                       "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Feb",
+                   "data":
+                   {
+                       "color": "#00007A",
+                       "insights": "325",
+                       "score": "3.4",
+                      "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Mar",
+                   "data":
+                   {
+                    "color": "#00007A",
+                       "insights": "325",
+                       "score": "2.7",
+                       "tagColor": "0X59dc00"
+                   }
+    			},
+               {
+                   "name": "Apl",
+                   "data":
+                   {
+                       "color": "#00007A",
+                       "insights": "325",
+                       "score": "3.8",
+                       "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "May" ,
+                   "data":
+                   {
+                       "color": "#00007A",
+                       "insights": "325",
+                       "score": "3.9",
+                   "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Jun",
+                   "data":
+                   {
+                     "color": "#00007A",
+                       "insights": "325",
+                       "score": "3.3",
+                       "tagColor": "0X59dc00"
+                   }
+            	},
+               {
+                   "name": "Jul",
+                   "data":
+                   {
+                       "color": "#00007A",
+                       "insights": "325",
+                       "score": "3.4",
+                       "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Aug",
+                   "data":
+                   {
+                       "color": "#00007A",
+                       "insights": "325",
+                       "score": "3.2",
+                    "tagColor": "0X59dc00"
+                   }
+               },
+               {
+                   "name": "Sep",
+                   "data":
+                   {
+                     "color": "#00007A",
+                       "insights": "325",
+                       "score": "2",
+                       "tagColor": "0X59dc00"
+                   }
+               }
+           ],
+       "HealthGrades":
+       [
+           {
+               "name": "Oct",
+               "data":
+               {
+                   "color": "#D63333",
+                   "insights": "325",
+                   "score": "4.3",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+         		"name": "Nov",
+               "data":
+               {
+                   "color": "#D63333",
+                   "insights": "325",
+                   "score": "3.5",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Dec",
+               "data":
+               {
+                 "color": "#D63333",
+                   "insights": "325",
+                   "score": "3.8",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jan",
+               "data":
+               {
+                   "color": "#D63333",
+                   "insights": "325",
+                   "score": "3",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Feb",
+               "data":
+               {
+           			"color": "#D63333",
+                   "insights": "325",
+                   "score": "3.7",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Mar",
+               "data":
+               {
+                   "color": "#D63333",
+                   "insights": "325",
+                   "score": "3.7",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Apl",
+               "data":
+               {
+                   "color": "#D63333",
+                   "insights": "325",
+                   "score": "4",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "May",
+               "data":
+               {
+                   "color": "#D63333",
+                   "insights": "325",
+                   "score": "4.2",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jun",
+               "data":
+               {
+                   "color": "#D63333",
+                   "insights": "325",
+                   "score": "3.8",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jul",
+               "data":
+               {
+                   "color": "#D63333",
+                   "insights": "325",
+                   "score": "3.3",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Aug",
+               "data":
+               {
+                   "color": "#D63333",
+                   "insights": "325",
+                   "score": "3.5",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Sep",
+               "data":
+               {
+                   "color": "#D63333",
+                   "insights": "325",
+                   "score": "3.2",
+                   "tagColor": "0X59dc00"
+               }
+           }
+       ],
+       "Vitals":
+       [
+           {
+               "name": "Oct",
+               "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+                   "score": "3",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Nov",
+               "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+                   "score": "3.6",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Dec",
+               "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+                   "score": "3",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jan",
+               "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+                   "score": "2.9",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Feb",
+               "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+                   "score": "3",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Mar",
+               "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+                   "score": "3.8",
+                   "tagColor": "0X59dc00"
+               }
+     		},
+           {
+               "name": "Apl",
+               "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+					"score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "May",
+               "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+                   "score": "3.3",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jun",
+               "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+                   "score": "2.5",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jul",
+               "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+                   "score": "3.8",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Aug",
+               "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+                   "score": "4.2",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Sep",
+              "data":
+               {
+                   "color": "#19A347",
+                   "insights": "325",
+                   "score": "4.1",
+                   "tagColor": "0X59dc00"
+               }
+           }
+       ],
+       "Yelp":
+       [
+           {
+               "name": "Oct",
+               "data":
+               {
+       				"color": "#6600CC",
+                   "insights": "325",
+                   "score": "3.9",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Nov",
+               "data":
+               {
+                   "color": "#6600CC",
+                   "insights": "325",
+                   "score": "3.4",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Dec",
+               "data":
+               {
+					"color": "#6600CC",
+                   "insights": "325",
+                   "score": "4",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jan",
+               "data":
+               {
+                   "color": "#6600CC",
+                   "insights": "325",
+                   "score": "2.8",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Feb",
+               "data":
+               {
+                   "color": "#6600CC",
+                   "insights": "325",
+                   "score": "3.6",
+                   "tagColor": "0X59dc00"
+               }
+          },
+           {
+               "name": "Mar",
+               "data":
+               {
+                   "color": "#6600CC",
+                   "insights": "325",
+                   "score": "3",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Apl",
+               "data":
+               {
+                   "color": "#6600CC",
+                   "insights": "325",
+                   "score": "2.8",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "May",
+               "data":
+               {
+                   "color": "#6600CC",
+                   "insights": "325",
+                   "score": "3.9",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jun",
+               "data":
+               {
+                   "color": "#6600CC",
+                   "insights": "325",
+                   "score": "2.5",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Jul",
+               "data":
+               {
+                   "color": "#6600CC",
+                   "insights": "325",
+                   "score": "2.8",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Aug",
+          		"data":
+               {
+                   "color": "#6600CC",
+                   "insights": "325",
+                   "score": "4.2",
+                   "tagColor": "0X59dc00"
+               }
+           },
+           {
+               "name": "Sep",
+               "data":
+               {
+                   "color": "#6600CC",
+                   "insights": "325",
+                   "score": "3.5",
+                   "tagColor": "0X59dc00"
+               }
+           }
+       ]
+    },
+    "pointers":
+   		[
+
+		    {
+		        "name":"dasda",
+		        "value":123
+		    },
+		    {
+		        "name":"dasda",
+		        "value":123
+		    }
+		
+		]
+    
+}

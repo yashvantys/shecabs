@@ -1,0 +1,188 @@
+/* here you can put your own css to customize and override the theme */
+.load-sprite {
+	background: url("custom/img/sprite.png?v=1.1");
+}
+
+span.client-name, span.avatar-name-details {
+	clear: both;
+	color: #3F3F3F;
+	float: left;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+span.avatar-speciality-details {
+	clear: both;
+	color: #A2A29B;
+	float: left;
+}
+
+span.avatar-address1-details {
+	clear: both;
+	color: #A2A29B;
+	float: left;
+}
+
+span.avatar-more-details {
+	clear: both;
+	color: #A2A29B;
+	float: left;
+}
+
+span.avatar-phone {
+	clear: both;
+	float: left;
+	color: #e64a00;
+}
+
+.client-link-wrapper {
+	padding: 5px;
+	background: #fafafa;
+	margin: 5px;
+	height: 50px;
+}
+
+.client-link-wrapper:HOVER {
+	background: #f1f1f1;
+}
+
+.client-link .image {
+	float: left;
+	height: 40px;
+	margin: 2px 8px;
+	width: 40px;
+	overflow: hidden;
+}
+
+.client-link .image img {
+	width: 100%;
+}
+
+a.client-link {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.search-wrapper {
+	margin-bottom: 10px;
+}
+
+.client-search-form .input-cont {
+	position: relative;
+}
+
+.client-search-form .input-cont>.fa {
+	position: absolute;
+	top: 7px;
+	right: 5px;
+	z-index: 1000;
+	cursor: pointer;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  cursor: pointer !important;
+  background-color: #eeeeee;
+}
+
+@media print {
+	* {
+		-webkit-print-color-adjust: exact;
+		-mozilla-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+	@page {
+		margin: 1cm;
+	}
+	table {
+		-fs-table-paginate: paginate;
+		border-collapse: separate;
+		border-spacing: 0;
+	}
+	thead {
+		display: table-header-group;
+	}
+	tbody {
+		display: table-row-group;
+	}
+	th {
+		box-shadow: none;
+	}
+	tr {
+		page-break-inside: avoid;
+		-webkit-region-break-inside: avoid;
+		page-break-after: auto;
+		background-clip: padding-box;
+	}
+	td {
+		background-clip: padding-box;
+	}
+	a[href]:after {
+		content: "";
+	}
+	a {
+		word-wrap: break-word;
+	}
+	.portlet.box.blue .portlet-title {
+		background: #3598dc !important;
+	}
+	.page-bar {
+		display: block !important;
+	}
+	.page-bar .breadcrumb-title {
+		display: none;
+	}
+	.client-header-row {
+		display: block;
+	}
+	.page-title {
+		float: left;
+	}
+	.client-info {
+		float: right;
+	}
+	.pdf-block-break {
+		page-break-inside: avoid;
+	}
+}
+
+.no-padding-right {
+	padding-right: 0;
+}
+
+.no-padding-left {
+	padding-left: 0;
+}
+
+.standard-title {
+    border-bottom: 1px solid #eee;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 10px;
+    min-height: 30px;
+    padding: 0;
+    font-size: 18px;
+}
+
+.standard-title.without-border{
+	border: 0px;
+}
+.no-border {
+	border: 0px !important;
+}
+.no-margin {
+	margin: 0px !important;
+}
+.dwnld-btn {
+	margin-left: 5px;
+}
+.document-count-wrapper {
+	margin: 2px;
+	margin-right:4px;
+	font-size:14px;
+}
+.document-count-wrapper>span>i{
+	margin-left: 5px;
+}
+.document-count-wrapper>span{
+	font-size:14px !important;
+}

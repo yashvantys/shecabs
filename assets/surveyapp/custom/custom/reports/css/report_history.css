@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+.feeds li .col2 {
+  float: left;
+  width: 130px;
+  margin-left: -139px;
+}
+
+.feeds li .col2 > .date {
+  padding: 4px 2px 5px 2px;
+}
+
+h4 small {
+	font-size:65%;
+}
+
+ .date + .input-group-btn > button {
+  height: 28px !important;
+}
+
+.desc > .ellipsis{
+	max-width:330px;
+	display: inline-block;
+}
+
+.reschedule-status {
+	margin-left: 5px;
+    position: relative;
+    top: -3px;
+}

@@ -1,0 +1,26 @@
+{
+    "chart": {
+        "palette": "2",
+        "caption": "PSI Comparison with previous year",
+        "showlabels": "1",
+        "showvalues": "0",
+        "numbersuffix": "%",
+        "decimals": "1",
+        "forcedecimals":"1",
+        "showborder": "1",
+        "borderColor": "4F81BD",
+        "borderThickness":"2",
+        "borderAlpha":"60",
+        "useroundedges": "1",
+        "legendborderalpha": "0",
+        "plotSpacePercent" : "0",
+        "yAxisMinValue" : "0",
+        "yAxisMaxValue" : "100"
+    },
+    "categories": [
+        {
+            "category": []
+        }
+    ],
+    "dataset": []
+}

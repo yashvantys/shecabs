@@ -1,0 +1,391 @@
+
+{
+    "status": {
+        "message": "success",
+        "code": 200
+    },
+    "data": [
+        {
+            "percentPositive": "100.0",
+            "score": "5.0",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4003",
+            "color": "#00dc00",
+            "name": "Office",
+            "insights": "2",
+            "percentNegative": "0.0",
+            "year": {
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "2",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "2",
+                    "quarter": {
+                        "2": {
+                            "color": "#000000",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "2",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "2",
+                            "tagColor": "0X000000"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "2",
+            "tagColor": "0X00dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "5.0",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4005",
+            "color": "#00dc00",
+            "name": "Loyalty",
+            "insights": "2",
+            "percentNegative": "0.0",
+            "year": {
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "2",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "2",
+                    "quarter": {
+                        "2": {
+                            "color": "#000000",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "2",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "2",
+                            "tagColor": "0X000000"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "2",
+            "tagColor": "0X00dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "5.0",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4010",
+            "color": "#00dc00",
+            "name": "Scheduling",
+            "insights": "1",
+            "percentNegative": "0.0",
+            "year": {
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "1",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "1",
+                    "quarter": {
+                        "2": {
+                            "color": "#000000",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X000000"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "1",
+            "tagColor": "0X00dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "5.0",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4014",
+            "color": "#00dc00",
+            "name": "Getting Timely Care",
+            "insights": "1",
+            "percentNegative": "0.0",
+            "year": {
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "1",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "1",
+                    "quarter": {
+                        "2": {
+                            "color": "#000000",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X000000"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "1",
+            "tagColor": "0X00dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "5.0",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4016",
+            "color": "#00dc00",
+            "name": "Helps Patients Undestand",
+            "insights": "1",
+            "percentNegative": "0.0",
+            "year": {
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "1",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "1",
+                    "quarter": {
+                        "2": {
+                            "color": "#000000",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X000000"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "1",
+            "tagColor": "0X00dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "5.0",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4017",
+            "color": "#00dc00",
+            "name": "Listens & Answers Questions",
+            "insights": "1",
+            "percentNegative": "0.0",
+            "year": {
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "1",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "1",
+                    "quarter": {
+                        "2": {
+                            "color": "#000000",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X000000"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "1",
+            "tagColor": "0X00dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "5.0",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4018",
+            "color": "#00dc00",
+            "name": "Time Spent with Patient",
+            "insights": "1",
+            "percentNegative": "0.0",
+            "year": {
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "1",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "1",
+                    "quarter": {
+                        "2": {
+                            "color": "#000000",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X000000"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "1",
+            "tagColor": "0X00dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "5.0",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4026",
+            "color": "#00dc00",
+            "name": "facilities/Environment",
+            "insights": "1",
+            "percentNegative": "0.0",
+            "year": {
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "1",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "1",
+                    "quarter": {
+                        "2": {
+                            "color": "#000000",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X000000"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "1",
+            "tagColor": "0X00dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "5.0",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4039",
+            "color": "#00dc00",
+            "name": "Likely to Recommend",
+            "insights": "1",
+            "percentNegative": "0.0",
+            "year": {
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "1",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "1",
+                    "quarter": {
+                        "2": {
+                            "color": "#000000",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X000000"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "1",
+            "tagColor": "0X00dc00"
+        }
+    ],
+    "period": {
+        "to": "2012-07-30 00:00:00",
+        "from": "2013-07-29 00:00:00"
+    }
+} 

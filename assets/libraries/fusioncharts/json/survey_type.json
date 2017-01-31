@@ -1,0 +1,22 @@
+{
+    "StatusCode": "200",
+    "StatusText": "Success.",
+    "survey_types": [
+        {
+            "id": 1,
+            "name": "Survey type 1"
+        },
+        {
+            "id": 2,
+            "name": "Survey type 2"
+        },
+        {
+            "id": 3,
+            "name": "Survey type 3"
+        },
+        {
+            "id": 4,
+            "name": "Survey type 4"
+        }
+    ]
+}

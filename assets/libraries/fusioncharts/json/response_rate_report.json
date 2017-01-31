@@ -1,0 +1,617 @@
+{
+   "status":{
+      "message":"success",
+      "code":200
+   },
+   "data":[
+      {
+         "engageCount":"21",
+         "avatarType":"Location",
+         "groupName":"Camden C",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"13",
+               "percentage":92.85714285714286,
+               "sourceName":"Yelp",
+               "reviewCount":"14"
+            },
+            {
+               "engageCount":"2",
+               "percentage":50,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"4"
+            },
+            {
+               "engageCount":"6",
+               "percentage":75,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"8"
+            }
+         ],
+         "percentage":80.76923076923077,
+         "location":"Camden Addison",
+         "reviewCount":"26",
+         "locationId":"841"
+      },
+      {
+         "engageCount":"34",
+         "avatarType":"Location",
+         "groupName":"Camden C",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"4",
+               "percentage":57.142857142857146,
+               "sourceName":"Yelp",
+               "reviewCount":"7"
+            },
+            {
+               "engageCount":"14",
+               "percentage":77.77777777777777,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"18"
+            },
+            {
+               "engageCount":"16",
+               "percentage":94.11764705882354,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"17"
+            }
+         ],
+         "percentage":80.95238095238095,
+         "location":"Camden Amber Oaks",
+         "reviewCount":"42",
+         "locationId":"863"
+      },
+      {
+         "engageCount":"10",
+         "avatarType":"Location",
+         "groupName":"Camden C",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"0",
+               "percentage":0,
+               "sourceName":"Yelp",
+               "reviewCount":"1"
+            },
+            {
+               "engageCount":"1",
+               "percentage":50,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"2"
+            },
+            {
+               "engageCount":"9",
+               "percentage":25.714285714285715,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"35"
+            }
+         ],
+         "percentage":26.31578947368421,
+         "location":"Camden Asbury Village",
+         "reviewCount":"38",
+         "locationId":"873"
+      },
+      {
+         "engageCount":"7",
+         "avatarType":"Location",
+         "groupName":"Camden B",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"3",
+               "percentage":60,
+               "sourceName":"Yelp",
+               "reviewCount":"5"
+            },
+            {
+               "engageCount":"1",
+               "percentage":100,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"1"
+            },
+            {
+               "engageCount":"3",
+               "percentage":100,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"3"
+            }
+         ],
+         "percentage":77.77777777777777,
+         "location":"Camden Ashburn Farm",
+         "reviewCount":"9",
+         "locationId":"928"
+      },
+      {
+         "engageCount":"0",
+         "avatarType":"Location",
+         "groupName":"Camden A",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"0",
+               "percentage":"--",
+               "sourceName":"Yelp",
+               "reviewCount":"0"
+            },
+            {
+               "engageCount":"0",
+               "percentage":0,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"4"
+            },
+            {
+               "engageCount":"0",
+               "percentage":0,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"8"
+            }
+         ],
+         "percentage":0,
+         "location":"Camden Aventura",
+         "reviewCount":"12",
+         "locationId":"875"
+      },
+      {
+         "engageCount":"25",
+         "avatarType":"Location",
+         "groupName":"Camden A",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"13",
+               "percentage":100,
+               "sourceName":"Yelp",
+               "reviewCount":"13"
+            },
+            {
+               "engageCount":"2",
+               "percentage":50,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"4"
+            },
+            {
+               "engageCount":"10",
+               "percentage":90.9090909090909,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"11"
+            }
+         ],
+         "percentage":89.28571428571429,
+         "location":"Camden Ballantyne",
+         "reviewCount":"28",
+         "locationId":"884"
+      },
+      {
+         "engageCount":"34",
+         "avatarType":"Location",
+         "groupName":"Camden A",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"13",
+               "percentage":86.66666666666667,
+               "sourceName":"Yelp",
+               "reviewCount":"15"
+            },
+            {
+               "engageCount":"5",
+               "percentage":62.5,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"8"
+            },
+            {
+               "engageCount":"16",
+               "percentage":64,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"25"
+            }
+         ],
+         "percentage":70.83333333333333,
+         "location":"Camden Bay",
+         "reviewCount":"48",
+         "locationId":"900"
+      },
+      {
+         "engageCount":"11",
+         "avatarType":"Location",
+         "groupName":"Camden A",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"4",
+               "percentage":100,
+               "sourceName":"Yelp",
+               "reviewCount":"4"
+            },
+            {
+               "engageCount":"6",
+               "percentage":54.54545454545455,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"11"
+            },
+            {
+               "engageCount":"1",
+               "percentage":3.3333333333333335,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"30"
+            }
+         ],
+         "percentage":24.444444444444443,
+         "location":"Camden Bayside",
+         "reviewCount":"45",
+         "locationId":"903"
+      },
+      {
+         "engageCount":"9",
+         "avatarType":"Location",
+         "groupName":"Camden C",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"4",
+               "percentage":50,
+               "sourceName":"Yelp",
+               "reviewCount":"8"
+            },
+            {
+               "engageCount":"0",
+               "percentage":0,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"4"
+            },
+            {
+               "engageCount":"5",
+               "percentage":55.55555555555556,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"9"
+            }
+         ],
+         "percentage":42.857142857142854,
+         "location":"Camden Bel Air",
+         "reviewCount":"21",
+         "locationId":"897"
+      },
+      {
+         "engageCount":"9",
+         "avatarType":"Location",
+         "groupName":"Camden C",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"4",
+               "percentage":50,
+               "sourceName":"Yelp",
+               "reviewCount":"8"
+            },
+            {
+               "engageCount":"0",
+               "percentage":0,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"1"
+            },
+            {
+               "engageCount":"5",
+               "percentage":45.45454545454545,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"11"
+            }
+         ],
+         "percentage":45,
+         "location":"Camden Belleview Station",
+         "reviewCount":"20",
+         "locationId":"959"
+      },
+      {
+         "engageCount":"21",
+         "avatarType":"Location",
+         "groupName":"Camden B",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"19",
+               "percentage":100,
+               "sourceName":"Yelp",
+               "reviewCount":"19"
+            },
+            {
+               "engageCount":"1",
+               "percentage":100,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"1"
+            },
+            {
+               "engageCount":"1",
+               "percentage":50,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"2"
+            }
+         ],
+         "percentage":95.45454545454545,
+         "location":"Camden Belmont",
+         "reviewCount":"22",
+         "locationId":"842"
+      },
+      {
+         "engageCount":"17",
+         "avatarType":"Location",
+         "groupName":"Camden B",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"8",
+               "percentage":100,
+               "sourceName":"Yelp",
+               "reviewCount":"8"
+            },
+            {
+               "engageCount":"2",
+               "percentage":100,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"2"
+            },
+            {
+               "engageCount":"7",
+               "percentage":77.77777777777777,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"9"
+            }
+         ],
+         "percentage":89.47368421052632,
+         "location":"Camden Breakers",
+         "reviewCount":"19",
+         "locationId":"1010"
+      },
+      {
+         "engageCount":"4",
+         "avatarType":"Location",
+         "groupName":"Camden A",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"0",
+               "percentage":"--",
+               "sourceName":"Yelp",
+               "reviewCount":"0"
+            },
+            {
+               "engageCount":"0",
+               "percentage":0,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"3"
+            },
+            {
+               "engageCount":"4",
+               "percentage":20,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"20"
+            }
+         ],
+         "percentage":17.391304347826086,
+         "location":"Camden Breeze",
+         "reviewCount":"23",
+         "locationId":"899"
+      },
+      {
+         "engageCount":"0",
+         "avatarType":"Location",
+         "groupName":"Camden B",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"0",
+               "percentage":0,
+               "sourceName":"Yelp",
+               "reviewCount":"11"
+            },
+            {
+               "engageCount":"0",
+               "percentage":0,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"3"
+            },
+            {
+               "engageCount":"0",
+               "percentage":0,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"3"
+            }
+         ],
+         "percentage":0,
+         "location":"Camden Brickell",
+         "reviewCount":"17",
+         "locationId":"876"
+      },
+      {
+         "engageCount":"7",
+         "avatarType":"Location",
+         "groupName":"Camden A",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"3",
+               "percentage":75,
+               "sourceName":"Yelp",
+               "reviewCount":"4"
+            },
+            {
+               "engageCount":"1",
+               "percentage":50,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"2"
+            },
+            {
+               "engageCount":"3",
+               "percentage":42.857142857142854,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"7"
+            }
+         ],
+         "percentage":53.84615384615385,
+         "location":"Camden Brookwood",
+         "reviewCount":"13",
+         "locationId":"993"
+      },
+      {
+         "engageCount":"18",
+         "avatarType":"Location",
+         "groupName":"Camden A",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"0",
+               "percentage":"--",
+               "sourceName":"Yelp",
+               "reviewCount":"0"
+            },
+            {
+               "engageCount":"1",
+               "percentage":100,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"1"
+            },
+            {
+               "engageCount":"17",
+               "percentage":94.44444444444444,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"18"
+            }
+         ],
+         "percentage":94.73684210526316,
+         "location":"Camden Brushy Creek",
+         "reviewCount":"19",
+         "locationId":"864"
+      },
+      {
+         "engageCount":"8",
+         "avatarType":"Location",
+         "groupName":"Camden C",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"3",
+               "percentage":100,
+               "sourceName":"Yelp",
+               "reviewCount":"3"
+            },
+            {
+               "engageCount":"1",
+               "percentage":50,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"2"
+            },
+            {
+               "engageCount":"4",
+               "percentage":80,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"5"
+            }
+         ],
+         "percentage":80,
+         "location":"Camden Buckingham",
+         "reviewCount":"10",
+         "locationId":"843"
+      },
+      {
+         "engageCount":"3",
+         "avatarType":"Location",
+         "groupName":"Camden C",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"1",
+               "percentage":100,
+               "sourceName":"Yelp",
+               "reviewCount":"1"
+            },
+            {
+               "engageCount":"0",
+               "percentage":"--",
+               "sourceName":"Rent Advisor",
+               "reviewCount":"0"
+            },
+            {
+               "engageCount":"2",
+               "percentage":28.571428571428573,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"7"
+            }
+         ],
+         "percentage":37.5,
+         "location":"Camden Caley",
+         "reviewCount":"8",
+         "locationId":"960"
+      },
+      {
+         "engageCount":"4",
+         "avatarType":"Location",
+         "groupName":"Camden B",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"0",
+               "percentage":0,
+               "sourceName":"Yelp",
+               "reviewCount":"2"
+            },
+            {
+               "engageCount":"0",
+               "percentage":0,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"1"
+            },
+            {
+               "engageCount":"4",
+               "percentage":50,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"8"
+            }
+         ],
+         "percentage":36.36363636363637,
+         "location":"Camden Canyon",
+         "reviewCount":"11",
+         "locationId":"901"
+      },
+      {
+         "engageCount":"5",
+         "avatarType":"Location",
+         "groupName":"Camden A",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"1",
+               "percentage":20,
+               "sourceName":"Yelp",
+               "reviewCount":"5"
+            },
+            {
+               "engageCount":"2",
+               "percentage":50,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"4"
+            },
+            {
+               "engageCount":"2",
+               "percentage":40,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"5"
+            }
+         ],
+         "percentage":35.714285714285715,
+         "location":"Camden Cedar Hills",
+         "reviewCount":"14",
+         "locationId":"865"
+      },
+      {
+         "engageCount":"8",
+         "avatarType":"Location",
+         "groupName":"Camden B",
+         "sourceBaseCounts":[
+            {
+               "engageCount":"2",
+               "percentage":100,
+               "sourceName":"Yelp",
+               "reviewCount":"2"
+            },
+            {
+               "engageCount":"2",
+               "percentage":66.66666666666667,
+               "sourceName":"Rent Advisor",
+               "reviewCount":"3"
+            },
+            {
+               "engageCount":"4",
+               "percentage":44.44444444444444,
+               "sourceName":"Apartment Ratings",
+               "reviewCount":"9"
+            }
+         ],
+         "percentage":57.142857142857146,
+         "location":"Camden Centreport",
+         "reviewCount":"14",
+         "locationId":"844"
+      }
+   ]
+}

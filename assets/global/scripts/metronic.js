@@ -11,7 +11,7 @@ var Metronic = function() {
 
     var resizeHandlers = [];
 
-    var assetsPath = shecabs.asset_url;
+    var assetsPath = Shecabs.asset_url;
 
     var globalImgPath = 'global/img/';
 

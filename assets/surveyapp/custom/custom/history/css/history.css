@@ -1,0 +1,51 @@
+.tbl-schedule-list tbody tr >td {
+  white-space:nowrap !important
+}
+
+
+.subscription-wrapper {
+	border: 1px dotted #C7C7C7;
+    margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.subscription-wrapper legend{
+    height: 35px;
+    width: 277px;
+    margin-left: 5px;
+}
+
+.subscription-wrapper legend span {
+	background: #A9A9A9;
+	height: 35px;
+    width: 277px;
+    padding-left: 33px;
+    padding-top: 2px;
+    display: block;
+    color: #5f5f5f;
+}
+
+#accordion3 .table-responsive {
+	overflow-x: initial !important;
+}
+
+.none-white-form .form-body {
+    background: initial !important;
+	box-shadow: initial !important;    
+	padding: 0px !important;
+}
+
+.confirmDelete {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    background: #fff;
+    padding: 20px;
+    margin: 0px;
+}
+
+.add_user_submit {
+	margin-left: 15px;
+}
+
+.cancel_user_submit {
+	margin-left: 5px;
+}

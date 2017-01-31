@@ -1,0 +1,28 @@
+{
+    "chart": {
+        "bgcolor": "FFFFFF",
+        "plotgradientcolor": "",
+        "showalternatehgridcolor": "0",
+        "showplotborder": "0",
+        "divlinecolor": "CCCCCC",
+        "showvalues": "0",
+        "showcanvasborder": "0",
+        "canvasborderalpha": "0",
+        "legendshadow": "0",
+        "legendborderalpha": "0",
+        "showborder": "0",
+        "canvasBorderColor": "CCCCCC",
+        "canvasBorderThickness": "1",
+        "canvasBorderAlpha": "80",
+        "lineThickness": "4",
+        "labelDisplay": "WRAP",
+        "legendNumColumns": "4",
+        "sNumberSuffix": "%"
+    },
+    "categories": [
+        {
+            "category": []
+        }
+    ],
+    "dataset": []
+}

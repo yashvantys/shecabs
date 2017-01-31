@@ -1,0 +1,9 @@
+.hootsuite-title {
+	font-size: 1.6em;
+	margin-top: 0px;
+}
+.hootsuite-settings {
+	cursor: pointer;
+	font-size: 1.6em;
+}
+.radio-list label{float:left;}

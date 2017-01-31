@@ -1,0 +1,2413 @@
+{
+    "status": {
+        "message": "success",
+        "code": 200
+    },
+    "data": [
+        {
+            "percentPositive": "85.483870967742",
+            "score": "4.0",
+            "percentNeutral": "8.064516129032",
+            "neutral": "5",
+            "id": "4001",
+            "color": "#68dc00",
+            "name": "Access",
+            "parent_category": "0",
+            "insights": "62",
+            "percentNegative": "6.451612903226",
+            "year": {
+                "2012": {
+                    "color": "#63dc00",
+                    "percentPositive": "94.444444444444",
+                    "percentNegative": "0.0",
+                    "insights": "36",
+                    "score": "4.0",
+                    "percentNeutral": "5.555555555556",
+                    "negative": "0",
+                    "neutral": "2",
+                    "positive": "34",
+                    "quarter": {
+                        "2": {
+                            "color": "#63dc00",
+                            "percentPositive": "94.444444444444",
+                            "percentNegative": "0.0",
+                            "insights": "36",
+                            "score": "4.0",
+                            "percentNeutral": "5.555555555556",
+                            "negative": "0",
+                            "neutral": "2",
+                            "positive": "34",
+                            "tagColor": "0X63dc00"
+                        }
+                    },
+                    "tagColor": "0X63dc00"
+                },
+                "2013": {
+                    "color": "#4bdc00",
+                    "percentPositive": "80.952380952381",
+                    "percentNegative": "9.52380952381",
+                    "insights": "21",
+                    "score": "4.3",
+                    "percentNeutral": "9.52380952381",
+                    "negative": "2",
+                    "neutral": "2",
+                    "positive": "17",
+                    "quarter": {
+                        "1": {
+                            "color": "#badc00",
+                            "percentPositive": "33.333333333333",
+                            "percentNegative": "0.0",
+                            "insights": "3",
+                            "score": "3.2",
+                            "percentNeutral": "66.666666666667",
+                            "negative": "0",
+                            "neutral": "2",
+                            "positive": "1",
+                            "tagColor": "0Xbadc00"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "3",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "3",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "color": "#ff9200",
+                            "percentPositive": "33.333333333333",
+                            "percentNegative": "66.666666666667",
+                            "insights": "3",
+                            "score": "1.7",
+                            "percentNeutral": "0.0",
+                            "negative": "2",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0Xff9200"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "12",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "12",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X4bdc00"
+                },
+                "2014": {
+                    "color": "#ffd300",
+                    "percentPositive": "40.0",
+                    "percentNegative": "40.0",
+                    "insights": "5",
+                    "score": "2.4",
+                    "percentNeutral": "20.0",
+                    "negative": "2",
+                    "neutral": "1",
+                    "positive": "2",
+                    "quarter": {
+                        "1": {
+                            "color": "#ffd300",
+                            "percentPositive": "40.0",
+                            "percentNegative": "40.0",
+                            "insights": "5",
+                            "score": "2.4",
+                            "percentNeutral": "20.0",
+                            "negative": "2",
+                            "neutral": "1",
+                            "positive": "2",
+                            "tagColor": "0Xffd300"
+                        }
+                    },
+                    "tagColor": "0Xffd300"
+                }
+            },
+            "negative": "4",
+            "positive": "53",
+            "tagColor": "0X68dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "4.4",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4011",
+            "color": "#39dc00",
+            "name": "Appointments",
+            "parent_category": "4001",
+            "insights": "22",
+            "percentNegative": "0.0",
+            "year": {
+                "2012": {
+                    "color": "#5bdc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "14",
+                    "score": "4.1",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "14",
+                    "quarter": {
+                        "2": {
+                            "color": "#5bdc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "14",
+                            "score": "4.1",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "14",
+                            "tagColor": "0X5bdc00"
+                        }
+                    },
+                    "tagColor": "0X5bdc00"
+                },
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "8",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "8",
+                    "quarter": {
+                        "1": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "5",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "5",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                },
+                "2014": {
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "0",
+                    "score": "--",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    }
+                }
+            },
+            "negative": "0",
+            "positive": "22",
+            "tagColor": "0X39dc00"
+        },
+        {
+            "percentPositive": "82.352941176471",
+            "score": "3.7",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4021",
+            "color": "#87dc00",
+            "name": "Clinical Staff",
+            "parent_category": "4002",
+            "insights": "17",
+            "percentNegative": "17.647058823529",
+            "year": {
+                "2012": {
+                    "color": "#7fdc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "6",
+                    "score": "3.8",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "6",
+                    "quarter": {
+                        "2": {
+                            "color": "#7fdc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "6",
+                            "score": "3.8",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "6",
+                            "tagColor": "0X7fdc00"
+                        }
+                    },
+                    "tagColor": "0X7fdc00"
+                },
+                "2013": {
+                    "color": "#8bdc00",
+                    "percentPositive": "72.727272727273",
+                    "percentNegative": "27.272727272727",
+                    "insights": "11",
+                    "score": "3.6",
+                    "percentNeutral": "0.0",
+                    "negative": "3",
+                    "neutral": "0",
+                    "positive": "8",
+                    "quarter": {
+                        "1": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "2",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "2",
+                            "tagColor": "0X00dc00"
+                        },
+                        "4": {
+                            "color": "#dadc00",
+                            "percentPositive": "57.142857142857",
+                            "percentNegative": "42.857142857143",
+                            "insights": "7",
+                            "score": "2.9",
+                            "percentNeutral": "0.0",
+                            "negative": "3",
+                            "neutral": "0",
+                            "positive": "4",
+                            "tagColor": "0Xdadc00"
+                        }
+                    },
+                    "tagColor": "0X8bdc00"
+                },
+                "2014": {
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "0",
+                    "score": "--",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    }
+                }
+            },
+            "negative": "3",
+            "positive": "14",
+            "tagColor": "0X87dc00"
+        },
+        {
+            "percentPositive": "90.0",
+            "score": "4.2",
+            "percentNeutral": "2.5",
+            "neutral": "3",
+            "id": "4002",
+            "color": "#53dc00",
+            "name": "Communication",
+            "parent_category": "0",
+            "insights": "120",
+            "percentNegative": "7.5",
+            "year": {
+                "2012": {
+                    "color": "#51dc00",
+                    "percentPositive": "96.428571428571",
+                    "percentNegative": "0.0",
+                    "insights": "56",
+                    "score": "4.2",
+                    "percentNeutral": "3.571428571429",
+                    "negative": "0",
+                    "neutral": "2",
+                    "positive": "54",
+                    "quarter": {
+                        "2": {
+                            "color": "#51dc00",
+                            "percentPositive": "96.428571428571",
+                            "percentNegative": "0.0",
+                            "insights": "56",
+                            "score": "4.2",
+                            "percentNeutral": "3.571428571429",
+                            "negative": "0",
+                            "neutral": "2",
+                            "positive": "54",
+                            "tagColor": "0X51dc00"
+                        }
+                    },
+                    "tagColor": "0X51dc00"
+                },
+                "2013": {
+                    "color": "#5ddc00",
+                    "percentPositive": "81.481481481481",
+                    "percentNegative": "16.666666666667",
+                    "insights": "54",
+                    "score": "4.1",
+                    "percentNeutral": "1.851851851852",
+                    "negative": "9",
+                    "neutral": "1",
+                    "positive": "44",
+                    "quarter": {
+                        "1": {
+                            "color": "#44dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "3",
+                            "score": "4.3",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "3",
+                            "tagColor": "0X44dc00"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "3",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "3",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "color": "#84dc00",
+                            "percentPositive": "72.0",
+                            "percentNegative": "24.0",
+                            "insights": "25",
+                            "score": "3.7",
+                            "percentNeutral": "4.0",
+                            "negative": "6",
+                            "neutral": "1",
+                            "positive": "18",
+                            "tagColor": "0X84dc00"
+                        },
+                        "4": {
+                            "color": "#42dc00",
+                            "percentPositive": "86.95652173913",
+                            "percentNegative": "13.04347826087",
+                            "insights": "23",
+                            "score": "4.3",
+                            "percentNeutral": "0.0",
+                            "negative": "3",
+                            "neutral": "0",
+                            "positive": "20",
+                            "tagColor": "0X42dc00"
+                        }
+                    },
+                    "tagColor": "0X5ddc00"
+                },
+                "2014": {
+                    "color": "#20dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "10",
+                    "score": "4.7",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "10",
+                    "quarter": {
+                        "1": {
+                            "color": "#20dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "10",
+                            "score": "4.7",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "10",
+                            "tagColor": "0X20dc00"
+                        }
+                    },
+                    "tagColor": "0X20dc00"
+                }
+            },
+            "negative": "9",
+            "positive": "108",
+            "tagColor": "0X53dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "5.0",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4037",
+            "color": "#00dc00",
+            "name": "Diagnosis",
+            "parent_category": "4004",
+            "insights": "9",
+            "percentNegative": "0.0",
+            "year": {
+                "2012": {
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "0",
+                    "score": "--",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    }
+                },
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "7",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "7",
+                    "quarter": {
+                        "1": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "4",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "4",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                },
+                "2014": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "2",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "2",
+                    "quarter": {
+                        "1": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "2",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "2",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "9",
+            "tagColor": "0X00dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "4.5",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4026",
+            "color": "#36dc00",
+            "name": "Facilities/Environment",
+            "parent_category": "4003",
+            "insights": "8",
+            "percentNegative": "0.0",
+            "year": {
+                "2012": {
+                    "color": "#5fdc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "4",
+                    "score": "4.1",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "4",
+                    "quarter": {
+                        "2": {
+                            "color": "#5fdc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "4",
+                            "score": "4.1",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "4",
+                            "tagColor": "0X5fdc00"
+                        }
+                    },
+                    "tagColor": "0X5fdc00"
+                },
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "3",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "3",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "3": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "2",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "2",
+                            "tagColor": "0X00dc00"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                },
+                "2014": {
+                    "color": "#33dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "1",
+                    "score": "4.5",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "1",
+                    "quarter": {
+                        "1": {
+                            "color": "#33dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "4.5",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X33dc00"
+                        }
+                    },
+                    "tagColor": "0X33dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "8",
+            "tagColor": "0X36dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "4.8",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4025",
+            "color": "#11dc00",
+            "name": "Follow Up",
+            "parent_category": "4002",
+            "insights": "6",
+            "percentNegative": "0.0",
+            "year": {
+                "2012": {
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "0",
+                    "score": "--",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    }
+                },
+                "2013": {
+                    "color": "#11dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "6",
+                    "score": "4.8",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "6",
+                    "quarter": {
+                        "1": {
+                            "color": "#66dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "4.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X66dc00"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "4",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "4",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X11dc00"
+                },
+                "2014": {
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "0",
+                    "score": "--",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    }
+                }
+            },
+            "negative": "0",
+            "positive": "6",
+            "tagColor": "0X11dc00"
+        },
+        {
+            "percentPositive": "73.913043478261",
+            "score": "3.7",
+            "percentNeutral": "13.04347826087",
+            "neutral": "3",
+            "id": "4014",
+            "color": "#87dc00",
+            "name": "Getting Timely Care",
+            "parent_category": "4001",
+            "insights": "23",
+            "percentNegative": "13.04347826087",
+            "year": {
+                "2012": {
+                    "color": "#5fdc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "8",
+                    "score": "4.1",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "8",
+                    "quarter": {
+                        "2": {
+                            "color": "#5fdc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "8",
+                            "score": "4.1",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "8",
+                            "tagColor": "0X5fdc00"
+                        }
+                    },
+                    "tagColor": "0X5fdc00"
+                },
+                "2013": {
+                    "color": "#59dc00",
+                    "percentPositive": "75.0",
+                    "percentNegative": "8.333333333333",
+                    "insights": "12",
+                    "score": "4.1",
+                    "percentNeutral": "16.666666666667",
+                    "negative": "1",
+                    "neutral": "2",
+                    "positive": "9",
+                    "quarter": {
+                        "1": {
+                            "color": "#ffc600",
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "2",
+                            "score": "2.2",
+                            "percentNeutral": "100.0",
+                            "negative": "0",
+                            "neutral": "2",
+                            "positive": "0",
+                            "tagColor": "0Xffc600"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "2",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "2",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "color": "#ff0000",
+                            "percentPositive": "0.0",
+                            "percentNegative": "100.0",
+                            "insights": "1",
+                            "score": "0.0",
+                            "percentNeutral": "0.0",
+                            "negative": "1",
+                            "neutral": "0",
+                            "positive": "0",
+                            "tagColor": "0Xff0000"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "7",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "7",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X59dc00"
+                },
+                "2014": {
+                    "color": "#ff4900",
+                    "percentPositive": "0.0",
+                    "percentNegative": "66.666666666667",
+                    "insights": "3",
+                    "score": "0.8",
+                    "percentNeutral": "33.333333333333",
+                    "negative": "2",
+                    "neutral": "1",
+                    "positive": "0",
+                    "quarter": {
+                        "1": {
+                            "color": "#ff4900",
+                            "percentPositive": "0.0",
+                            "percentNegative": "66.666666666667",
+                            "insights": "3",
+                            "score": "0.8",
+                            "percentNeutral": "33.333333333333",
+                            "negative": "2",
+                            "neutral": "1",
+                            "positive": "0",
+                            "tagColor": "0Xff4900"
+                        }
+                    },
+                    "tagColor": "0Xff4900"
+                }
+            },
+            "negative": "3",
+            "positive": "17",
+            "tagColor": "0X87dc00"
+        },
+        {
+            "percentPositive": "66.666666666667",
+            "score": "4.2",
+            "percentNeutral": "33.333333333333",
+            "neutral": "1",
+            "id": "4040",
+            "color": "#54dc00",
+            "name": "Likely to Come Back",
+            "parent_category": "4005",
+            "insights": "3",
+            "percentNegative": "0.0",
+            "year": {
+                "2012": {
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "0",
+                    "score": "--",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    }
+                },
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "2",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "2",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "3": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "2",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "2",
+                            "tagColor": "0X00dc00"
+                        },
+                        "4": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                },
+                "2014": {
+                    "color": "#ffdc00",
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "1",
+                    "score": "2.5",
+                    "percentNeutral": "100.0",
+                    "negative": "0",
+                    "neutral": "1",
+                    "positive": "0",
+                    "quarter": {
+                        "1": {
+                            "color": "#ffdc00",
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "2.5",
+                            "percentNeutral": "100.0",
+                            "negative": "0",
+                            "neutral": "1",
+                            "positive": "0",
+                            "tagColor": "0Xffdc00"
+                        }
+                    },
+                    "tagColor": "0Xffdc00"
+                }
+            },
+            "negative": "0",
+            "positive": "2",
+            "tagColor": "0X54dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "4.9",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4039",
+            "color": "#06dc00",
+            "name": "Likely to Recommend",
+            "parent_category": "4005",
+            "insights": "19",
+            "percentNegative": "0.0",
+            "year": {
+                "2012": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "4",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "4",
+                    "quarter": {
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "4",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "4",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                },
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "12",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "12",
+                    "quarter": {
+                        "1": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "4",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "4",
+                            "tagColor": "0X00dc00"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "6",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "6",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                },
+                "2014": {
+                    "color": "#28dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "3",
+                    "score": "4.6",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "3",
+                    "quarter": {
+                        "1": {
+                            "color": "#28dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "3",
+                            "score": "4.6",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "3",
+                            "tagColor": "0X28dc00"
+                        }
+                    },
+                    "tagColor": "0X28dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "19",
+            "tagColor": "0X06dc00"
+        },
+        {
+            "percentPositive": "70.0",
+            "score": "3.5",
+            "percentNeutral": "20.0",
+            "neutral": "2",
+            "id": "4013",
+            "color": "#99dc00",
+            "name": "Location",
+            "parent_category": "4001",
+            "insights": "10",
+            "percentNegative": "10.0",
+            "year": {
+                "2012": {
+                    "color": "#7fdc00",
+                    "percentPositive": "75.0",
+                    "percentNegative": "0.0",
+                    "insights": "8",
+                    "score": "3.8",
+                    "percentNeutral": "25.0",
+                    "negative": "0",
+                    "neutral": "2",
+                    "positive": "6",
+                    "quarter": {
+                        "2": {
+                            "color": "#7fdc00",
+                            "percentPositive": "75.0",
+                            "percentNegative": "0.0",
+                            "insights": "8",
+                            "score": "3.8",
+                            "percentNeutral": "25.0",
+                            "negative": "0",
+                            "neutral": "2",
+                            "positive": "6",
+                            "tagColor": "0X7fdc00"
+                        }
+                    },
+                    "tagColor": "0X7fdc00"
+                },
+                "2013": {
+                    "color": "#ff0000",
+                    "percentPositive": "0.0",
+                    "percentNegative": "100.0",
+                    "insights": "1",
+                    "score": "0.0",
+                    "percentNeutral": "0.0",
+                    "negative": "1",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "3": {
+                            "color": "#ff0000",
+                            "percentPositive": "0.0",
+                            "percentNegative": "100.0",
+                            "insights": "1",
+                            "score": "0.0",
+                            "percentNeutral": "0.0",
+                            "negative": "1",
+                            "neutral": "0",
+                            "positive": "0",
+                            "tagColor": "0Xff0000"
+                        },
+                        "4": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    },
+                    "tagColor": "0Xff0000"
+                },
+                "2014": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "1",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "1",
+                    "quarter": {
+                        "1": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "1",
+            "positive": "7",
+            "tagColor": "0X99dc00"
+        },
+        {
+            "percentPositive": "95.833333333333",
+            "score": "4.8",
+            "percentNeutral": "4.166666666667",
+            "neutral": "1",
+            "id": "4005",
+            "color": "#13dc00",
+            "name": "Loyalty",
+            "parent_category": "0",
+            "insights": "24",
+            "percentNegative": "0.0",
+            "year": {
+                "2012": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "4",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "4",
+                    "quarter": {
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "4",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "4",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                },
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "15",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "15",
+                    "quarter": {
+                        "1": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "7",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "7",
+                            "tagColor": "0X00dc00"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "6",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "6",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                },
+                "2014": {
+                    "color": "#5fdc00",
+                    "percentPositive": "80.0",
+                    "percentNegative": "0.0",
+                    "insights": "5",
+                    "score": "4.1",
+                    "percentNeutral": "20.0",
+                    "negative": "0",
+                    "neutral": "1",
+                    "positive": "4",
+                    "quarter": {
+                        "1": {
+                            "color": "#5fdc00",
+                            "percentPositive": "80.0",
+                            "percentNegative": "0.0",
+                            "insights": "5",
+                            "score": "4.1",
+                            "percentNeutral": "20.0",
+                            "negative": "0",
+                            "neutral": "1",
+                            "positive": "4",
+                            "tagColor": "0X5fdc00"
+                        }
+                    },
+                    "tagColor": "0X5fdc00"
+                }
+            },
+            "negative": "0",
+            "positive": "23",
+            "tagColor": "0X13dc00"
+        },
+        {
+            "percentPositive": "66.666666666667",
+            "score": "4.2",
+            "percentNeutral": "33.333333333333",
+            "neutral": "1",
+            "id": "4024",
+            "color": "#54dc00",
+            "name": "Materials (Brochures, Information, Reports, etc.)",
+            "parent_category": "4002",
+            "insights": "3",
+            "percentNegative": "0.0",
+            "year": {
+                "2012": {
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "0",
+                    "score": "--",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    }
+                },
+                "2013": {
+                    "color": "#54dc00",
+                    "percentPositive": "66.666666666667",
+                    "percentNegative": "0.0",
+                    "insights": "3",
+                    "score": "4.2",
+                    "percentNeutral": "33.333333333333",
+                    "negative": "0",
+                    "neutral": "1",
+                    "positive": "2",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "3": {
+                            "color": "#54dc00",
+                            "percentPositive": "66.666666666667",
+                            "percentNegative": "0.0",
+                            "insights": "3",
+                            "score": "4.2",
+                            "percentNeutral": "33.333333333333",
+                            "negative": "0",
+                            "neutral": "1",
+                            "positive": "2",
+                            "tagColor": "0X54dc00"
+                        },
+                        "4": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    },
+                    "tagColor": "0X54dc00"
+                },
+                "2014": {
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "0",
+                    "score": "--",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    }
+                }
+            },
+            "negative": "0",
+            "positive": "2",
+            "tagColor": "0X54dc00"
+        },
+        {
+            "percentPositive": "98.039215686274",
+            "score": "4.2",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4003",
+            "color": "#4ddc00",
+            "name": "Office",
+            "parent_category": "0",
+            "insights": "102",
+            "percentNegative": "1.960784313725",
+            "year": {
+                "2012": {
+                    "color": "#49dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "92",
+                    "score": "4.3",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "92",
+                    "quarter": {
+                        "2": {
+                            "color": "#49dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "92",
+                            "score": "4.3",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "92",
+                            "tagColor": "0X49dc00"
+                        }
+                    },
+                    "tagColor": "0X49dc00"
+                },
+                "2013": {
+                    "color": "#7fdc00",
+                    "percentPositive": "75.0",
+                    "percentNegative": "25.0",
+                    "insights": "8",
+                    "score": "3.8",
+                    "percentNeutral": "0.0",
+                    "negative": "2",
+                    "neutral": "0",
+                    "positive": "6",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "3": {
+                            "color": "#ccdc00",
+                            "percentPositive": "60.0",
+                            "percentNegative": "40.0",
+                            "insights": "5",
+                            "score": "3.0",
+                            "percentNeutral": "0.0",
+                            "negative": "2",
+                            "neutral": "0",
+                            "positive": "3",
+                            "tagColor": "0Xccdc00"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "3",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "3",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X7fdc00"
+                },
+                "2014": {
+                    "color": "#28dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "2",
+                    "score": "4.6",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "2",
+                    "quarter": {
+                        "1": {
+                            "color": "#28dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "2",
+                            "score": "4.6",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "2",
+                            "tagColor": "0X28dc00"
+                        }
+                    },
+                    "tagColor": "0X28dc00"
+                }
+            },
+            "negative": "2",
+            "positive": "100",
+            "tagColor": "0X4ddc00"
+        },
+        {
+            "percentPositive": "97.777777777778",
+            "score": "4.2",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4032",
+            "color": "#52dc00",
+            "name": "Office Staff",
+            "parent_category": "4003",
+            "insights": "90",
+            "percentNegative": "2.222222222222",
+            "year": {
+                "2012": {
+                    "color": "#48dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "88",
+                    "score": "4.3",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "88",
+                    "quarter": {
+                        "2": {
+                            "color": "#48dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "88",
+                            "score": "4.3",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "88",
+                            "tagColor": "0X48dc00"
+                        }
+                    },
+                    "tagColor": "0X48dc00"
+                },
+                "2013": {
+                    "color": "#ff0000",
+                    "percentPositive": "0.0",
+                    "percentNegative": "100.0",
+                    "insights": "2",
+                    "score": "0.0",
+                    "percentNeutral": "0.0",
+                    "negative": "2",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "3": {
+                            "color": "#ff0000",
+                            "percentPositive": "0.0",
+                            "percentNegative": "100.0",
+                            "insights": "2",
+                            "score": "0.0",
+                            "percentNeutral": "0.0",
+                            "negative": "2",
+                            "neutral": "0",
+                            "positive": "0",
+                            "tagColor": "0Xff0000"
+                        },
+                        "4": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    },
+                    "tagColor": "0Xff0000"
+                },
+                "2014": {
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "0",
+                    "score": "--",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    }
+                }
+            },
+            "negative": "2",
+            "positive": "88",
+            "tagColor": "0X52dc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "4.8",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4004",
+            "color": "#12dc00",
+            "name": "Outcome",
+            "parent_category": "0",
+            "insights": "27",
+            "percentNegative": "0.0",
+            "year": {
+                "2012": {
+                    "color": "#3fdc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "8",
+                    "score": "4.4",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "8",
+                    "quarter": {
+                        "2": {
+                            "color": "#3fdc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "8",
+                            "score": "4.4",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "8",
+                            "tagColor": "0X3fdc00"
+                        }
+                    },
+                    "tagColor": "0X3fdc00"
+                },
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "16",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "16",
+                    "quarter": {
+                        "1": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "8",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "8",
+                            "tagColor": "0X00dc00"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "6",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "6",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                },
+                "2014": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "3",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "3",
+                    "quarter": {
+                        "1": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "3",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "3",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "27",
+            "tagColor": "0X12dc00"
+        },
+        {
+            "percentPositive": "92.307692307692",
+            "score": "4.3",
+            "percentNeutral": "2.197802197802",
+            "neutral": "2",
+            "id": "4015",
+            "color": "#4adc00",
+            "name": "Physician",
+            "parent_category": "4002",
+            "insights": "91",
+            "percentNegative": "5.494505494505",
+            "year": {
+                "2012": {
+                    "color": "#4cdc00",
+                    "percentPositive": "96.0",
+                    "percentNegative": "0.0",
+                    "insights": "50",
+                    "score": "4.2",
+                    "percentNeutral": "4.0",
+                    "negative": "0",
+                    "neutral": "2",
+                    "positive": "48",
+                    "quarter": {
+                        "2": {
+                            "color": "#4cdc00",
+                            "percentPositive": "96.0",
+                            "percentNegative": "0.0",
+                            "insights": "50",
+                            "score": "4.2",
+                            "percentNeutral": "4.0",
+                            "negative": "0",
+                            "neutral": "2",
+                            "positive": "48",
+                            "tagColor": "0X4cdc00"
+                        }
+                    },
+                    "tagColor": "0X4cdc00"
+                },
+                "2013": {
+                    "color": "#52dc00",
+                    "percentPositive": "84.375",
+                    "percentNegative": "15.625",
+                    "insights": "32",
+                    "score": "4.2",
+                    "percentNeutral": "0.0",
+                    "negative": "5",
+                    "neutral": "0",
+                    "positive": "27",
+                    "quarter": {
+                        "1": {
+                            "color": "#66dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "4.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X66dc00"
+                        },
+                        "2": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X00dc00"
+                        },
+                        "3": {
+                            "color": "#8ddc00",
+                            "percentPositive": "72.222222222222",
+                            "percentNegative": "27.777777777778",
+                            "insights": "18",
+                            "score": "3.6",
+                            "percentNeutral": "0.0",
+                            "negative": "5",
+                            "neutral": "0",
+                            "positive": "13",
+                            "tagColor": "0X8ddc00"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "12",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "12",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X52dc00"
+                },
+                "2014": {
+                    "color": "#24dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "9",
+                    "score": "4.6",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "9",
+                    "quarter": {
+                        "1": {
+                            "color": "#24dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "9",
+                            "score": "4.6",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "9",
+                            "tagColor": "0X24dc00"
+                        }
+                    },
+                    "tagColor": "0X24dc00"
+                }
+            },
+            "negative": "5",
+            "positive": "84",
+            "tagColor": "0X4adc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "4.7",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4038",
+            "color": "#1fdc00",
+            "name": "Quality of Procedure",
+            "parent_category": "4004",
+            "insights": "16",
+            "percentNegative": "0.0",
+            "year": {
+                "2012": {
+                    "color": "#3fdc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "8",
+                    "score": "4.4",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "8",
+                    "quarter": {
+                        "2": {
+                            "color": "#3fdc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "8",
+                            "score": "4.4",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "8",
+                            "tagColor": "0X3fdc00"
+                        }
+                    },
+                    "tagColor": "0X3fdc00"
+                },
+                "2013": {
+                    "color": "#00dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "8",
+                    "score": "5.0",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "8",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "3": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "6",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "6",
+                            "tagColor": "0X00dc00"
+                        },
+                        "4": {
+                            "color": "#00dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "2",
+                            "score": "5.0",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "2",
+                            "tagColor": "0X00dc00"
+                        }
+                    },
+                    "tagColor": "0X00dc00"
+                },
+                "2014": {
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "0",
+                    "score": "--",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    }
+                }
+            },
+            "negative": "0",
+            "positive": "16",
+            "tagColor": "0X1fdc00"
+        },
+        {
+            "percentPositive": "100.0",
+            "score": "4.2",
+            "percentNeutral": "0.0",
+            "neutral": "0",
+            "id": "4010",
+            "color": "#50dc00",
+            "name": "Scheduling",
+            "parent_category": "4001",
+            "insights": "7",
+            "percentNegative": "0.0",
+            "year": {
+                "2012": {
+                    "color": "#54dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "6",
+                    "score": "4.2",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "6",
+                    "quarter": {
+                        "2": {
+                            "color": "#54dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "6",
+                            "score": "4.2",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "6",
+                            "tagColor": "0X54dc00"
+                        }
+                    },
+                    "tagColor": "0X54dc00"
+                },
+                "2013": {
+                    "percentPositive": "0.0",
+                    "percentNegative": "0.0",
+                    "insights": "0",
+                    "score": "--",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "0",
+                    "quarter": {
+                        "1": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "2": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "3": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        },
+                        "4": {
+                            "percentPositive": "0.0",
+                            "percentNegative": "0.0",
+                            "insights": "0",
+                            "score": "--",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "0"
+                        }
+                    }
+                },
+                "2014": {
+                    "color": "#33dc00",
+                    "percentPositive": "100.0",
+                    "percentNegative": "0.0",
+                    "insights": "1",
+                    "score": "4.5",
+                    "percentNeutral": "0.0",
+                    "negative": "0",
+                    "neutral": "0",
+                    "positive": "1",
+                    "quarter": {
+                        "1": {
+                            "color": "#33dc00",
+                            "percentPositive": "100.0",
+                            "percentNegative": "0.0",
+                            "insights": "1",
+                            "score": "4.5",
+                            "percentNeutral": "0.0",
+                            "negative": "0",
+                            "neutral": "0",
+                            "positive": "1",
+                            "tagColor": "0X33dc00"
+                        }
+                    },
+                    "tagColor": "0X33dc00"
+                }
+            },
+            "negative": "0",
+            "positive": "7",
+            "tagColor": "0X50dc00"
+        }
+    ],
+    "period": {
+        "to": "2014-05-14 23:59:59",
+        "from": "2012-05-14 00:00:00"
+    }
+}

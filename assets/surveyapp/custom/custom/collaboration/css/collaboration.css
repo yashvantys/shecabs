@@ -1,0 +1,86 @@
+.activity-tab-li {
+	font-size: 1.2em !important;
+}
+
+.task-assignment, .task-history, .task-comment {
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+
+.task-assignment:hover, .task-history:hover, .task-comment:hover {
+	background-color: #f0f0f0;
+}
+
+.task-icon {
+	padding-left: 5px;
+}
+
+.coll-task-list-table a, .task-details-source-url a, .collaboration-list a {
+	color: inherit !important;
+}
+
+.task-listing-id {
+	color: #5b9bd1 !important;
+}
+
+.rule-list tr td span.description {
+	display: block;
+	margin-bottom: 5px;
+}
+.rule-list tr td span.type {
+	clear:left;
+	font-size: 11px !important;
+	text-transform: capitalize;
+	padding: 3px 6px;
+	font-weight: 300;
+}
+
+.rule-list tr td span.type i {
+	margin-right: 10px;
+}
+
+.task-id-zoom-in {
+	font-size: 11px !important;
+}
+
+i.add-matrix-plan, i.remove-matrix-plan {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+i.remove-matrix-plan {
+	margin-right: 10px;
+}
+
+.matrix-plan-selectors {
+	padding: 0 15px;
+}
+
+.matrix-plan-selectors .page-header {
+	margin: 20px 0 20px !important;
+}
+
+.reminder-label {
+	padding-top: 7px;
+}
+
+.collb-view-sub-title {
+	font-size: 1.3em;
+	margin-left: 3px;
+}
+
+.collab-word-wrap-break-word {
+	word-wrap: break-word;
+}
+
+th.details-control {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    width: 16px;
+}
+td.details-control {
+    background: url('../img/plus.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../img/minus.png') no-repeat center center;
+}

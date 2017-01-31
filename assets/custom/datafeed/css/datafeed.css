@@ -1,0 +1,47 @@
+.new_sub{
+	padding-top:20px;
+}
+
+.span-red {
+    color: #ff0000;
+}
+
+.new_sub_user {
+    margin-left: 182px;
+}
+
+.rolenew_drop_show{
+	margin-left:-35px;
+}
+
+#roleadd{
+	margin-right:-45px;
+}
+
+.xlsx_smalltext{
+	font-size:10px;
+	padding-right:10px;
+	padding-left:50px;
+}
+
+#tableftp_filter{
+	
+	margin-right:-12px !important;
+}
+
+.search_feed_form{ height:30px;}
+.search_feed_form .form-horizontal .control-label {text-align: left; width:8%; margin-left:60px;margin-bottom:10px;}
+
+.col-md-10.col-sm-10.col-xs-10.chkbox_upload.col-md-push-3 {
+    margin-left: 25px;
+}
+
+.btn.btn-default.btn-xs.pull-right.add-datafeed {
+    margin-right: 5px;
+}
+
+.search_feed_form .form-horizontal .control-label {
+   margin-right: 5px;
+}
+#file_form_show{display:none;}
+#ftp_form_show{display:none;}

@@ -1,0 +1,34 @@
+{
+    "ranking_list": [
+        {
+            "rank": 2,
+            "name": "ARA - Rockville",
+            "score": 2.7
+        },
+        {
+            "rank": 3,
+            "name": "ARA - Washington, DC",
+            "score": 2.6
+        },
+        {
+            "rank": 3,
+            "name": "ARA - Wheaton",
+            "score": 2.6
+        },
+        {
+            "rank": 1,
+            "name": "ARA - Chevy Chase",
+            "score": 3.2
+        }
+    ],
+    "status": {
+        "message": "success",
+        "code": 200
+    },
+    "period": {
+        "to": "2013-07-29 23:59:59",
+        "from": "2012-01-01 00:00:00"
+    }
+}
+
+

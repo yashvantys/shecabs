@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+.multiselect{
+	background-color: white !important;
+    text-align: left !important;
+    width: 637px !important;
+}
+
+ul.multiselect-container {
+	margin-top: -2px !important;
+	padding-left: 13px !important;
+	width: 100% !important;
+	 max-height : 165px;
+            overflow-y : auto;  
+}

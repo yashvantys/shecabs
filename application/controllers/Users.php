@@ -7,10 +7,9 @@ class Users extends Authentication_Controller {
 		// Loading required Libraries, Models
 		$this->load->model ( "users_model" );
 		$this->add_library ( "users" );
-		$this->load->library ( "aws_sdk" );
 		$baseDomain = $this->config->item ( "base_url" );
 		$loginlink = $baseDomain.'/user/index';
-		$this->add_library ( "datetime" );
+		
 		
 	}
 	
@@ -25,6 +24,54 @@ class Users extends Authentication_Controller {
 	 | are passed.  As a default method,  this method is used to display user management screen.
 	 |
 	 */
+        
+        public function userlist(){
+		$this->data = array();
+		$this->add_library ( "datatables" );
+		$this->add_library ( "users" );
+		$this->add_js_functions ( array ('Users.home' => array ()) );
+		//$this->data['userlist'] = $response = $this->users_model->getUsersList ();
+		
+		
+		$this->template->write_view ( 'content', 'users/list', $this->data );
+		$this->template->render ();
+	}
+	
+	
+	/*public function list_ajax(){
+		$result = array ();
+		$data = array ();
+		$response = $this->users_model->getUsersList ();
+		
+		if (! empty ( $response )) {
+			$i=1;
+			foreach ( $response->result as $userlist ) {
+			
+							
+						$data [] = array (
+								"DT_RowId" => 'row_'.$i,
+								"email" => $userlist->email,
+								"id" => $userlist->id,
+								"name" => $userlist->firstName.''.$userlist->lastName,
+								"dob" => $userlist->dob,
+								"mobileNo" => $userlist->mobileNo
+						
+	
+	
+						);
+						$i++;
+			}
+				
+			//print_r($data);
+			$result ['data'] = $data;
+		} else {
+			$result ['error'] = "There is an unexpected error";
+		}
+	
+		print json_output ( $result );
+	
+	}*/
+        
 	
 	public function index(){
 		
@@ -83,37 +130,14 @@ class Users extends Authentication_Controller {
 		$data = array ();
 		
 				
-		$manageUsers = false;
-		if ($this->user_model->hasPermission ('PERM_USER_MANAGEMENT',$this->session->userdata['permissions'])){
-			$manageUsers = true;
-		}
 		
-		$postDataArray = $this->input->post();
-		$clientId = json_decode($postDataArray['data'],true);
-			
-		$userId =$this->session->userdata['userId'];
-		if(!empty($clientId)){
-			$client_id = $clientId['clientsdrop'];
-		}else{
-			$client_id ='';
-		}
 				
-		$response = $this->users_model->getUsersList ( $this->input->post(null,true), $this->getEmail (), $start, $limit, $sort_column, $direction, $search );
-		//echo "<pre>";
-		//print_r($response);	
-		//echo "</pre>";exit;
+		$response = $this->users_model->getUsersList ( );
+		
 		if (! empty ( $response )) {
 				$i=1;
 					foreach ( $response->result as $userlist ) {
-						$uClients ='';
-						$userClients='';
-						$reasons = $userlist->rejectReason;
-						if($reasons == 'Other')
-							$reasonText = $userlist->rejectReasonOthers;
-						else 
-							$reasonText = $reasons;
 						
-						$userClients = @$userlist->assignedClients;
 						if(!empty($userClients)){
 							$uClients = implode(', ',$userClients);
 						}
@@ -122,21 +146,12 @@ class Users extends Authentication_Controller {
 						"DT_RowId" => 'row_'.$i,
 						"email" => $userlist->email,
 						"id" => $userlist->id,
-						"name" => ucwords($userlist->userName),
-						"role" => $userlist->role,
-						'userRole'=>$manageUsers,
-						"clientid"=>$client_id,
-						'currentUser'=>$userId,
-						'Clientstatus'=>$userlist->activeClient,
-						'accountstatus'=>$userlist->stormpathStatus,
-						'clients'=>'',
-						'firstName'=>$userlist->firstName,
-						'lastName'=>$userlist->lastName,
-						'reason'=>$reasonText,
-						'clientlist'=>$userlist->clients,
-						'Clientreg'=>@$userlist->clientList[0]->id."|".@$userlist->clientList[0]->clientId,
-						'assignedClients'=>$uClients,
-						'reportScheduled'=>$userlist->reportScheduled
+						"name" => ucwords($userlist->firstName." ".$userlist->lastName),
+                                                "dob" => $userlist->dob,
+                                                "mobileNo" => $userlist->mobileNo
+                                                    
+                                                    
+						
 						
 						
 				);

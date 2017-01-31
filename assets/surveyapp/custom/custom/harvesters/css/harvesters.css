@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+a.harvester-url {
+	word-break: break-word;
+	word-wrap: break-word;
+}
+
+#harvesters-error-management tr td .btn {
+	margin-top: 5px;
+}

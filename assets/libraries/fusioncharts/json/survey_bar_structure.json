@@ -1,0 +1,26 @@
+{
+    "chart": {
+        "caption": "PSI for TTM",
+        "subcaption": "",
+        "xaxisname": "Month",
+        "yaxisname": "Score",
+        "numberprefix": "",
+        "showlabels": "1",
+        "showcolumnshadow": "1",
+        "animation": "1",
+        "showalternatehgridcolor": "1",
+        "alternatehgridcolor": "ff5904",
+        "divlinecolor": "ff5904",
+        "divlinealpha": "20",
+        "alternatehgridalpha": "5",
+        "canvasbordercolor": "666666",
+        "basefontcolor": "666666",
+        "linecolor": "FF5904",
+        "linealpha": "85",
+        "showvalues": "1",
+        "rotatevalues": "1",
+        "valueposition": "auto",
+        "canvaspadding": "8"
+    },
+    "data": []
+}

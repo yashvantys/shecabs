@@ -1,32 +1,8 @@
 <?php
 defined ( 'BASEPATH' ) or exit ( 'No direct script access allowed' );
 class Users_Model extends CI_Model {
-	public static $SERVICE_USER_DELETE = 'survey-compass/services/user/delete/';
-	public static $SERVICE_USER_LIST = 'survey-compass/services/user/list';
-	public static $SERVICE_CLIENT_LIST ='survey-compass/services/client/list';
-	public static $SERVICE_USER_ROLES ='survey-compass/services/user/roles';
-	public static $SERVICE_USER_ADD ='survey-compass/services/user/add';
-	public static $SERVICE_USER_DETAILS='survey-compass/services/user/info/';
-	public static $SERVICE_USER_UPDATE='survey-compass/services/user/update';
-	public static $SERVICE_USER_INACTIVE = 'survey-compass/services/user/updateactiveflag';
-	public static $SERVICE_STORMPATH_USER_LIST = 'survey-compass/services/stormpath/user/list';
-	public static $SERVICE_USER_REJECT ='survey-compass/services/stormpath/user/reject';
-	public static $SERVICE_AVATAR_LIST ='survey-compass/services/client/getclientavatars/';
-	public static $SERVICE_USER_STORMPATH_DELETE ='survey-compass/services/stormpath/user/delete';
-	public static $SERVICE_USER_PERMISSION = 'survey-compass/services/permission/permissionsbylevel/';
-	public static $SERVICE_USER_VENDOR = 'survey-compass/services/user/uservendor';
-	public static $SERVICE_CLIENT_ADMIN_EMAILS = 'survey-compass/services/user/clientadmins';
-	public static $SERVICE_SELF_PROFILE = 'survey-compass/services/user/selfprofileupdate';
-	public static $SERVICE_PRODUCTS = 'survey-compass/services/product/productlist';
-	public static $SERVICE_USER_SCHEDULE_DELETE ='survey-compass/services/user/deleteReportConfig';
-	public static $SERVICE_USER_SCHEDULE_GET ='survey-compass/services/user/reportConfig';
-	public static $SERVICE_USER_SCHEDULE_UPDATE ='survey-compass/services/user/updateReportConfig';
-	public static $SERVICE_USER_SCHEDULE_CREATE ='survey-compass/services/user/createReportConfig';
-	public static $SERVICE_USER_PRODUCTS = 'survey-compass/services/user/products';
-	public static $SERVICE_USER_CLIENT_LIST = 'survey-compass/services/user/clients';
-	public static $SERVICE_REPORT_TYPE_LIST ='survey-compass/services/user/reportConfig/list';
-	
-	
+	public static $SERVICE_AUTHENTICATION = 'user/login';
+	public static $SERVICE_USER_LIST = 'user/list';
 	
 	
 	/**
@@ -38,41 +14,27 @@ class Users_Model extends CI_Model {
 	 *
 	 * */
 		
-	public function getUsersList($postData, $email, $start = 0, $limit = 100, $sort_column, $direction, $search){
+	       
+        public function getUsersList(){
 		$result = array ();
-		
-		$postDataArray = json_decode($postData['data'], true);
-		
-				
-		isset($postDataArray['clientsdrop'])?$clientId = $postDataArray['clientsdrop']:$clientId = null;
-		if($clientId == 0)
-			$clientId ='';
-		
-		//$service_url = "{$this::$SERVICE_USER_LIST}";
-		  $service_url = "{$this::$SERVICE_STORMPATH_USER_LIST}";
-		
-		
-		$data = $this->service->get ( $service_url, array (
-		), array ("start" => $start,
-				"limit" => $limit,
-				"sortColumn" => $sort_column,
-				"direction" => $direction,
-				"search" => $search,
-				'clientId'=>$clientId
-				
-				
-		) );
 	
-				
-		   
-		if ($data->statusCode == 200) {
-			$result = $data;
-		}
 		
-		
-		return $result;
-		
-		
+		$service_url = "{$this::$SERVICE_USER_LIST}";
+	
+	
+			$data = $this->service->get ( $service_url, array (
+			), array () );
+	
+			
+						 
+			if ($data->code == 200) {
+				$result = $data;
+			}
+	
+	
+			return $result;
+	
+	
 	}
 	
 	/**

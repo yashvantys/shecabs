@@ -1,0 +1,232 @@
+.api-default-wrapper h4 {
+	
+}
+
+.api-js-header {
+	
+}
+form span.req {
+  display: inline;
+  float: none;
+  color: red !important;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.api-js-top-header {
+	background-color: #f6f7f8;
+	margin: 10px 0;
+	border: 1px solid #d3d6db;
+	padding: 10px;
+}
+
+.api-tabs .ui-tabs-panel {
+	background-color: #f6f7f8;
+    margin: 10px 0;
+    border: 1px solid #d3d6db;
+    padding: 10px;
+	
+}
+
+.api-js-header .api-testimonial {
+	/* padding: 10px; */
+	
+}
+
+.api-application {
+	width: 43.5%;
+	margin: 1%;
+	padding: 2%;
+	border: 1px solid #CCCCCC;
+	display: inline-block;
+	position: relative;
+}
+
+.api-application table {
+	border: none;
+}
+
+.api-application h2 {
+	color: #0085B2;
+}
+
+.api-application a.api-app-secret-link {
+	color: #FF7373;
+	min-height:40px;
+}
+
+.api-app-secret{
+	min-height:40px;
+}
+
+.api-application a.api-app-links {
+	visibility: hidden;
+}
+
+.api-application:HOVER a.api-app-links {
+	visibility: visible;
+}
+
+.api-application a.api-app-delete {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 32px;
+	height: 32px;
+	background-position: -541px -4px;
+	text-indent: -9999px;
+}
+
+.api-application:HOVER {
+	background: #F1F1F1;
+	border: 1px solid #ccc;
+}
+ 
+
+.api-application-list-header {
+	line-height: 28px;
+	vertical-align: top;
+	vertical-align: top;
+	width: 40%;
+	display: inline-block;
+}
+
+.api-sample-codes {
+	width: 700px;
+	/* 	height: 500px; */
+	border: 1px solid #d3d6db;
+	-webkit-border-radius: 3px;
+	background-color: #f6f7f8;
+	color: #4e5665;
+	padding: 10px;
+	font-family: Menlo, Monaco, Andale Mono, Courier New, monospace;
+	font-size: 14px;
+	margin: 0 auto;
+	display: block;
+	resize: both;
+}
+
+.api-app-headerp {
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+.api-publish-list-link {
+	text-decoration: none;
+	cursor: pointer;
+	color: #29297A;
+}
+
+.api-publish-load-more {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: block;
+}
+
+.api-location-select-wrap,.api-physician-select-wrap,.api-review-day-wrap,.api-min-review-count-wrap
+	{
+	padding: 12px 0;
+	clear: both;
+}
+
+.api-location-select-wrap .api-application-list-header,.api-physician-select-wrap .api-application-list-header,.api-review-day-wrap .api-application-list-header,.api-min-review-count-wrap .api-application-list-header
+	{
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.api-js-bottom-header .error-bg {
+	background: #FFC0C0;
+}
+
+.demo-templates {
+	display: block;
+	border: 1px solid #d3d6db;
+	padding: 20px;
+	margin: 40px 10px;
+	border-radius: 5px;
+}
+
+a.tools > i {
+	font-size : 20px;
+}
+
+
+a.remove {
+	background-position: -684px -73px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	height: 17px;
+	width: 17px;
+}
+
+span.primary-category {
+	background: url("img/primary.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	height: 30px;
+	margin: 0 auto;
+	width: 30px;
+}
+
+.hide-me {
+	display: none;
+}
+
+ 
+table.api-configuration-category .chzn-container {
+	vertical-align: top;
+}
+
+table.api-configuration-category tr th {
+	vertical-align: middle;
+}
+
+table.api-configuration-category tr td {
+	vertical-align: middle;
+	padding: 5px 10px;
+}
+table.api-configuration-category tr#manual_row_0 td {
+	padding-top: 10px;
+} 
+table.api-configuration-category tr:last-child td {
+	padding-bottom: 10px;
+} 
+.api-application-wrap {
+	padding: 5px;
+	border-bottom: 1px solid #d3d6db;
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #000;
+}
+
+.api-application-wrap .api-application-list-header {
+	padding-left: 00%;
+	color: #6B6B6B;
+	width:20%;
+}
+
+.api-configuration-form {
+	
+}
+input[type="text"].datepicker {
+	width: 200px;
+}
+
+.nav-tabs {
+	margin-bottom: 0;
+}
+
+.api-configuration-category .custom_name {
+	width: 90%;
+	display: inline-block;
+}
+
+.api-configuration-category .custom-name-icon {
+	display: inline-block;
+}

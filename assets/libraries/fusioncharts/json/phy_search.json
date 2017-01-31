@@ -1,0 +1,86 @@
+{
+    "StatusCode": "200",
+    "StatusText": "Success.",
+    "entities": [
+        {
+            "id": 754,
+            "name": "Alan K. Matsumoto, MD, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 760,
+            "name": "Angus B. Worthing, MD, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 761,
+            "name": "Ashley D. Beall, MD, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 755,
+            "name": "David G. Borenstein, MD, FACP, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 757,
+            "name": "David P. Wolfe, MD, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 753,
+            "name": "Emma DiIorio, MD, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 752,
+            "name": "Evan L. Siegel, MD, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 762,
+            "name": "Guada R. Respicio, MD, MS, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 750,
+            "name": "Herbert S. B. Baraf, MD, FACP, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 763,
+            "name": "Justin Peng, MD, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 758,
+            "name": "Paul J. DeMarco, MD, FACP, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 3799,
+            "name": "Paul Mackoul",
+            "type": "Physician"
+        },
+        {
+            "id": 764,
+            "name": "Rachel Kaiser, MD, MPH, FACR",
+            "type": "Physician"
+        },
+        {
+            "id": 756,
+            "name": "Robert J. Lloyd, MD, MACR",
+            "type": "Physician"
+        },
+        {
+            "id": 751,
+            "name": "Robert L. Rosenberg, MD, FACR, CCD",
+            "type": "Physician"
+        },
+        {
+            "id": 759,
+            "name": "Shari B. Diamond, MD, FACR",
+            "type": "Physician"
+        }
+    ]
+}

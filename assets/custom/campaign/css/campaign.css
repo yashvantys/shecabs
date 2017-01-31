@@ -1,0 +1,327 @@
+@CHARSET "ISO-8859-1";
+
+.size_class{text-align: right;}
+/*.col-md-offset-2{margin-left: 16.6667%;}*/
+
+.display_rating_space{
+	margin-left:6px;
+}
+.score {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	position: relative;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	width:72px;
+}
+
+.ie .score {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	position: relative;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border: 0px solid green;
+	width:72px;
+}
+
+.ie13 .score {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	position: relative;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border: 0px solid green;
+	width:72px;
+}
+
+.score::before {
+	content: "\f006\f006\f006\f006\f006";
+	color: #ff9900;
+	display: block;
+	width:72px;
+}
+
+.ie .score::before {
+	content: "\f006\f006\f006\f006\f006";
+	color: #ff9900;
+	display: block;
+	width:69px;
+	border: 0px solid red;
+	width:72px;
+}
+
+.ie13 .score::before {
+	content: "\f006\f006\f006\f006\f006";
+	color: #ff9900;
+	display: block;
+	width:69px;
+	border: 0px solid red;
+	width:72px;
+}
+
+.score span#subscore::after {
+	content: "\f005\f005\f005\f005\f005";
+	display: block;
+	width:72px;
+}
+
+.ie .score span#subscore::after {
+	content: "\f005\f005\f005\f005\f005";
+	display: block;
+	width: 100px;
+	border: 0px solid blue;
+	width:72px;
+}
+
+.ie13 .score span#subscore::after {
+	content: "\f005\f005\f005\f005\f005";
+	display: block;
+	width: 100px;
+	border: 0px solid blue;
+	width:72px;
+}
+
+.score span#subscore {
+	color: #ff9900;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width:72px;
+}
+
+.location_left{
+	margin-left:-20px;
+	border:0px solid red;
+}
+
+.physician_left{
+border:0px solid red;
+text-align:right;
+margin-left:20px;
+padding:0px;
+}
+
+/*=====================CSS for Question Icons in Survey Response link===================*/
+
+i.color_quest_star {
+	color: #ff9900;
+}
+i.color_phi{
+	color: red;
+}
+i.color_nonphi{
+	color: green;
+}
+
+
+.alerts-documents {
+	width: 100%;
+	color: #656565;
+}
+
+.alerts-documents h3 {
+	text-shadow: #bbbbbb 0.2em 0.2em 0.4em;
+}
+
+.alerts-documents b {
+	font-weight: bold;
+}
+
+.alerts-documents p {
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+.alerts-documents .document {
+	/* 	padding: 1% 2%; */
+	border: 1px dotted #d8d8d8;
+}
+
+.document-header {
+	background-color: #F3F3F3;
+	padding: 5px 20px;
+	border-bottom: 1px dotted #d8d8d8;
+}
+
+.document-header .document-header-left {
+	display: inline-block;
+	width: 75%;
+	vertical-align: top;
+}
+
+.document-header .document-header-right {
+	display: inline-block;
+	width: 24.7%;
+}
+
+.document-header-right .compass-entity-top-logo {
+	padding: 0px;
+}
+
+.document-body {
+	padding: 5px 20px;
+}
+
+.document-location-info, .document-person-info {
+	height: 110px;
+	position: relative;
+	display: block;
+	vertical-align: top;
+}
+
+.document-location-info  .icon-container, .document-person-info  .icon-container
+	{
+	background: #ccc;
+	display: block;
+	height: 100%;
+	width: 40px;
+	float: right;
+	vertical-align: middle;
+	padding: 0 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.document-location-info, .document-person-info {
+	border: 1px solid #CCC;
+}
+
+.document-location-info .location-icon {
+	width: 20px;
+	height: 28px;
+	display: block;
+	margin: 10px 0;
+}
+
+.document-location-info .avatar-details, .document-person-info .avatar-details
+	{
+	padding: 2%;
+	margin-right: 40px;
+	display: block;
+	overflow: hidden;
+}
+
+.document-person-info .person-icon {
+	width: 25px;
+	height: 28px;
+	margin: 10px 0;
+	display: block;
+}
+
+.document-location-info .location-icon {
+	background-position: -790px -114px;
+}
+
+.document-person-info .person-icon {
+	background-position: -755px -114px;
+}
+
+.document-summary, .document-location-info, .document-person-info {
+	margin-bottom: 10px;
+}
+
+.document-summary .document-summary-score {
+	display: inline-block;
+	width: 100px;
+	height: 110px;
+	font-size: 66px;
+	line-height: 100px;
+	border: 1px solid #d7d7d7;
+	text-align: center;
+	line-height: 100px;
+	background-image: linear-gradient(#FFFFFF, #EEEEEE);
+}
+
+.document-summary .document-summary-info {
+	display: inline-block;
+	height: 110px;
+	padding: 0px 10px;
+	vertical-align: bottom;
+}
+
+.document-summary-info .source-name {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.document-content .survey-content .answer {
+	/* 	font-weight: bold; */
+	font-style: italic;
+	color: #000;
+}
+
+.load-sprite {
+	background: url("custom/img/sprite.png?v=1.1");
+}
+
+
+span.client-name, span.avatar-name-details {
+	clear: both;
+	color: #3F3F3F;
+	float: left;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+span.avatar-speciality-details {
+	clear: both;
+	color: #A2A29B;
+	float: left;
+}
+
+span.avatar-address1-details {
+	clear: both;
+	color: #A2A29B;
+	float: left;
+}
+
+span.avatar-more-details {
+	clear: both;
+	color: #A2A29B;
+	float: left;
+}
+
+span.avatar-phone {
+	clear: both;
+	float: left;
+	color: #e64a00;
+}
+
+.client-link-wrapper {
+	padding: 5px;
+	background: #fafafa;
+	margin: 5px;
+	height: 50px;
+}
+
+.client-link-wrapper:HOVER {
+	background: #f1f1f1;
+}
+
+.client-link .image {
+	float: left;
+	height: 40px;
+	margin: 2px 8px;
+	width: 40px;
+	overflow: hidden;
+}
+
+.client-link .image img {
+	width: 100%;
+}
+
+a.client-link {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/*=======================================================================================*/

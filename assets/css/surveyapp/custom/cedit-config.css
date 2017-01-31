@@ -1,0 +1,158 @@
+@CHARSET "UTF-8";
+
+
+.ui-sortable  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.ui-sortable li {
+   
+  font-size: 0.8em;
+}
+
+.queue-delete-link  {
+	cursor: pointer;
+}
+.filter-portlet{
+	display:none;
+}
+
+.nav-tabs {
+  margin-bottom: 0;
+}
+
+#sortable li {
+  margin: 0 3px 3px 3px;
+  padding: 0.2em;
+  padding-left: 1.5em;
+  font-size: 1.0em;
+  cursor: pointer;
+   color :#555555;
+/*   height: 18px; */
+}
+
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ /*  width: 60%; */
+
+}
+
+.source-div {
+	height:300px;
+	overflow-y: scroll;
+	border: 1px solid #ccc;
+}
+
+.client-div {
+	height:325px;
+	overflow-y: scroll;
+	border: 1px solid #ccc;
+}
+
+.ui-sortable-placeholder { 
+     background:#c6c6c6; 
+     height: 25px ;  
+     visibility: visible !important;
+    
+     }  
+
+#sortable li span {
+  /* position: absolute; */
+  margin-left: -1.3em;
+  display: inline-block;
+}
+
+.select2-container-multi .select2-choices li {
+    float:none !important;
+}
+
+.select2-container-multi{
+	width:100%
+}
+
+.select2-choices {
+  
+  max-height: 300px;
+  min-height: 300px;
+  width:100% !important;
+  overflow-y: scroll !important;
+}
+
+.list {
+   /*  background-color: #478BFF;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    border: 1px solid gray; */
+}
+
+.list:hover .tools {
+  display: inline-block;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  cursor: pointer;
+  background-color: #FAFAFA;
+}
+
+.list .tools {
+  /* position: absolute; */
+ /*  right: 5px;
+  bottom: 10px; */
+  display: none; 
+}
+
+
+.list .tools .acebtn {
+  border-radius: 36px !important;
+  margin: 1px 0;
+}
+
+.btn-minier {
+  padding: 0 4px;
+  line-height: 18px;
+  border-width: 2px;
+  font-size: 12px;
+}
+ 
+#items .ui-selected {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+ 
+#items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+#items li {
+    float: left;
+    margin: 2px;
+    padding: 2px;
+    width: 100px;
+    height: 40px;
+    line-height: 12px;
+    word-break: break-word;
+}
+ 
+.highlight {
+    border: 1px solid red;
+    font-weight: bold;
+    font-size: 45px;
+    background-color: lightblue;
+}
+
+.date-range-group {
+	display: none;
+}
+.queue-users-link {
+    cursor: pointer;
+}

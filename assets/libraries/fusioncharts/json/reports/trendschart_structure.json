@@ -1,0 +1,34 @@
+{
+    "chart": {
+        "bgcolor": "FFFFFF",
+        "plotgradientcolor": "",
+        "showalternatehgridcolor": "0",
+        "showplotborder": "0",
+        "divlinecolor": "CCCCCC",
+        "showvalues": "0",
+        "showcanvasborder": "0",
+        "pyaxisname": "Number of Insights",
+        "syaxisname": "Percentage of Insights",
+        "slantlabels": "1",
+        "canvasborderalpha": "0",
+        "legendshadow": "0",
+        "legendborderalpha": "0",
+        "showborder": "0",
+        "SYAxisMaxValue": "100",
+        "legendNumColumns": "4",
+        "sNumberSuffix": "%",
+        "animation": "0"
+    },
+    "categories": [
+        {
+            "category": []
+        }
+    ],
+    "dataset": [
+        {
+            "seriesname": "Insights",
+            "color": "008EE4",
+            "data": []
+        }
+    ]
+}

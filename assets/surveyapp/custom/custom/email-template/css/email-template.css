@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+
+.templates .email-template {
+	margin-bottom: 30px;
+}
+
+.templates .email-template img.template-thumbnail {
+	width: 100%;
+	height: auto;
+}
+
+.email-template .tools a {
+	color: #808080;
+}
+
+.email-template .tools a.active {
+	color: #fd7e0d;
+}
+
+.email-template>.portlet>.portlet-title>.caption {
+	font-size: 18px;
+}
+
+i.orange {
+	color: #fd7e0d;
+}
+
+.tools a i {
+	font-size: 16px;
+}
+
+.template-preview-modal .modal-dialog {
+	width: 730px;
+}

@@ -1,0 +1,117 @@
+{
+    "status": {
+        "message": "Success",
+        "code": 200
+    },
+    "questions": [
+        {
+            "id": 15,
+            "title": "Gender:",
+            "type": "Gender (Radio)",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Male"
+                },
+                {
+                    "id": 2,
+                    "name": "Female"
+                },
+                {
+                    "id": 3,
+                    "name": "Prefer not to answer"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Age:",
+            "type": "Age (Radio)",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Under 20"
+                },
+                {
+                    "id": 2,
+                    "name": "20-39"
+                },
+                {
+                    "id": 3,
+                    "name": "40-59"
+                },
+                {
+                    "id": 4,
+                    "name": "60+"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Race/ethnicity:",
+            "type": "Ethnicity (Radio)",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "White/Caucasian"
+                },
+                {
+                    "id": 2,
+                    "name": "Black/African American"
+                },
+                {
+                    "id": 3,
+                    "name": "Hispanic/Latino"
+                },
+                {
+                    "id": 4,
+                    "name": "American Indian"
+                },
+                {
+                    "id": 5,
+                    "name": "Asian"
+                },
+                {
+                    "id": 6,
+                    "name": "Other"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Overall Health:",
+            "type": "Overall Health (Radio)",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Excellent"
+                },
+                {
+                    "id": 2,
+                    "name": "Very Good"
+                },
+                {
+                    "id": 3,
+                    "name": "Good"
+                },
+                {
+                    "id": 4,
+                    "name": "Moderate"
+                },
+                {
+                    "id": 5,
+                    "name": "Fair"
+                },
+                {
+                    "id": 6,
+                    "name": "Poor"
+                },
+                {
+                    "id": 6,
+                    "name": "Very Poor"
+                }
+            ]
+        }
+        
+    ]
+} 

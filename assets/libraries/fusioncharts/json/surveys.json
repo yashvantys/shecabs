@@ -1,0 +1,200 @@
+{
+   "StatusCode":"200",
+   "StatusText":"Success.",
+   "surveys":[
+      {
+         "id":"Onsite 4",
+         "source-id":32,
+         "group-source-id":32,
+         "group-source-name":"Press Gainey",
+         "languages":{
+            "en":"English",
+            "es":"Spanish"
+         },
+         "title":{
+            "en":"Customer Satisfaction",
+            "es":"Customer Satisfaction"
+         },
+         "disclaimer":{
+            "en":"Customer Satisfaction",
+            "es":"spanish customer satisfaction"
+         },
+         "description":{
+            "en":"",
+            "es":""
+         },
+         "name":{
+            "en":"Customer Satisfaction",
+            "es":"Customer Satisfaction"
+         },
+         "styles":{
+            "body":{
+               "option-color":"#555555",
+               "question-number-background-color":"#00A7FF",
+               "color":"#555555",
+               "question-number-color":"#FFFFFF",
+               "title-color":"#FFFFFF",
+               "topbar-color":"#3A3636",
+               "background-color":"#FFFFFF",
+               "question-color":"#555555"
+            },
+            "start-page":{
+               "color":"#555555",
+               "title-color":"#555555",
+               "background-color":"#FFFFFF",
+               "background-image":""
+            }
+         }
+      },
+      {
+         "id":"Onsite1",
+         "source-id":"1001",
+         "group-source-id":32,
+         "group-source-name":"Press Gainey",
+         "languages":{
+            "en":"English"
+         },
+         "title":{
+            "en":"Physical Therapy Survey"
+         },
+         "disclaimer":{
+            "en":""
+         },
+         "description":{
+            "en":"Patient satisfaction is an extremely important part of the mission of Arthritis & Rheumatism Associates, PC. In an effort to serve each and every patient to the best of our abilities, we would like to know how you feel about your experience with us.\r\n\r\nWe would greatly appreciate your comments, suggestions, and any concerns you may have in regard to your overall experience with our practice. This feedback will help us in our continued efforts to improve and accommodate the needs of our patients."
+         },
+         "name":{
+            "en":"Physical Therapy Survey"
+         },
+         "styles":{
+            "body":{
+               "option-color":"#555555",
+               "question-number-background-color":"#00A7FF",
+               "color":"#555555",
+               "question-number-color":"#FFFFFF",
+               "title-color":"#FFFFFF",
+               "topbar-color":"#3A3636",
+               "background-color":"#FFFFFF",
+               "question-color":"#555555"
+            },
+            "start-page":{
+               "color":"#555555",
+               "title-color":"#555555",
+               "background-color":"#FFFFFF",
+               "background-image":""
+            }
+         }
+      },
+      {
+         "id":"Onsite2",
+         "source-id":"1003",
+         "languages":{
+            "en":"English"
+         },
+         "title":{
+            "en":"Infusion Survey"
+         },
+         "disclaimer":{
+            "en":""
+         },
+         "description":{
+            "en":"Patient satisfaction is an extremely important part of the mission of Arthritis & Rheumatism Associates, PC. In an effort to serve each and every patient to the best of our abilities, we would like to know how you feel about your experience with us.\r\n\r\nWe would greatly appreciate your comments, suggestions, and any concerns you may have in regard to your overall experience with our practice. This feedback will help us in our continued efforts to improve and accommodate the needs of our patients."
+         },
+         "name":{
+            "en":"Infusion Survey"
+         },
+         "styles":{
+            "body":{
+               "option-color":"#555555",
+               "question-number-background-color":"#00A7FF",
+               "color":"#555555",
+               "question-number-color":"#FFFFFF",
+               "title-color":"#FFFFFF",
+               "topbar-color":"#3A3636",
+               "background-color":"#FFFFFF",
+               "question-color":"#555555"
+            },
+            "start-page":{
+               "color":"#555555",
+               "title-color":"#555555",
+               "background-color":"#FFFFFF",
+               "background-image":""
+            }
+         }
+      },
+      {
+         "id":"Onsite3",
+         "source-id":"1004",
+         "languages":{
+            "en":"English"
+         },
+         "title":{
+            "en":"Patient Satisfaction Survey"
+         },
+         "disclaimer":{
+            "en":""
+         },
+         "description":{
+            "en":"Patient satisfaction is an extremely important part of the mission of Arthritis & Rheumatism Associates, PC. In an effort to serve each and every patient to the best of our abilities, we would like to know how you feel about your experience with us.\r\n\r\nWe would greatly appreciate your comments, suggestions, and any concerns you may have in regard to your overall experience with our practice. This feedback will help us in our continued efforts to improve and accommodate the needs of our patients."
+         },
+         "name":{
+            "en":"Patient Satisfaction Survey"
+         },
+         "styles":{
+            "body":{
+               "option-color":"#555555",
+               "question-number-background-color":"#00A7FF",
+               "color":"#555555",
+               "question-number-color":"#FFFFFF",
+               "title-color":"#FFFFFF",
+               "topbar-color":"#3A3636",
+               "background-color":"#FFFFFF",
+               "question-color":"#555555"
+            },
+            "start-page":{
+               "color":"#555555",
+               "title-color":"#555555",
+               "background-color":"#FFFFFF",
+               "background-image":""
+            }
+         }
+      },
+      {
+         "id":"testimonial",
+         "source-id":"1005",
+         "languages":{
+            "en":"English"
+         },
+         "title":{
+            "en":"Testimonial"
+         },
+         "disclaimer":{
+            "en":""
+         },
+         "description":{
+            "en":"Patient satisfaction is an extremely important part of the mission of the Arthritis & Rheumatism Associates, PC.  Although we know we may not be able to accommodate all requests or recommendations, we strive to serve each and every patient to our utmost ability.  We would like to know how you feel about your experience with us. \r\nWe would greatly appreciate your comments, suggestions, and any concerns you may have in regards to the service you have received and the overall experience you encountered with our practice.  This feedback will help us in our continued efforts to make any improvements in accommodating the needs of our patients."
+         },
+         "name":{
+            "en":"Testimonial"
+         },
+         "styles":{
+            "body":{
+               "option-color":"#555555",
+               "question-number-background-color":"#00A7FF",
+               "color":"#555555",
+               "question-number-color":"#FFFFFF",
+               "title-color":"#FFFFFF",
+               "topbar-color":"#3A3636",
+               "background-color":"#FFFFFF",
+               "question-color":"#555555"
+            },
+            "start-page":{
+               "color":"#555555",
+               "title-color":"#555555",
+               "background-color":"#FFFFFF",
+               "background-image":""
+            }
+         }
+      }
+   ]
+}

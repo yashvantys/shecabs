@@ -1,0 +1,325 @@
+/***
+Import fonts
+***/
+.header {
+	display: none;
+}
+
+.page-sidebar {
+	display: none;
+}
+
+.theme-panel {
+	display: none;
+}
+
+.hidden-print {
+	display: none;
+}
+
+.footer {
+	display: none;
+}
+
+.page-break {
+	display: block;
+	clear: both;
+	page-break-after: always;
+}
+
+.no-page-break {
+	page-break-after: avoid;
+}
+
+.page-container {
+	margin: 0px;
+	padding: 0px;
+}
+
+.page-content {
+	min-height: auto !important;
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+/*print pdf style */
+@media print {
+	.pdf-block-break {
+		page-break-before: avoid;
+	}
+	.rank_summary thead {
+		display: table-header-group;
+	}
+	.rank_summary tbody {
+		display: table-row-group;
+	}
+}
+
+.rank_summary thead {
+	display: table-header-group;
+}
+
+.rank_summary tbody {
+	display: table-row-group;
+}
+
+.rank_summary thead tr {
+	page-break-inside: avoid;
+}
+
+* {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	-webkit-print-color-adjust: exact;
+	-mozilla-print-color-adjust: exact;
+	print-color-adjust: exact;
+}
+
+body, #header, #footer, #footer-inner {
+	background: none !important;
+	padding: 0px !important;
+	margin-top: 10px !important;
+}
+
+.content-top-upper {
+	border-bottom: none !important;
+}
+
+.content-bottom-left {
+	padding-left: 0px;
+	padding-bottom: 0px !important;
+}
+
+#footer {
+	display: none;
+}
+
+.main-content {
+	min-height: inherit !important;
+}
+
+#page {
+	background: none !important;
+	margin: 0px !important;
+}
+
+.with_sidebar {
+	width: 100% !important;
+	margin-left: 0px !important;
+}
+
+.community_summary {
+	float: left !important;
+}
+
+.content-left, #header, .content-top, #toolbar, .content-top-lower,
+	#email-send-notify, #report-heading #share, #report-heading #schedule,
+	#report-heading #print, #report-heading #share_response_rate_report,
+	#report-heading #export-csv-format, #report-heading #export-xls-format,
+	#report-heading #export-xlsx-format {
+	display: none !important;
+}
+
+.ui-accordion .ui-accordion-content {
+	display: block !important;
+}
+
+#report-view {
+	border: none;
+}
+
+.sticky-header {
+	display: none !important;
+}
+
+.content-bottom {
+	width: 960px;
+	margin: 0 auto !important;
+}
+
+.webkit .content-bottom {
+	width: 90% !important;
+	margin: 0 !important;
+}
+
+.ui-accordion .ui-accordion-content {
+	display: block !important;
+}
+
+#search-monthly-trends {
+	display: none;
+}
+
+.print-hide {
+	display: none !important;
+}
+
+.accordions table {
+	border-collapse: separate !important;
+}
+
+table {
+	-fs-table-paginate: paginate;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+thead {
+	display: table-header-group;
+}
+
+table.blue thead tr {
+	border-top: 3px solid #A3B7CC;
+}
+
+table.orange thead tr {
+	border-top: 3px solid #FFB76D;
+}
+
+tbody {
+	display: table-row-group;
+}
+
+th {
+	box-shadow: none;
+}
+
+tr {
+	page-break-inside: avoid;
+	-webkit-region-break-inside: avoid;
+	page-break-after: auto;
+	background-clip: padding-box;
+}
+
+td {
+	background-clip: padding-box;
+	line-height: 16px;
+}
+/* Physician Report print Fix */
+.overall-score-first-td-login {
+	width: 348px !important;
+}
+
+.overall-score-first-td-logout {
+	width: 352px !important;
+}
+
+.monthly-trends-loop.break {
+	page-break-before: always;
+}
+
+.reports-data-rows.new-page {
+	page-break-before: always;
+}
+/* FF Cat Driver*/
+.gecko .report-block-category_driver_chart_block .chart {
+	width: 100% !important;
+}
+
+.report-related-links {
+	display: none;
+}
+
+.report-filter-wrapper {
+	display: none;
+}
+
+.jquery-ui-tabs-to-bfountain-tab ul.ui-widget-header {
+	display: none !important;
+}
+
+div.messages.status {
+	display: none;
+}
+
+.log-type {
+	display: none !important;
+}
+
+.print-email-show {
+	display: block !important;
+}
+
+#toTop {
+	display: none !important;
+}
+
+.report-block-driver_trend_chart_block .chart {
+	margin-left: 30px;
+}
+
+.gecko .driver-pie-legend {
+	overflow: visible;
+}
+
+.table-responsive {
+	overflow-x: visible;
+	overflow: visible !important;
+}
+
+.gecko.win .driver-pie-legend {
+	font-weight: bold;
+}
+
+.table, .table thead, .table tbody, .table th, .table td,
+	.table-responsive {
+	border: none !important;
+}
+
+.table th {
+	border-bottom: 1px solid #ddd !important;
+}
+
+.table td {
+	border-top: 1px solid #ddd !important;
+}
+
+.table {
+	border-top: 2px solid #ddd !important;
+}
+
+.border-box {
+	border: 1px solid #ddd !important;
+}
+
+.dashboard-stat .score-title {
+	font-size: 14px !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	padding-top: 15px !important;
+}
+
+.dashboard-stat .score-title-type {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.portlet-title {
+	margin-bottom: 15px !important;
+	padding-bottom: 5px !important;
+}
+
+.portlet-title .caption {
+	line-height: normal !important;
+}
+
+.report-view-data-wrapper .level-2 {
+	padding-left: 10px !important;
+}
+
+.report-view-data-wrapper .level-3 {
+	padding-left: 20px !important;
+}
+
+.report-view-data-wrapper .level-4 {
+	padding-left: 30px !important;
+}
+
+.gecko .social-logo-reviews {
+	width: 90px !important;
+}
+
+.source-block-titles>.source-title p.title {
+	height: 42px;
+	line-height: 20px;
+}

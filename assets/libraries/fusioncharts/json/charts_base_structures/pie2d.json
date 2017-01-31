@@ -1,0 +1,32 @@
+{
+            "chart": {
+                            "animation":"0",
+			                "bgColor": "#ffffff",
+			                "showBorder": "0",
+			                "use3DLighting": "0",
+			                "showShadow": "0",
+			                "enableSmartLabels": "1",
+			                "startingAngle": "0",
+			                "showPercentValues": "1",
+			                "showPercentInTooltip": "1",
+			                "decimals": "1",
+			                "captionFontSize": "14",
+			                "subcaptionFontSize": "14",
+			                "subcaptionFontBold": "0",
+			                "toolTipColor": "#ffffff",
+			                "toolTipBorderThickness": "0",
+			                "toolTipBgColor": "#000000",
+			                "toolTipBgAlpha": "80",
+			                "toolTipBorderRadius": "0",
+			                "toolTipPadding": "5",
+			                "showHoverEffect":"1",
+			                "showLegend": "0",
+			                "legendBgColor": "#ffffff",
+			                "legendBorderAlpha": "0",
+			                "legendShadow": "0",
+			                "legendItemFontSize": "10",
+			                "legendItemFontColor": "#666666",
+			                "showToolTip":"1"
+            },
+            "data": []
+        }
