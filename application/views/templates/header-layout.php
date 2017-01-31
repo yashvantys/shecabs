@@ -185,6 +185,13 @@
 					<span class="menu-text"> Drivers </span></a>
 					<b class="arrow"></b>
 					</li>
+					
+					<li class="">
+					<a href="<?php echo base_url('promocode/list');?>">
+					<i class="menu-icon fa fa-list"></i>
+					<span class="menu-text"> Promocode </span></a>
+					<b class="arrow"></b>
+					</li>
 	
 					
 				</ul><!-- /.nav-list -->

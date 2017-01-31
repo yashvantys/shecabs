@@ -60,6 +60,9 @@ $route ['user/list-ajax'] = "user/list_ajax";
 $route ['drivers/list'] = "drivers/driverslist";
 
 
+$route ['promocode/list'] = "promocode/promocodelist";
+
+
 
 
 

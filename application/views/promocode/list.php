@@ -6,7 +6,7 @@
 					data-toggle="collapse" data-parent="#accordion"
 					data-target="#collapseOne">
 					<h6 class="panel-title pane-title-custom">
-						<a class="accordion-toggle"> <b>Driver Management</b>
+						<a class="accordion-toggle"> <b>Promocode Management</b>
 						</a>
 					</h6>
 
@@ -17,17 +17,19 @@
 	</div>
 </div>
 <div class="pull-right tableTools-container">
-<div class="dt-buttons btn-overlap btn-group"><a href="#modal-form" data-toggle="modal" class="dt-button buttons-collection buttons-colvis btn btn-white btn-primary btn-bold" tabindex="0" aria-controls="dynamic-table" data-original-title="" title="">Add Driver<span> </span></a></div></div>
+<div class="dt-buttons btn-overlap btn-group"><a href="#modal-form" data-toggle="modal" class="dt-button buttons-collection buttons-colvis btn btn-white btn-primary btn-bold" tabindex="0" aria-controls="dynamic-table" data-original-title="" title="">Create Promocode<span> </span></a></div></div>
 <table id="simple-table" class="table  table-bordered table-hover">
 											<thead>
 												<tr>
 													
 												
-													<th>Email</th>
-													<th>Name</th>
-													<th>DOB</th>
-													<th>Mobile</th>
-                                                    <th>vehicleNo</th>
+													<th>Code</th>
+													<th>Calculation</th>
+													<th>Discount</th>
+													<th>Count</th>
+                                                    <th>MinCostValue</th>
+													<th>Start</th>
+													<th>End</th>
 													<th>Status</th>
 												</tr>
 											</thead>
@@ -35,29 +37,26 @@
 											<tbody>
 											<?php 
 											
-											foreach ($driverslist->result as $driverslist){
+											foreach ($promocodelist->result as $promocodelist){
 											?>
 												<tr>
 													
 													
-													<td><?php echo $driverslist->email;?></td>
-													<td><?php echo $driverslist->firstName." ".$driverslist->lastName;?></td>
-													<td ><?php echo $driverslist->dob;?></td>
-													<td><?php echo $driverslist->mobileNo;?></td>
-													<td><?php echo $driverslist->vehicleNo;?></td>
+													<td><?php echo $promocodelist->code;?></td>
+													<td><?php echo $promocodelist->calculation;?></td>
+													<td ><?php echo $promocodelist->discount;?></td>
+													<td><?php echo $promocodelist->count;?></td>
+													<td><?php echo $promocodelist->minCostValue;?></td>
+													<td><?php echo $promocodelist->startTimeVal;?></td>
+													<td><?php echo $promocodelist->endTimeVal;?></td>
 													
-													<td>
-													
-													<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+													<td><a href="#modal-form" data-toggle="modal" class="tooltip-success" data-rel="tooltip" title="Edit">
 																			<span class="green">
 																				<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
 																			</span>
-																		</a>&nbsp;&nbsp;&nbsp;
-																		<a  href="#" class="tooltip-error active-drivers" driver-id="<?php echo $driverslist->id;?>" data-rel="tooltip" title="Active/Inactive">
-																			<span class="red">
-																				<i class="ace-icon fa fa-trash-o bigger-120"></i>
-																			</span>
 																		</a>
+													
+													
 																		</td>
 
 												
@@ -177,11 +176,11 @@
 										
 										<div id="modal-form" class="modal" tabindex="-1">
 									<div class="modal-dialog">
-									<form method="post" action="<?php echo base_url('drivers/add');?>">
+									<form method="post" action="<?php echo base_url('promocode/add');?>">
 										<div class="modal-content">
 											<div class="modal-header">
 												<button type="button" class="close" data-dismiss="modal">&times;</button>
-												<h4 class="blue bigger">Drivers Add/Edit</h4>
+												<h4 class="blue bigger">Promocode Create/Update</h4>
 											</div>
 
 											<div class="modal-body">
@@ -192,77 +191,52 @@
 													<div class="col-xs-12 col-sm-7 col-md-10">
 													
 														<div class="form-group col-md-6">
-															<label for="form-field-first">First Name</label>
+															<label for="form-field-first">Code</label>
 															<div>
-																<input type="text" id="form-field-first" placeholder="First Name" value="" name="firstname" />
+																<input type="text" class="form-control " placeholder="Code" value="" name="code" />
 															</div>
 														</div>
-															<div class="form-group col-md-6">
-															<label for="form-field-first">Last Name</label>
-															<div>
-																<input type="text" id="form-field-first" placeholder="Last Name" value="" name="lastname" />
-															</div>
-														</div>
-															<div class="form-group col-md-6">
-															<label for="form-field-first">Email</label>
-															<div>
-																<input type="text" id="form-field-first" placeholder="Email" value="" name="email" />
-															</div>
-														</div>
-														<div class="form-group col-md-6">
-															<label for="form-field-first">Password</label>
-															<div>
-																<input type="password" id="form-field-first"  value="" name="password" />
-															</div>
-														</div>
-														<div class="form-group col-md-6">
-															<label for="form-field-first">Mobile</label>
-															<div>
-																<input type="text" id="form-field-first" placeholder="Mobile" value="" name="mobile" />
-															</div>
-														</div>
-														<div class="form-group col-md-6">
-															<label for="form-field-first">VehicleNo</label>
-															<div>
-																<input type="text" id="form-field-first" placeholder="VehicleNo" value="" name="vehicleNo" />
-															</div>
-														</div>
+															
 														
 														<div class="form-group col-md-6">
-															<label for="form-field-first">Gender</label>
+															<label for="form-field-first">Calculation</label>
 															<div>
-																<select class="form-control" id="gender" name="gender">
-																<option value="1">Male</option>
-																<option value="2">Female</option></select>
+																<select class="form-control" id="calculation" name="calculation">
+																<option value="-">-</option>
+																<option value="%">%</option></select>
 																
 															</div>
 														</div>
 														
+														
 														<div class="form-group col-md-6">
-															<label for="form-field-first">Cab Type</label>
+															<label for="form-field-first">Discount</label>
 															<div>
-																<select class="form-control" id="gender" name="cabtype">
-																<option value="1">Mini</option>
-																<option value="2">Sedan</option></select>
-																
+																<input type="text" class="form-control " placeholder="Discount" value="" name="discount" />
 															</div>
 														</div>
 														<div class="form-group col-md-6">
-															<label for="form-field-first">LicenseId</label>
+															<label for="form-field-first">Count</label>
 															<div>
-																<input type="text" id="form-field-first" placeholder="LicenseId" value="" name="licenseId" />
+																<input type="text" class="form-control "  placeholder="Count" value="" name="count" />
 															</div>
 														</div>
 														<div class="form-group col-md-6">
-															<label for="form-field-first">Location</label>
+															<label for="form-field-first">Min Cost Value</label>
 															<div>
-																<input type="text" id="form-field-first" placeholder="Location" value="" name="location" />
+																<input type="text"  class="form-control " placeholder="MinCostValue" value="" name="minCostValue" />
 															</div>
 														</div>
 														<div class="form-group col-md-6">
-															<label for="form-field-first">DOB</label>
+															<label for="form-field-first">Start Time</label>
 															<div>
-																<input type="text" id="form-field-mask-1" class="form-control input-mask-date" placeholder="DOB" value="" name="dob" />
+																<input type="text" class="form-control " placeholder="startTime" value="" name="startTime" />
+															</div>
+														</div>
+														<div class="form-group col-md-6">
+															<label for="form-field-first">End Time</label>
+															<div>
+																<input type="text"  class="form-control " placeholder="endTime" value="" name="endTime" />
 															</div>
 														</div>
 														

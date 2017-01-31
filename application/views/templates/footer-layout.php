@@ -50,8 +50,8 @@
 		
 				<?php 
 					//push global variables
-					$userdata = $this->session->userdata('uinfo');
-					$settings = array("base_url" => base_url(), "asset_url" => asset_url(),"user"=>$userdata['userid'] );
+					
+					$settings = array("base_url" => base_url(), "asset_url" => asset_url() );
 					
 					if(isset($js_settings_vars) && !empty($js_settings_vars)){
 						$settings = array_merge($settings, $js_settings_vars);
@@ -74,8 +74,8 @@
 				?>
 				<script type="text/javascript">
 				jQuery(document).ready(function() {   
-				   	//Metronic.init(); // init metronic core components
-					//Layout.init(); // init current layout
+				   	Metronic.init(); // init metronic core components
+					Layout.init(); // init current layout
 					Custom.init();
 					<?php 
 						//push global function invokes;
@@ -91,44 +91,6 @@
 					?>
 				});
 				</script>
-		<!-- inline scripts related to this page -->
-		<script type="text/javascript">
-			jQuery(function($) {
-			 $(document).on('click', '.toolbar a[data-target]', function(e) {
-				e.preventDefault();
-				var target = $(this).data('target');
-				$('.widget-box.visible').removeClass('visible');//hide others
-				$(target).addClass('visible');//show target
-			 });
-			});
-			
-			
-			
-			//you don't need this, just used for changing background
-			jQuery(function($) {
-			 $('#btn-login-dark').on('click', function(e) {
-				$('body').attr('class', 'login-layout');
-				$('#id-text2').attr('class', 'white');
-				$('#id-company-text').attr('class', 'blue');
-				
-				e.preventDefault();
-			 });
-			 $('#btn-login-light').on('click', function(e) {
-				$('body').attr('class', 'login-layout light-login');
-				$('#id-text2').attr('class', 'grey');
-				$('#id-company-text').attr('class', 'blue');
-				
-				e.preventDefault();
-			 });
-			 $('#btn-login-blur').on('click', function(e) {
-				$('body').attr('class', 'login-layout blur-login');
-				$('#id-text2').attr('class', 'white');
-				$('#id-company-text').attr('class', 'light-blue');
-				
-				e.preventDefault();
-			 });
-			 
-			});
-		</script>
+		
 	</body>
 </html>

@@ -128,6 +128,19 @@ public function get_date() {
 		);
 	}
 	
+	public function get_drivers() {
+		$path = "custom/drivers";
+		return array (
+				'title' => 'Drivers Assets',
+				'js' => array (
+						$path . '/js/drivers.js'
+				),
+				'css' => array (
+						$path . '/css/drivers.css'
+				)
+		);
+	}
+	
 	public function get_acknowledge() {
 		$path = "custom/survey";
 		return array (

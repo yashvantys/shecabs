@@ -15,6 +15,8 @@ class Drivers extends Authentication_Controller {
 	public function driverslist(){
 		
 		$this->data = array();
+		$this->add_library ( "drivers" );
+		$this->add_js_functions ( array ('Drivers.home' => array ()) );
 		
 		$this->data['driverslist'] = $response = $this->drivers_model->getDriverList ();
 	
